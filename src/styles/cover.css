@@ -1,0 +1,76 @@
+@font-face{
+    font-family: 'OpenSans-Bold';
+    src : url('/fonts/OpenSans-Bold-webfont.ttf');
+}
+
+@font-face{
+    font-family: 'OpenSans-Regular';
+    src : url('/fonts/OpenSans-Regular-webfont.ttf');
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #161415 url(../images/cover-bg.jpg) no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cover-main {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    flex: 8;
+}
+
+.cover-next {
+    flex: 1;
+}
+
+
+.title {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    font-family: 'OpenSans-Bold';
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+}
+
+
+.intro {
+    color: #a8a8a8;
+    text-align: center;
+    font-size: 15px;
+    word-wrap: break-word;
+    line-height: 150%;
+    letter-spacing: 2px;
+    width: 30%;
+    font-family: 'OpenSans-Regular';
+}
+
+@media (max-width: 961px) {
+    .title {
+        font-size: 3rem;
+    }
+    .intro {
+        width: 90%;
+    }
+}
+
+.divider {
+    width: 40%;
+    border: solid #e3e3e3;
+    border-width: 1px 0 0;
+    border-color: rgba(150, 150, 150, .1);
+    margin-top: 20px;
+}

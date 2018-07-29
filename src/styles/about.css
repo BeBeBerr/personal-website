@@ -1,0 +1,59 @@
+@font-face{
+    font-family: 'OpenSans-Bold';
+    src : url('/fonts/OpenSans-Bold-webfont.ttf');
+}
+
+@font-face{
+    font-family: 'OpenSans-Regular';
+    src : url('/fonts/OpenSans-Regular-webfont.ttf');
+}
+
+.about-bg {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #2b2b2b;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.about {
+    width: 40%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+@media (max-width: 961px) {
+    .about {
+        width: 90%;
+    }
+}
+
+.about-title {
+    color: white;
+    font-family: 'OpenSans-Bold';
+}
+
+.about-detail {
+    padding: 0;
+    margin: 0;
+    color: #7a7a7a;
+    line-height: 180%;
+}
+
+
+.resume-btn {
+    background-color: #444444;
+    color: white;
+    display: inline;
+    width: fit-content;
+    padding: 15px 25px;
+    margin-top: 30px;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 3px;
+    user-select: none;
+    font-family: 'OpenSans-Regular';
+}

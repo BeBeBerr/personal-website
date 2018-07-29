@@ -1,0 +1,83 @@
+@font-face{
+    font-family: 'OpenSans-Bold';
+    src : url('/fonts/OpenSans-Bold-webfont.ttf');
+}
+
+@font-face{
+    font-family: 'OpenSans-Regular';
+    src : url('/fonts/OpenSans-Regular-webfont.ttf');
+}
+
+.resume {
+    padding: 40px 0px;
+}
+
+.resume-label {
+    width: fit-content;
+    font-size: 24px;
+    font-family: OpenSans-Bold;
+    border-bottom: 3px solid #11ABB0;
+    padding: 4px 0px;
+}
+
+.resume-description {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0;
+}
+
+.resume-title {
+    color: black;
+    font-size: 25px;
+    margin: 0;
+    padding: 0px;
+}
+
+.resume-info {
+    color: #6E7881;
+    font-size: 16px;
+}
+
+.resume-info-detail {
+    color: #444444;
+    font-size: 16px;
+}
+
+.resume-row-item {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.resume-row-item-left {
+    padding-top: 10px;
+    width: 150px;
+}
+
+.resume-row-item-right {
+    padding-left: 100px;
+    width: 35%;
+}
+
+.resume-row-item-divider {
+    border: 1px solid #E8E8E8;
+    border-width: 1px 0 0;
+    width: 50%;
+}
+
+@media (max-width: 961px) {
+    .resume-row-item {
+        flex-direction: column;
+    }
+    .resume-row-item-left {
+        width: fit-content;
+        align-self: center;
+    }
+    .resume-row-item-right {
+        align-self: center;
+        padding: 10px 0px;
+        width: 80%;
+    }
+}
+
