@@ -3,7 +3,7 @@ import '../styles/about.css'
 
 class About extends React.Component {
     render() {
-        return(
+        return (
             <div className="about-bg">
                 <div className="about">
                     <h2 className="about-title">About Me</h2>
@@ -22,19 +22,20 @@ class About extends React.Component {
                 </div>
                 <ResumeButton />
             </div>
-            
-            
         )
     }
 }
 
 class ResumeButton extends React.Component {
     handleClick() {
-        window.open("http://www.wangluyuan.cc/resume.pdf", "_blanc");
+        window.open("http://www.wangluyuan.cc/resume.pdf", "_blank");
     }
     render() {
-        return(
-            <div className="resume-btn" onClick={this.handleClick}>Download Resume</div>
+        return (
+            <div className="resume-btn" onClick={this.handleClick}>
+                <i className="fa fa-download fa-1x" onClick={this.onClickNextBtn}></i>
+                <span className="resume-btn-text">Download Resume</span>
+            </div>
         )
     }
 }

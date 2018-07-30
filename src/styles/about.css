@@ -47,13 +47,25 @@
 .resume-btn {
     background-color: #444444;
     color: white;
-    display: inline;
+    display: flex;
     width: fit-content;
-    padding: 15px 25px;
+    padding: 20px 25px;
     margin-top: 30px;
     align-self: center;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 5px;
     user-select: none;
-    font-family: 'OpenSans-Regular';
+    font-size: 26px;
+    transition: 0.4s;
+}
+
+.resume-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.resume-btn-text {
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: 'OpenSans-Bold';
 }
