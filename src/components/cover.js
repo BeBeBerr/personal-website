@@ -2,14 +2,21 @@ import React from 'react'
 import '../styles/cover.css'
 
 class Cover extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.onClickNextBtn = this.onClickNextBtn.bind(this);
+    }
+
     onClickNextBtn() {
+        /*
         var height = document.documentElement.clientHeight;
         window.scroll({
             left: 0,
             top: height,
             behavior: 'smooth' 
-        });
-        
+        }); */
+        this.props.scrollToNextPage();
     }
 
     render() {
