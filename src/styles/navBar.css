@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'OpenSans-Bold';
+    src : url('/fonts/OpenSans-Bold-webfont.ttf');
+}
+
+@font-face{
+    font-family: 'OpenSans-Regular';
+    src : url('/fonts/OpenSans-Regular-webfont.ttf');
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar-button {
+    color: white;
+    font-size: 14px;
+    font-family: 'OpenSans-Bold';
+    letter-spacing: 3px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.navbar-button:hover {
+    color: #a8a8a8;
+}
+
+@media (max-width: 961px) {
+    .navbar {
+        display: none;
+    }
+}
