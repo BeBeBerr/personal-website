@@ -7,37 +7,25 @@ import NavBar from './navBar';
 import '../styles/App.css'
 import scrollToComponent from 'react-scroll-to-component';
 
-var coverComponent = null;
-var aboutComponent = null;
-var resumeComponent = null;
+var componentList = [];
 
 class AppComponent extends React.Component {
 
 	componentDidMount() {
-		coverComponent = this.cover;
-		aboutComponent = this.about;
-		resumeComponent = this.resume;
+		componentList.push(this.cover);
+		componentList.push(this.about);
+		componentList.push(this.resume);
+		window.componentList = componentList;
 	}
 
 	scrollToAbout() {
-		scrollToComponent(aboutComponent, {
+		scrollToComponent(componentList[1], {
 			align: 'top',
 		});
 	}
 
 	onNavBtnClick(index) {
-		var component = null;
-		switch(index) {
-			case 0:
-				component = coverComponent;
-				break;
-			case 1:
-				component = aboutComponent;
-				break;
-			default:
-				component = resumeComponent;
-				break;
-		}
+		var component = componentList[index];
 		scrollToComponent(component, {
 			align: 'top',
 			offset: -50,

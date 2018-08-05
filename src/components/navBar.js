@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/navBar.css'
+import ReactDOM from 'react-dom'
 
 class NavBar extends React.Component {
 
@@ -7,13 +8,18 @@ class NavBar extends React.Component {
         super();
         this.state = {
             isBackgroundTransparent: true,
+            currentPageIndex: 0,
         }
     }
 
     componentDidMount() {
-        let self = this;
+        //let self = this;
         window.onscroll = () => {
-            if (window.pageYOffset > document.body.clientHeight / 2) {
+            var aboutY = ReactDOM.findDOMNode(window.componentList[1]).offsetTop - 60;
+            var resumeY = ReactDOM.findDOMNode(window.componentList[2]).offsetTop - 60;
+            var pageY = window.pageYOffset;
+            //设置导航栏背景透明度
+            if (pageY > document.body.clientHeight / 2) {
                 this.setState({
                     isBackgroundTransparent: false,
                 });
@@ -22,6 +28,18 @@ class NavBar extends React.Component {
                     isBackgroundTransparent: true,
                 });
             }
+            //随着滚动 自动设置导航栏按钮状态
+            var currentPageIndex = 0;
+            if (pageY < aboutY) {
+                currentPageIndex = 0;
+            } else if (pageY >= aboutY && pageY < resumeY) {
+                currentPageIndex = 1;
+            } else {
+                currentPageIndex = 2;
+            }
+            this.setState({
+                currentPageIndex: currentPageIndex,
+            });
         }
     }
 
@@ -32,9 +50,9 @@ class NavBar extends React.Component {
     render() {
         return (
             <div className="navbar" style={{backgroundColor: this.state.isBackgroundTransparent ? "transparent" : "#333"}}>
-                <NavBarButton text="HOME" father={this} index={0}/>
-                <NavBarButton text="ABOUT" father={this} index={1}/>
-                <NavBarButton text="RESUME" father={this} index={2}/>
+                <NavBarButton text="HOME" father={this} index={0} isHighLight={0 === this.state.currentPageIndex}/>
+                <NavBarButton text="ABOUT" father={this} index={1} isHighLight={1 === this.state.currentPageIndex}/>
+                <NavBarButton text="RESUME" father={this} index={2} isHighLight={2 === this.state.currentPageIndex}/>
             </div>
         );
     }
@@ -53,8 +71,9 @@ class NavBarButton extends React.Component {
     }
 
     render() {
+        var styleClassName = this.props.isHighLight ? "navbar-button-highlight" : "navbar-button";
         return(
-            <div className="navbar-button" onClick={this.onClickBtn}>{this.props.text}</div>
+            <div className={styleClassName} onClick={this.onClickBtn}>{this.props.text}</div>
         );
     }
 

@@ -32,6 +32,15 @@
     color: #a8a8a8;
 }
 
+.navbar-button-highlight {
+    color: #f05f00;
+    font-size: 14px;
+    font-family: 'OpenSans-Bold';
+    letter-spacing: 3px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
 @media (max-width: 961px) {
     .navbar {
         display: none;

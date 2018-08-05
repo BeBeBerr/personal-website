@@ -4,7 +4,6 @@ import '../styles/resume.css'
 class Resume extends React.Component {
     render() {
         var model = resumeData;
-        console.log(model);
         var resumeView = [];
         for (var index in model.rowItemModelList) {
             var rowItemModel = model.rowItemModelList[index];
