@@ -79,6 +79,11 @@ var resumeData = {
             labelText: "教育",
             descriptionList: [
                 {
+                    title: "University of Missouri - Columbia",
+                    info: "2018.08 - 今",
+                    detailInfo: "密苏里大学哥伦比亚分校，3+2 校际交流项目。"
+                },
+                {
                     title: "华中科技大学",
                     info: "2015.09 - 2019.06",
                     detailInfo: "本科就读于华中科技大学，电子信息与通信工程学院。通信工程专业，加权成绩排名 33%。主修课程：通信原理、数字信号处理、通信电子线路、电磁场与电磁波、微波技术基础、微机原理、模拟电路与数字系统等。"
@@ -96,6 +101,15 @@ var resumeData = {
                     title: "冰岩作坊",
                     info: "2017.03 - 2019.06",
                     detailInfo: "冰岩作坊（www.bingyan.net）是以产品为导向的学生互联网团队，华中科技大学三大技术团队之一。我在冰岩作坊期间任 iOS 组组长。"
+                },
+            ]
+        }, {
+            labelText: "工作",
+            descriptionList: [
+                {
+                    title: "深圳市腾讯计算机系统有限公司",
+                    info: "2018.06 - 2018.08",
+                    detailInfo: "腾讯社交网络事业群（SNG）移动客户端开发实习生。"
                 },
             ]
         }, {
@@ -118,7 +132,7 @@ var resumeData = {
                 },
             ]
         }, {
-            labelText: "项目经历",
+            labelText: "项目经验",
             descriptionList: [
                 {
                     title: "重医助手",
