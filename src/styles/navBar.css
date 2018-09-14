@@ -18,6 +18,19 @@
     transition: 0.5s;
 }
 
+.navbar-switch-language {
+    color: white;
+    position: fixed;
+    right: 10px;
+    padding: 15px 0px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.navbar-switch-language:hover {
+    color: #a8a8a8;
+}
 
 .navbar-button {
     color: white;
