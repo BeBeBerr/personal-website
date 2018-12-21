@@ -26,6 +26,7 @@
     font-size: 14px;
     letter-spacing: 1.5px;
     cursor: pointer;
+    user-select: none;
 }
 
 .navbar-switch-language:hover {

@@ -1,7 +1,7 @@
 .footer {
     background-color: #2f2f2f;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -10,4 +10,5 @@
 .footer-text {
     color: #a8a8a8;
     align-self: center;
+    margin: 5px 0px 5px 0px;
 }

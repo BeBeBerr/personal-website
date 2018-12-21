@@ -16,7 +16,7 @@
     width: fit-content;
     font-size: 24px;
     font-family: OpenSans-Bold;
-    border-bottom: 3px solid #11ABB0;
+    border-bottom: 3px solid #F57C00;
     padding: 4px 0px;
 }
 
@@ -31,10 +31,12 @@
     font-size: 25px;
     margin: 0;
     padding: 0px;
+    font-family: OpenSans-Regular;
 }
 
 .resume-info {
     color: #6E7881;
+    margin: 10px 0px 10px 0px;
     font-size: 16px;
 }
 

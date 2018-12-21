@@ -53,7 +53,7 @@ class NavBar extends React.Component {
                 <NavBarButton text="HOME" father={this} index={0} isHighLight={0 === this.state.currentPageIndex}/>
                 <NavBarButton text="ABOUT" father={this} index={1} isHighLight={1 === this.state.currentPageIndex}/>
                 <NavBarButton text="RESUME" father={this} index={2} isHighLight={2 === this.state.currentPageIndex}/>
-                <SwitchLanguageButton />
+                <SwitchLanguageButton onChangeLanguage={this.props.onChangeLanguage}/>
             </div>
         );
     }
@@ -82,13 +82,9 @@ class NavBarButton extends React.Component {
 
 class SwitchLanguageButton extends React.Component {
 
-    onClickBtn() {
-        console.log(123);
-    }
-
     render() {
         return(
-            <div className="navbar-switch-language" onClick={this.onClickBtn}>中文 / English</div>
+            <div className="navbar-switch-language" onClick={()=>this.props.onChangeLanguage()}>中文 / English</div>
         );
     }
 }

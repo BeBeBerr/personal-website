@@ -24,7 +24,7 @@ class Cover extends React.Component {
             <div className="cover">
                 <div className="cover-main">
                     <h1 className="title">I'm Luyuan Wang.</h1>
-                    <p className="intro">Welcome to my website! I'm Luyuan Wang, a college student from Beijing, China. My major is Telecommunication Engineering, and I love software programming.<br /><br />Let's start scrolling and learn more about me.</p>
+                    <p className="intro">“曾经沧海难为水 除却巫山不是云”</p>
                     <hr className="divider" />
                     <IconButtonListView />
                 </div>
