@@ -17,7 +17,7 @@ class About extends React.Component {
                         E-mail: e@wangluyuan.cc<br />
                     </div>
                 </div>
-                <ResumeButton />
+                <ResumeButton resumeLink={this.props.resumeLink}/>
             </div>
         )
     }
@@ -25,12 +25,13 @@ class About extends React.Component {
 
 class ResumeButton extends React.Component {
     handleClick() {
-        window.open("http://www.wangluyuan.cc/resume.pdf", "_blank");
+        let link = this.props.resumeLink;
+        window.open(link, "_blank");
     }
     render() {
         return (
-            <div className="resume-btn" onClick={this.handleClick}>
-                <i className="fa fa-download fa-1x" onClick={this.onClickNextBtn}></i>
+            <div className="resume-btn" onClick={() => this.handleClick()}>
+                <i className="fa fa-download fa-1x" ></i>
                 <span className="resume-btn-text">Download Resume</span>
             </div>
         )

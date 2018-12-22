@@ -15,8 +15,9 @@ class AppComponent extends React.Component {
 		super();
 		this.state = {
 			isChinese: true,
-			aboutData: aboutDataChinese,
-			resumeData: resumeDataChinese,
+            aboutData: aboutDataChinese,
+            resumeLink: resumeLinkChinese,
+            resumeData: resumeDataChinese,
 		};
 	}
 
@@ -46,13 +47,15 @@ class AppComponent extends React.Component {
 			this.setState({
 				isChinese: false,
 				aboutData: aboutDataEnglish,
-				resumeData: resumeDataEnglish,
+                resumeData: resumeDataEnglish,
+                resumeLink: resumeLinkEnglish,
 			});
 		} else {
 			this.setState({
 				isChinese: true,
 				aboutData: aboutDataChinese,
-				resumeData: resumeDataChinese,
+                resumeData: resumeDataChinese,
+                resumeLink: resumeLinkChinese,
 			});
 		}
 	}
@@ -62,7 +65,7 @@ class AppComponent extends React.Component {
 			<div className="root">
 				<Cover scrollToNextPage={this.scrollToAbout} ref={(cover) => {this.cover = cover;}}/>
 				<NavBar onNavBtnClick={this.onNavBtnClick} onChangeLanguage={this.onChangeLanguage.bind(this)}/>
-				<About ref={(about) => {this.about = about;}} aboutData={this.state.aboutData}/>
+				<About ref={(about) => {this.about = about;}} aboutData={this.state.aboutData} resumeLink={this.state.resumeLink}/>
 				<Resume ref={(resume) => {this.resume = resume;}} resumeData={this.state.resumeData}/>
 				<Footer />
 			</div>
@@ -78,12 +81,16 @@ AppComponent.defaultProps = {
 
 export default AppComponent;
 
+var resumeLinkChinese = "http://www.wangluyuan.cc/resume.pdf";
+var resumeLinkEnglish = "http://www.wangluyuan.cc/resume_en.pdf"
+
+
 var aboutDataChinese = <div>我叫王路远，华中科技大学通信工程专业，今年大四。<br />
 	自从大一开始接触编程，我就对计算机技术产生了浓厚的兴趣。
 	我在大二的时候开始学习 iOS 开发，但也对其他领域的各种技术充满了好奇。软件、硬件都有所涉猎，但遗憾的是没能做到样样皆通。<br />
 	除了写代码，我也喜欢看电影、和朋友出去玩儿，以及各种体育运动。羽毛球、游泳、射箭、滑雪……技术不高，也不愿意花时间训练，只是为了开心而已。<br />
 	毕竟，做人做重要的就是开心！
-	</div>
+	</div>;
 
 var aboutDataEnglish = <div>Hello! My name is Wang, Luyuan. I'm a senior now, and I'm major in Telecommunication Engineering.<br />
 	Since I took a programming course when I was a freshman, 
@@ -96,7 +103,7 @@ var aboutDataEnglish = <div>Hello! My name is Wang, Luyuan. I'm a senior now, an
 	Badminton, swimming, archery, skiing... 
 	I'm not a master, and I'm not willing to take too much time on trainning. What I do is just for fun.<br />
 	Because, the true meaning of life is joy!
-	</div>
+	</div>;
 
 var resumeDataChinese = {
     rowItemModelList: [
@@ -196,7 +203,7 @@ var resumeDataChinese = {
 			]
 		},
     ]
-}
+};
 
 
 var resumeDataEnglish = {
@@ -292,4 +299,4 @@ var resumeDataEnglish = {
 			]
 		},
     ]
-}
+};

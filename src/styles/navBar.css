@@ -27,6 +27,7 @@
     letter-spacing: 1.5px;
     cursor: pointer;
     user-select: none;
+    font-family: 'OpenSans-Regular';
 }
 
 .navbar-switch-language:hover {
