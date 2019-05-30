@@ -16,7 +16,7 @@
     width: fit-content;
     font-size: 24px;
     font-family: OpenSans-Bold;
-    border-bottom: 3px solid #F57C00;
+    border-bottom: 3px solid #abdcff;
     padding: 4px 0px;
 }
 
@@ -66,6 +66,25 @@
     border: 1px solid #E8E8E8;
     border-width: 1px 0 0;
     width: 50%;
+}
+
+.more-btn {
+    background-color: #444444;
+    color: white;
+    font-family: OpenSans-Regular;
+    width: fit-content;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.more-btn:hover {
+    color: #a8a8a8;
 }
 
 @media (max-width: 961px) {
