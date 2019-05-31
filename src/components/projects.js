@@ -177,6 +177,13 @@ var projectData = {
             detail: <p>重庆医科大学的校园助手。</p>
         },
         {
+            title: "PlutoSDR移动通信",
+            imageSrc: "images/pluto.jpg",
+            detail: <p>使用PlutoSDR构建了一个简易的移动通信系统，并实现了滑动窗口和停止等待两个协议。
+                文本或二进制文件可在此基础上实现可靠传输。
+            </p>
+        },
+        {
             title: "超声波体感游戏",
             imageSrc: "images/vga_game.jpg",
             detail: <p>通过在FPGA上下载IP核模拟一颗单片机，根据超声波传感器的读数控制屏幕上两个小球的距离。
