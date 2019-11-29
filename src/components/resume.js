@@ -1,10 +1,28 @@
 import React from 'react'
 import '../styles/resume.css'
-var data = require('../data/data.json');
 
 class Resume extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: {}
+        }
+    }
+
+    componentDidMount() {
+        fetch("/data.json").then((resp) => resp.json()).then((json) => {
+            this.setState({
+                data: json
+            });
+        });
+    }
+
     render() {
-        var model = this.props.isChinese ? data.resume.cn : data.resume.i18n;
+        if (!this.state.data.resume) {
+            return (<div></div>);
+        }
+        var model = this.props.isChinese ? this.state.data.resume.cn : this.state.data.resume.i18n;
         var resumeView = [];
         for (var index in model.data) {
             var rowItemModel = model.data[index];

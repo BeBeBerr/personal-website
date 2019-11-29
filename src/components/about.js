@@ -1,15 +1,32 @@
 import React from 'react'
 import '../styles/about.css'
-var data = require('../data/data.json');
 
 class About extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: {}
+        }
+    }
+
+    componentDidMount() {
+        fetch("/data.json").then((resp) => resp.json()).then((json) => {
+            this.setState({
+                data: json
+            });
+        });
+    }
+
     render() {
+        if (!this.state.data.about) {
+            return (<div></div>);
+        }
         return (
             <div className="about-bg">
                 <div className="about">
                     <h2 className="about-title">About Me</h2>
                     <div className="about-detail">
-                        {this.props.isChinese ? data.about.cn.text : data.about.i18n.text}
+                        {this.props.isChinese ? this.state.data.about.cn.text : this.state.data.about.i18n.text}
                     </div>
                     <h2 className="about-title">Contact Details</h2>
                     <div className="about-detail">

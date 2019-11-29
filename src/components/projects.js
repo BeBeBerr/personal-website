@@ -1,11 +1,8 @@
 import React from 'react';
 import '../styles/projects.css'
 import Footer from './footer';
-var data = require('../data/data.json');
 
 class ProjectPage extends React.Component {
-
-
 	render() {
 
 		return (
@@ -19,12 +16,29 @@ class ProjectPage extends React.Component {
 }
 
 class ProjectCardListView extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: {}
+        }
+    }
+
+    componentDidMount() {
+        fetch("/data.json").then((resp) => resp.json()).then((json) => {
+            this.setState({
+                data: json
+            });
+        });
+    }
     
     render() {
-
+        if (!this.state.data.project) {
+            return(<div></div>);
+        }
         let cardList = [];
-        for (var index in data.project.data) {
-            let projectData = data.project.data[index];
+        for (var index in this.state.data.project.data) {
+            let projectData = this.state.data.project.data[index];
             let card = <ProjectCard 
                 key={index}
                 title={projectData.title} 
