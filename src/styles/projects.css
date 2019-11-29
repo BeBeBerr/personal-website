@@ -67,6 +67,7 @@
 .project-detail {
     padding: 0px 10px;
     line-height: 120%;
+    white-space: pre-line;
 }
 
 @media (max-width: 961px) {

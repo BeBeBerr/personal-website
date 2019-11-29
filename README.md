@@ -1,3 +1,2 @@
 # personal-website
-我的个人网站源码，通过此工程学习前端开发。
-使用 React 实现。
+The source code of my personal website. You can click [here](http://www.wangluyuan.cc) to visit it.

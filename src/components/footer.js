@@ -6,12 +6,10 @@ class Footer extends React.Component {
         return(
             <div className="footer">
                 <span className="footer-text">www.wangluyuan.cc</span>
-                <span className="footer-text">© 2019 王路远</span>
+                <span className="footer-text">© 2019 Luyuan Wang</span>
             </div>
         )
     }
 }
-
-
 
 export default Footer;

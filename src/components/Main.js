@@ -14,7 +14,7 @@ class AppComponent extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			isChinese: true, // if current language is Chinese
+			isChinese: false, // if current language is Chinese
 		};
 	}
 

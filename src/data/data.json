@@ -1,0 +1,291 @@
+{
+    "about": {
+        "cn": {
+            "text": "我叫王路远，华中科技大学通信工程专业，今年大四。\n自从大一开始接触编程，我就对计算机技术产生了浓厚的兴趣。\n我在大二的时候开始学习 iOS 开发，但也对其他领域的各种技术充满了好奇。软件、硬件都有所涉猎，但遗憾的是没能做到样样皆通。除了写代码，我也喜欢看电影、和朋友出去玩儿，以及各种体育运动。羽毛球、游泳、射箭、滑雪……技术不高，也不愿意花时间训练，只是为了开心而已。\n毕竟，做人做重要的就是开心！"
+        },
+        "i18n": {
+            "text": "Hello! My name is Wang, Luyuan. I'm a senior now, and I'm major in Telecommunication Engineering.\nSince I took a programming course when I was a freshman, I found my great interests in computer technologies. I started to learn iOS development at my second college year, but I also curious about all other different kinds of technologies. I play with both hardware and software, although it is impossible to be a all-rounder.\nBesides, I also love watching films, hanging out with my friends, and doing sports. Badminton, swimming, archery, skiing... I'm not a master, and I'm not willing to take too much time on trainning. What I do is just for fun.\nBecause, the true meaning of life is joy!"
+        }
+    },
+    "resume": {
+        "cn": {
+            "data": [
+                {
+                    "labelText": "教育",
+                    "descriptionList": [
+                        {
+                            "title": "University of Missouri - Columbia",
+                            "info": "2018.08 - 2019.06",
+                            "detailInfo": "美国密苏里大学哥伦比亚分校，校际交流项目。"
+                        },
+                        {
+                            "title": "华中科技大学",
+                            "info": "2015.09 - 2019.06",
+                            "detailInfo": "本科就读于华中科技大学，电子信息与通信学院，通信工程专业。加权成绩排名33%。主修课程：通信原理、数字信号处理、通信电子线路、电磁场与电磁波、微波技术、模拟电路与数字系统等。"
+                        },
+                        {
+                            "title": "北京一零一中学",
+                            "info": "2012.09 - 2015.06",
+                            "detailInfo": "高中就读于北京一零一中学，理科。"
+                        }
+                    ]
+                },
+                {
+                    "labelText": "学生活动",
+                    "descriptionList": [
+                        {
+                            "title": "冰岩作坊",
+                            "info": "2017.03 - 2019.06",
+                            "detailInfo": "冰岩作坊（www.bingyan.net）是华中科技大学最具影响力的互联网技术团队之一。我在冰岩作坊期间任 iOS 组组长。"
+                        }
+                    ]
+                },
+                {
+                    "labelText": "工作经历",
+                    "descriptionList": [
+                        {
+                            "title": "密苏里大学 EECS Department",
+                            "info": "2019.02 - 2019.05",
+                            "detailInfo": "在 Video Processing and Communication Lab 任本科生助研（Undergraduate Research Assistant）。"
+                        },
+                        {
+                            "title": "深圳市腾讯计算机系统有限公司",
+                            "info": "2018.06 - 2018.08",
+                            "detailInfo": "原腾讯社交网络事业群（SNG）移动客户端开发实习生。"
+                        }
+                    ]
+                },
+                {
+                    "labelText": "奖项与荣誉",
+                    "descriptionList": [
+                        {
+                            "title": "最佳冰岩人",
+                            "info": "2017",
+                            "detailInfo": "“最佳冰岩人”是冰岩作坊内部最高荣誉。"
+                        },
+                        {
+                            "title": "雏鹰计划 铜奖",
+                            "info": "2018.06",
+                            "detailInfo": "雏鹰计划是原腾讯 SNG 事业群面向实习生举办的小型比赛。我们组实现了一款通过深度学习识别司机情绪，进而提高行车安全性的 App。"
+                        },
+                        {
+                            "title": "中兴捧月杯软件开发大赛 二等奖",
+                            "info": "2017",
+                            "detailInfo": "实现了一款拍照自动识别车牌号的 App，目的是方便学校保卫处处理违规停车行为。团队共 2 人，我负责 iOS 端开发，另一人负责服务器端开发。此项目同时获得“武汉大学移动应用设计大赛”二等奖。"
+                        },
+                        {
+                            "title": "种子杯编程大赛 优胜奖",
+                            "info": "2017",
+                            "detailInfo": "通过机器学习技术，预测 NBA 比赛结果。"
+                        }
+                    ]
+                },
+                {
+                    "labelText": "项目经验",
+                    "descriptionList": [
+                        {
+                            "title": "重医助手",
+                            "info": "2017.06 - 2017.08",
+                            "detailInfo": "“重医助手”是一个独立项目，我一人负责从产品到运营的完整流程。“重医助手”是一款课表类应用，方便重庆医科大学的学生查看课程表、查询成绩。通过爬取重医教务系统获取数据，并存入本地数据库。曾上架 AppStore，下载量 3000+。"
+                        },
+                        {
+                            "title": "背它",
+                            "info": "2017.12 - 2018.01",
+                            "detailInfo": "“背它”是冰岩作坊的团队项目，我独立负责 iOS 端开发。“背它”是一款小众工具类应用，具有图片记背、文字记背等功能。在项目推广期间，我还负责编写了“背它 Lite”小程序，用于临时的推广活动。已上架 AppStore，下载量 5800+。"
+                        },
+                        {
+                            "title": "蛛网",
+                            "info": "2018.03 - 2018.05",
+                            "detailInfo": "“蛛网”是冰岩作坊的团队项目，我独立负责 iOS 端开发。“蛛网”是一款内部应用，可以通过日历的形式查看团队活动事项，并编辑参与者。通过 TestFlight 分发。"
+                        }
+                    ],
+                    "jumpURL": "/projects"
+                },
+                {
+                    "labelText": "技术栈",
+                    "descriptionList": [
+                        {
+                            "title": "编程语言",
+                            "info": "",
+                            "detailInfo": "熟悉：Swift/C/Objective-C\n了解: Java/C++/Python/Matlab/JavaScript/SQL\n接触过：Dart/Lua/ASM/Verilog/Bash"
+                        },
+                        {
+                            "title": "技术、技能及框架",
+                            "info": "",
+                            "detailInfo": "熟悉：iOS 应用开发\n了解：Web 前端（React）/Web 后端（Django）/嵌入式系统（Arduino，Raspberry-Pi，嵌入式 Linux）/机器人（ROS，V-REP）/图像处理/人工智能（ML，CI） \n接触过：Flutter/MySQL/Android/微信小程序"
+                        }
+                    ]
+                }
+            ]
+        },
+        "i18n": {
+            "data": [
+                {
+                    "labelText": "Education",
+                    "descriptionList": [
+                        {
+                            "title": "University of Missouri - Columbia",
+                            "info": "2018.08 - 2019.06",
+                            "detailInfo": "Inter-school program."
+                        },
+                        {
+                            "title": "Huazhong University of Science and Technology",
+                            "info": "2015.09 - 2019.06",
+                            "detailInfo": "Major in Telecommunication Engineering. GPA rank 33%."
+                        },
+                        {
+                            "title": "Beijing 101 Middle School",
+                            "info": "2012.09 - 2015.06",
+                            "detailInfo": "Science."
+                        }
+                    ]
+                },
+                {
+                    "labelText": "Student Activities",
+                    "descriptionList": [
+                        {
+                            "title": "Bingyan Studio",
+                            "info": "2017.03 - 2019.06",
+                            "detailInfo": "Bingyan Studio (www.bingyan.net) is one of the most infulential student technology team in HUST. I was the leader of iOS group."
+                        }
+                    ]
+                },
+                {
+                    "labelText": "Work Experience",
+                    "descriptionList": [
+                        {
+                            "title": "Tencent Inc.",
+                            "info": "2018.06 - 2018.08",
+                            "detailInfo": "iOS intern."
+                        }
+                    ]
+                },
+                {
+                    "labelText": "Awards",
+                    "descriptionList": [
+                        {
+                            "title": "Best Bingyaner",
+                            "info": "2017",
+                            "detailInfo": "The highest award of Bingyan Studio."
+                        },
+                        {
+                            "title": "Mini Project (Brozen Award)",
+                            "info": "2018.06",
+                            "detailInfo": "Tencent SNG."
+                        },
+                        {
+                            "title": "ZTE Cup (Second Award)",
+                            "info": "2017",
+                            "detailInfo": "Together with second award of \"WHU Cup\"."
+                        },
+                        {
+                            "title": "Seed Cup (Winner Award)",
+                            "info": "2017",
+                            "detailInfo": "HUST."
+                        }
+                    ]
+                },
+                {
+                    "labelText": "Projects",
+                    "descriptionList": [
+                        {
+                            "title": "CQMU Schedule",
+                            "info": "2017.06 - 2017.08",
+                            "detailInfo": "Personal project."
+                        },
+                        {
+                            "title": "Beita",
+                            "info": "2017.12 - 2018.01",
+                            "detailInfo": "Team project."
+                        }
+                    ],
+                    "jumpURL": "/projects"
+                },
+                {
+                    "labelText": "Technology Stack",
+                    "descriptionList": [
+                        {
+                            "title": "Programming Languages",
+                            "info": "",
+                            "detailInfo": "Familiar with：Swift/ Java/ C/ Objective-C\nKnow a little of: Python/ Matlab/ JavaScript/ SQL\nHave tried：Dart/ Lua/ ASM/ Verilog/ Bash"
+                        },
+                        {
+                            "title": "Technologies, Skills, and Frameworks",
+                            "info": "",
+                            "detailInfo": "Familiar with：iOS Development\nKnow a little of：React/ Django/ Arduino/ Raspberry-Pi/ Embedded System/ ROS/ Robotics/ Git \nHave tried：Flutter/ MySQL/ Android/ Wechat Mini Program/ CI"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "project": {
+        "data": [
+            {
+                "title": "智能道路",
+                "imageSrc": "images/smart_road_0.jpg",
+                "detail": "通过视觉引导模型车沿车道运动。主要涉及到的知识包括：ROS、计算机视觉、图像处理、反馈控制、计算机网络、数字电路等。实验平台被4个摄像头覆盖，每个摄像头分别连接一台主机。所有主机以分布式的方式工作、通信。摄像头识别出车辆后，会将坐标系变换到世界坐标系下以便于PID控制。模型车经过改装，由一台树莓派接管，并产生PWM波驱动电机。为了解决网络切换的耗时问题，小车的Wi-Fi网卡工作在Monitor模式。"
+            },
+            {
+                "title": "基于机器学习的手势识别",
+                "imageSrc": "images/gesture_ml.jpg",
+                "detail": "基于HOG+LBP特征，利用机器学习实现手部定位、手势识别。对比了多种机器学习模型后，最终采用效果最好的SVM进行分类。本项目共训练了两个模型。第一个二分类模型用于在滑动窗口的帮助下实现手部定位。第二个模型接收上一个模型裁剪出来的手部图片，在5个已知的手势中分类。训练集由我们自行收集。"
+            },
+            {
+                "title": "LLVM循环优化对比",
+                "imageSrc": "images/loop_opt.jpg",
+                "detail": "本项目通过4个简单的C语言程序，测试了4种LLVM循环优化算法。对比了优化前和优化后的汇编和LLVM IR代码的差异。使用gem5模拟器测试了在单种优化方式下运行耗时以及缓存性能的差异。最后，4种循环优化算法与无优化、最高级别优化一起应用到了Polybench上进行了对比测试。"
+            },
+            {
+                "title": "机器人翻倒纠正",
+                "imageSrc": "images/tipover.jpg",
+                "detail": "通过旋转移动平台上沉重的机械臂控制机器人的重心，使之通过崎岖地形时不易翻倒。模拟器采用了V-REP平台。机器人模型结合了两种V-REP自带的模型，并调整了参数。通过翻倒实验可以估计出机器人的重心。最后，Lua代码和Matlab进行通信，控制算法由Matlab实现。"
+            },
+            {
+                "title": "机器人协作运输物体",
+                "imageSrc": "images/arm_robot.jpg",
+                "detail": "桌面上的三台PUMA机器人通过双目摄像头识别、定位并捡起散落在白纸上的黑色圆柱体，放置到地面上的移动机器人上。移动机器人通过编码器和迷宫上粘贴的二维码定位，并在迷宫中按顺序移动到PUMA机器人下方以便接收圆柱体。在迷宫中的导航通过机器人上的红外光传感器和接触传感器以避障的方式实现。所有的机器人（3台PUMA手臂机器人和1台扫地机器人）通过ROS进行通信。"
+            },
+            {
+                "title": "社团信息管理网站",
+                "imageSrc": "images/club_web.jpg",
+                "detail": "具有登录、编辑成员和组别、项目管理、财务计算等功能。前端通过React实现，后端通过Django实现。数据库采用了MySQL。"
+            },
+            {
+                "title": "协程调度器",
+                "imageSrc": "images/co_scheduler.jpg",
+                "detail": "在C语言上实现了协程，并可在多个协程任务之间调度。采用修改函数调用过程中的一系列寄存器实现，因此需要使用汇编语言。\n通过简单的调度器，每个任务可以睡眠和“非标准”输出。输出的内容通过Named Pipe在另一个Terminal显示以防干扰系统指令的输入。支持macOS和Linux平台。"
+            },
+            {
+                "title": "守门小车",
+                "imageSrc": "images/car_ball.jpg",
+                "detail": "通过一个连接在电脑上的摄像头识别地面上滚动的网球，并预测网球轨迹。在计算出预测的轨迹和“球门”的交点后，电脑通过蓝牙发送指令给小车上的Arduino单片机。小车可以提前运动到交点出将网球拦截。为了方便调试，在Mac端使用Swift语言开发了带有图形界面的应用程序，可以可视化地展示出网球位置及预测的轨迹。蓝牙通信部分使用了CoreBluetooth框架。"
+            },
+            {
+                "title": "背它",
+                "imageSrc": "images/beta.jpg",
+                "detail": "一款方便学生背诵古诗词、课文的App。已上架App Store。"
+            },
+            {
+                "title": "蛛网",
+                "imageSrc": "images/zhuwang.jpg",
+                "detail": "冰岩作坊内部工具。"
+            },
+            {
+                "title": "重医助手",
+                "imageSrc": "images/chongyi.jpg",
+                "detail": "重庆医科大学的校园助手。"
+            },
+            {
+                "title": "PlutoSDR移动通信",
+                "imageSrc": "images/pluto.jpg",
+                "detail": "使用PlutoSDR构建了一个简易的移动通信系统，并实现了滑动窗口和停止等待两个协议。文本或二进制文件可在此基础上实现可靠传输。"
+            },
+            {
+                "title": "超声波体感游戏",
+                "imageSrc": "images/vga_game.jpg",
+                "detail": "通过在FPGA上下载IP核模拟一颗单片机，根据超声波传感器的读数控制屏幕上两个小球的距离。玩家需要控制手掌距离超声波传感器的距离控制小球避开掉落的障碍物。\n屏幕显示通过操作VGA接口实现。"
+            }
+        ]
+    }
+}
