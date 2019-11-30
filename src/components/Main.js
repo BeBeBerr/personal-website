@@ -15,6 +15,7 @@ class AppComponent extends React.Component {
 		super();
 		this.state = {
 			isChinese: false, // if current language is Chinese
+			data: {}
 		};
 	}
 
@@ -23,6 +24,12 @@ class AppComponent extends React.Component {
 		componentList.push(this.about);
 		componentList.push(this.resume);
 		window.componentList = componentList;
+
+		fetch("/data.json").then((resp) => resp.json()).then((json) => {
+            this.setState({
+                data: json
+            });
+        });
 	}
 
 	scrollToAbout() {
@@ -56,8 +63,8 @@ class AppComponent extends React.Component {
 			<div className="root">
 				<Cover scrollToNextPage={this.scrollToAbout} ref={(cover) => {this.cover = cover;}}/>
 				<NavBar onNavBtnClick={this.onNavBtnClick} onChangeLanguage={this.onChangeLanguage.bind(this)}/>
-				<About ref={(about) => {this.about = about;}} isChinese={this.state.isChinese}/>
-				<Resume ref={(resume) => {this.resume = resume;}} isChinese={this.state.isChinese}/>
+				<About ref={(about) => {this.about = about;}} isChinese={this.state.isChinese} data={this.state.data}/>
+				<Resume ref={(resume) => {this.resume = resume;}} isChinese={this.state.isChinese} data={this.state.data}/>
 				<Footer />
 			</div>
     	);

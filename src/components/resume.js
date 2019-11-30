@@ -5,24 +5,13 @@ class Resume extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            data: {}
-        }
-    }
-
-    componentDidMount() {
-        fetch("/data.json").then((resp) => resp.json()).then((json) => {
-            this.setState({
-                data: json
-            });
-        });
     }
 
     render() {
-        if (!this.state.data.resume) {
+        if (!this.props.data.resume) {
             return (<div></div>);
         }
-        var model = this.props.isChinese ? this.state.data.resume.cn : this.state.data.resume.i18n;
+        var model = this.props.isChinese ? this.props.data.resume.cn : this.props.data.resume.i18n;
         var resumeView = [];
         for (var index in model.data) {
             var rowItemModel = model.data[index];

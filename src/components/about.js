@@ -4,21 +4,10 @@ import '../styles/about.css'
 class About extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            data: {}
-        }
-    }
-
-    componentDidMount() {
-        fetch("/data.json").then((resp) => resp.json()).then((json) => {
-            this.setState({
-                data: json
-            });
-        });
     }
 
     render() {
-        if (!this.state.data.about) {
+        if (!this.props.data.about) {
             return (<div></div>);
         }
         return (
@@ -26,7 +15,7 @@ class About extends React.Component {
                 <div className="about">
                     <h2 className="about-title">About Me</h2>
                     <div className="about-detail">
-                        {this.props.isChinese ? this.state.data.about.cn.text : this.state.data.about.i18n.text}
+                        {this.props.isChinese ? this.props.data.about.cn.text : this.props.data.about.i18n.text}
                     </div>
                     <h2 className="about-title">Contact Details</h2>
                     <div className="about-detail">
