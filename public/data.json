@@ -227,9 +227,9 @@
                 "detail": "We use HOG, LBP and skin color as the key features. To get a better performance, PCA is used to reduce the dimension. \nIn order to detect the position of the hand, we use 3 different sizes of sliding windows to scan the image. Then, a heat-map is generated and the \"hottest\" location is most likely represent hand.\nThe sub-image is then fed into the next classifier to classify gestures. 5 different gestures can be recognized, including open-hand, thumb-up, and so on. As you can see, the gesture recognizer is able to tell both the position and the gesture class in a relatively complicated image.\nInstead of download training sets from the Internet, we collect hundreds of images by ourselves."
             },
             {
-                "title": "LLVM循环优化对比",
+                "title": "LLVM Loop Optimization Comparison",
                 "imageSrc": "images/loop_opt.jpg",
-                "detail": "本项目通过4个简单的C语言程序，测试了4种LLVM循环优化算法。对比了优化前和优化后的汇编和LLVM IR代码的差异。使用gem5模拟器测试了在单种优化方式下运行耗时以及缓存性能的差异。最后，4种循环优化算法与无优化、最高级别优化一起应用到了Polybench上进行了对比测试。"
+                "detail": "In this project, I wrote 4 simple C programs, and use Clang with LLVM to compile them with different options. The generated LLVM IR code before and after optimization are compared. The gem5 simulator is used to analyze the time consumption and the cache miss rate. Finally, these optimization techniques are applied to Polybench to make comparisons."
             },
             {
                 "title": "机器人翻倒纠正",
