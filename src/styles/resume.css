@@ -43,6 +43,7 @@
 .resume-info-detail {
     color: #444444;
     font-size: 16px;
+    white-space: pre-line;
 }
 
 .resume-row-item {

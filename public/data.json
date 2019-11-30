@@ -1,10 +1,10 @@
 {
     "about": {
         "cn": {
-            "text": "我叫王路远，华中科技大学通信工程专业，今年大四。\n自从大一开始接触编程，我就对计算机技术产生了浓厚的兴趣。\n我在大二的时候开始学习 iOS 开发，但也对其他领域的各种技术充满了好奇。软件、硬件都有所涉猎，但遗憾的是没能做到样样皆通。除了写代码，我也喜欢看电影、和朋友出去玩儿，以及各种体育运动。羽毛球、游泳、射箭、滑雪……技术不高，也不愿意花时间训练，只是为了开心而已。\n毕竟，做人做重要的就是开心！"
+            "text": "我叫王路远，本科毕业于华中科技大学，通信工程专业。虽然我的专业更偏重于硬件，但我也非常喜欢软件编程。\n受到专业和兴趣的共同影响，我对计算机工程的方方面面都很感兴趣，也接触过其中的许多领域。我还在不断地学习，以求对这个世界理解得更深入些。\n但我并不想变成一个“技术宅”。我喜欢看电影，和朋友出去玩儿，以及各种各样的体育运动。游泳、射箭、滑雪、羽毛球……谈不上对这些运动有多么精通，只是为了开心而已。\n毕竟，做人最重要的就是开心！"
         },
         "i18n": {
-            "text": "Hello! My name is Wang, Luyuan. I'm a senior now, and I'm major in Telecommunication Engineering.\nSince I took a programming course when I was a freshman, I found my great interests in computer technologies. I started to learn iOS development at my second college year, but I also curious about all other different kinds of technologies. I play with both hardware and software, although it is impossible to be a all-rounder.\nBesides, I also love watching films, hanging out with my friends, and doing sports. Badminton, swimming, archery, skiing... I'm not a master, and I'm not willing to take too much time on trainning. What I do is just for fun.\nBecause, the true meaning of life is joy!"
+            "text": "Hello! My name is Luyuan Wang. I got my bachelor's degree at Huazhong University of Science and Technology, and my major is Telecommunication Engineering. Though what I learned in school concentrates on hardware, I have great interests in software programming.\nInfluenced by both my major and my interests, I have a great passion for almost every aspect of Computer Engineering. I will keep learning to have a better understanding of our complicated, yet fascinating world.\nDuring my spare time, I enjoy watching movies, hanging out with my friends, and doing all kinds of sports games. Swimming, archery, skiing, badminton... I can't say I'm good at these sports. I doing them just for fun.\nBecause the true meaning of life is living with fun and joy!"
         }
     },
     "resume": {
@@ -14,19 +14,19 @@
                     "labelText": "教育",
                     "descriptionList": [
                         {
-                            "title": "University of Missouri - Columbia",
+                            "title": "密苏里大学 - 哥伦比亚分校",
                             "info": "2018.08 - 2019.06",
-                            "detailInfo": "美国密苏里大学哥伦比亚分校，校际交流项目。"
+                            "detailInfo": "大四在密苏里大学参加校级交流项目，就读于 EECS 学院。主修课程：机器人、嵌入式计算、机器学习、云计算等。GPA 3.88。"
                         },
                         {
                             "title": "华中科技大学",
                             "info": "2015.09 - 2019.06",
-                            "detailInfo": "本科就读于华中科技大学，电子信息与通信学院，通信工程专业。加权成绩排名33%。主修课程：通信原理、数字信号处理、通信电子线路、电磁场与电磁波、微波技术、模拟电路与数字系统等。"
+                            "detailInfo": "本科毕业于华中科技大学，电子信息与通信学院，通信工程专业。主修课程：通信原理、数字信号处理、通信电子线路、电磁场与电磁波、微波技术、模拟电路与数字系统等。GPA 3.6。"
                         },
                         {
                             "title": "北京一零一中学",
                             "info": "2012.09 - 2015.06",
-                            "detailInfo": "高中就读于北京一零一中学，理科。"
+                            "detailInfo": "高中毕业于北京一零一中学。"
                         }
                     ]
                 },
@@ -35,25 +35,56 @@
                     "descriptionList": [
                         {
                             "title": "冰岩作坊",
-                            "info": "2017.03 - 2019.06",
+                            "info": "2017.03 - 2018.08",
                             "detailInfo": "冰岩作坊（www.bingyan.net）是华中科技大学最具影响力的互联网技术团队之一。我在冰岩作坊期间任 iOS 组组长。"
                         }
                     ]
                 },
                 {
-                    "labelText": "工作经历",
+                    "labelText": "科研",
                     "descriptionList": [
                         {
-                            "title": "密苏里大学 EECS Department",
-                            "info": "2019.02 - 2019.05",
-                            "detailInfo": "在 Video Processing and Communication Lab 任本科生助研（Undergraduate Research Assistant）。"
+                            "title": "密苏里大学 - 助研",
+                            "info": "2019.02 - 2019.06",
+                            "detailInfo": "在 Video Processing and Communication Lab 任助研。负责开发一个用于探索智能道路可行性的原型系统。"
+                        }
+                    ]
+                },
+                {
+                    "labelText": "工作",
+                    "descriptionList": [
+                        {
+                            "title": "字节跳动",
+                            "info": "2019.07 - 今",
+                            "detailInfo": "互娱（IES）研发部，iOS 开发工程师。"
                         },
                         {
-                            "title": "深圳市腾讯计算机系统有限公司",
+                            "title": "腾讯",
                             "info": "2018.06 - 2018.08",
                             "detailInfo": "原腾讯社交网络事业群（SNG）移动客户端开发实习生。"
                         }
                     ]
+                },
+                {
+                    "labelText": "项目经验",
+                    "descriptionList": [
+                        {
+                            "title": "重医助手",
+                            "info": "2017.06 - 2017.08",
+                            "detailInfo": "“重医助手”是一个独立项目，我一人负责从产品到运营的完整流程。“重医助手”是一款课表类应用，方便重庆医科大学的学生查看课程表、查询成绩。通过爬取重医教务系统获取数据，并存入本地数据库。曾上架 AppStore，下载量 3000+。"
+                        },
+                        {
+                            "title": "背它",
+                            "info": "2017.12 - 2018.01",
+                            "detailInfo": "“背它”是冰岩作坊的团队项目，我独立负责 iOS 端开发。“背它”是一款小众工具类应用，具有图片记背、文字记背等功能。在项目推广期间，我还负责编写了“背它 Lite”小程序，用于临时的推广活动。已上架 AppStore，下载量 5800+。"
+                        },
+                        {
+                            "title": "蛛网",
+                            "info": "2018.03 - 2018.05",
+                            "detailInfo": "“蛛网”是冰岩作坊的团队项目，我独立负责 iOS 端开发。“蛛网”是一款内部应用，可以通过日历的形式查看团队活动事项，并编辑参与者。通过 TestFlight 分发。"
+                        }
+                    ],
+                    "jumpURL": "/projects"
                 },
                 {
                     "labelText": "奖项与荣誉",
@@ -81,27 +112,6 @@
                     ]
                 },
                 {
-                    "labelText": "项目经验",
-                    "descriptionList": [
-                        {
-                            "title": "重医助手",
-                            "info": "2017.06 - 2017.08",
-                            "detailInfo": "“重医助手”是一个独立项目，我一人负责从产品到运营的完整流程。“重医助手”是一款课表类应用，方便重庆医科大学的学生查看课程表、查询成绩。通过爬取重医教务系统获取数据，并存入本地数据库。曾上架 AppStore，下载量 3000+。"
-                        },
-                        {
-                            "title": "背它",
-                            "info": "2017.12 - 2018.01",
-                            "detailInfo": "“背它”是冰岩作坊的团队项目，我独立负责 iOS 端开发。“背它”是一款小众工具类应用，具有图片记背、文字记背等功能。在项目推广期间，我还负责编写了“背它 Lite”小程序，用于临时的推广活动。已上架 AppStore，下载量 5800+。"
-                        },
-                        {
-                            "title": "蛛网",
-                            "info": "2018.03 - 2018.05",
-                            "detailInfo": "“蛛网”是冰岩作坊的团队项目，我独立负责 iOS 端开发。“蛛网”是一款内部应用，可以通过日历的形式查看团队活动事项，并编辑参与者。通过 TestFlight 分发。"
-                        }
-                    ],
-                    "jumpURL": "/projects"
-                },
-                {
                     "labelText": "技术栈",
                     "descriptionList": [
                         {
@@ -126,17 +136,12 @@
                         {
                             "title": "University of Missouri - Columbia",
                             "info": "2018.08 - 2019.06",
-                            "detailInfo": "Inter-school program."
+                            "detailInfo": "I spent my last undergraduate year at University of Missouri - Columbia, as an exchange student. I took 8 courses, and 4 of them were chosen as graduate level. Those courses include Building Intelligent Robots, Machine Learning, Real-time Embedded Computing and so on. My overall GPA was 3.88."
                         },
                         {
                             "title": "Huazhong University of Science and Technology",
                             "info": "2015.09 - 2019.06",
-                            "detailInfo": "Major in Telecommunication Engineering. GPA rank 33%."
-                        },
-                        {
-                            "title": "Beijing 101 Middle School",
-                            "info": "2012.09 - 2015.06",
-                            "detailInfo": "Science."
+                            "detailInfo": "I got my bachelor's degree at Huazhong University of Science and Technology (HUST), Wuhan, China. My major was Telecommunication Engineering. The main courses include Information Theory, Digital Signal Processing, Analog Circuits and Digital Systems, Computer Networks, Electromagnetic Filed and Electromagnetic Waves, and so on. My overall GPA at HUST was 3.6."
                         }
                     ]
                 },
@@ -146,7 +151,17 @@
                         {
                             "title": "Bingyan Studio",
                             "info": "2017.03 - 2019.06",
-                            "detailInfo": "Bingyan Studio (www.bingyan.net) is one of the most infulential student technology team in HUST. I was the leader of iOS group."
+                            "detailInfo": "Bingaman Studio (www.bingyan.net) is one of the most influential student technical team at HUST. I was the leader of the iOS group, mainly in charge of recruitment & interviews,  technical training & sharing, and lead the team to develop iOS Apps."
+                        }
+                    ]
+                },
+                {
+                    "labelText": "Research",
+                    "descriptionList": [
+                        {
+                            "title": "Research Assistant",
+                            "info": "2019.02 - 2019.06",
+                            "detailInfo": "I worked at the Video Processing and Communication Lab, University of Missouri, as an undergraduate research assistant. My job was to develop a prototype in order to explore the feasibility of vision-guided autonomous driving. I designed and developed the entire software system and a part of the hardware system."
                         }
                     ]
                 },
@@ -154,34 +169,14 @@
                     "labelText": "Work Experience",
                     "descriptionList": [
                         {
+                            "title": "ByteDance Inc.",
+                            "info": "2019.07 - Present",
+                            "detailInfo": "I joined ByteDance as it is the fastest-growing as well as the biggest unicorn company in the world. It's famous App, Tik Tok, gains great popularity all over the world. I work as a software R&D engineer. My job is quite challenging, and I learned a lot from this job."
+                        },
+                        {
                             "title": "Tencent Inc.",
                             "info": "2018.06 - 2018.08",
-                            "detailInfo": "iOS intern."
-                        }
-                    ]
-                },
-                {
-                    "labelText": "Awards",
-                    "descriptionList": [
-                        {
-                            "title": "Best Bingyaner",
-                            "info": "2017",
-                            "detailInfo": "The highest award of Bingyan Studio."
-                        },
-                        {
-                            "title": "Mini Project (Brozen Award)",
-                            "info": "2018.06",
-                            "detailInfo": "Tencent SNG."
-                        },
-                        {
-                            "title": "ZTE Cup (Second Award)",
-                            "info": "2017",
-                            "detailInfo": "Together with second award of \"WHU Cup\"."
-                        },
-                        {
-                            "title": "Seed Cup (Winner Award)",
-                            "info": "2017",
-                            "detailInfo": "HUST."
+                            "detailInfo": "Tencent is one of the biggest and most well-known internet company in China. Almost every Chinese people use it's social media App Wechat and QQ. My position was software R&D intern."
                         }
                     ]
                 },
@@ -191,12 +186,12 @@
                         {
                             "title": "CQMU Schedule",
                             "info": "2017.06 - 2017.08",
-                            "detailInfo": "Personal project."
+                            "detailInfo": "CQMU Schedule is a mobile App that developed for students at ChongQing Medical University. After getting the access permission from the student, this App can automatically log in to the university's teaching management website and download course schedule, scores of each exam, and many other useful information. All this information is stored in a local database and can be present in a clear and handy way. As everything happens right within the App, there is no risk of password leaking or other privacy issues. As it is much easier to use than the original official website, I got tens of thanks letters, and I'm super proud of that."
                         },
                         {
-                            "title": "Beita",
-                            "info": "2017.12 - 2018.01",
-                            "detailInfo": "Team project."
+                            "title": "Fuzzy Navigation System for Mobile Robots",
+                            "info": "2018.11 - 2018.12",
+                            "detailInfo": "This is a navigation system that can guide a mobile robot moving to the desired destination without hitting into obstacles. To test the system, we first build a simple simulation environment using Python. The simulator can allow us to put different shapes of obstacles and tell the robot the readings of its virtual sensors. Then, we use Fuzzy Logic to teach the robot some basic fuzzy rules, for example, \"If the obstacle is close to the left, then turn right for a little bit\". The outputs of the fuzzy engine are defuzzified and used to drive the robot."
                         }
                     ],
                     "jumpURL": "/projects"
@@ -207,12 +202,12 @@
                         {
                             "title": "Programming Languages",
                             "info": "",
-                            "detailInfo": "Familiar with：Swift/ Java/ C/ Objective-C\nKnow a little of: Python/ Matlab/ JavaScript/ SQL\nHave tried：Dart/ Lua/ ASM/ Verilog/ Bash"
+                            "detailInfo": "Proficient in：Swift / Java / C / C++ / Objective-C\nFamiliar with: Python / Matlab / JavaScript / SQL ..."
                         },
                         {
-                            "title": "Technologies, Skills, and Frameworks",
+                            "title": "Technologies",
                             "info": "",
-                            "detailInfo": "Familiar with：iOS Development\nKnow a little of：React/ Django/ Arduino/ Raspberry-Pi/ Embedded System/ ROS/ Robotics/ Git \nHave tried：Flutter/ MySQL/ Android/ Wechat Mini Program/ CI"
+                            "detailInfo": "Proficient in: Mobile App Development\nFamiliar with: Web Front-end Design / Web Back-end Design / Robotics / Embedded Systems / Computer Vision / Machine Learning / Signal Processing / Communication Systems..."
                         }
                     ]
                 }
@@ -222,14 +217,14 @@
     "project": {
         "data": [
             {
-                "title": "智能道路",
+                "title": "Smart Road System",
                 "imageSrc": "images/smart_road_0.jpg",
-                "detail": "通过视觉引导模型车沿车道运动。主要涉及到的知识包括：ROS、计算机视觉、图像处理、反馈控制、计算机网络、数字电路等。实验平台被4个摄像头覆盖，每个摄像头分别连接一台主机。所有主机以分布式的方式工作、通信。摄像头识别出车辆后，会将坐标系变换到世界坐标系下以便于PID控制。模型车经过改装，由一台树莓派接管，并产生PWM波驱动电机。为了解决网络切换的耗时问题，小车的Wi-Fi网卡工作在Monitor模式。"
+                "detail": "This project is an early prototype of a smart road system. There are 4 cameras that cover the whole lab. Each camera is connected to a computer. Using image processing, I can precisely detect the position of the front point and the end point of a car in the image frame. As the cameras are calibrated, those positions can be converted into the world frame. Thus the 3D position and orientation of a given car can be calculated.\nTo control the mini-car through the Wi-Fi network, we replace the built-in remote controller with Raspberry-Pi. PWM waves are generated and control the servo motor and the DC motor. The 4 computers share information through the Ethernet network, and each of them has a separate Wi-Fi network card and acts as a small base station. To make the mini-car able to roam across different base stations, the network card on the mini-car works in a connectionless way.\nThe lane-keeping controller is a PID controller. Given the position and status of a mini-car, we can calculate a virtual target position. As the car is moving, the virtual target is also moving. So, the car can run along the lane stably.\nWe use ROS as our inter-computers communication framework. As all the information is transmitting through ROS, we use Rviz to visualize the status of the system, which is pretty helpful for debugging.\nI designed and implemented the entire software system, as well as part of the hardware system."
             },
             {
-                "title": "基于机器学习的手势识别",
+                "title": "A Hand Gesture Recognizer based on Machine Learning",
                 "imageSrc": "images/gesture_ml.jpg",
-                "detail": "基于HOG+LBP特征，利用机器学习实现手部定位、手势识别。对比了多种机器学习模型后，最终采用效果最好的SVM进行分类。本项目共训练了两个模型。第一个二分类模型用于在滑动窗口的帮助下实现手部定位。第二个模型接收上一个模型裁剪出来的手部图片，在5个已知的手势中分类。训练集由我们自行收集。"
+                "detail": "We use HOG, LBP and skin color as the key features. To get a better performance, PCA is used to reduce the dimension. \nIn order to detect the position of the hand, we use 3 different sizes of sliding windows to scan the image. Then, a heat-map is generated and the \"hottest\" location is most likely represent hand.\nThe sub-image is then fed into the next classifier to classify gestures. 5 different gestures can be recognized, including open-hand, thumb-up, and so on. As you can see, the gesture recognizer is able to tell both the position and the gesture class in a relatively complicated image.\nInstead of download training sets from the Internet, we collect hundreds of images by ourselves."
             },
             {
                 "title": "LLVM循环优化对比",
@@ -270,11 +265,6 @@
                 "title": "蛛网",
                 "imageSrc": "images/zhuwang.jpg",
                 "detail": "冰岩作坊内部工具。"
-            },
-            {
-                "title": "重医助手",
-                "imageSrc": "images/chongyi.jpg",
-                "detail": "重庆医科大学的校园助手。"
             },
             {
                 "title": "PlutoSDR移动通信",

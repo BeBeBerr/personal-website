@@ -57,7 +57,7 @@
 }
 
 @media (max-width: 961px) {
-    .navbar {
+    .navbar-button {
         display: none;
     }
 }

@@ -58,7 +58,7 @@ class MoreButton extends React.Component {
     render() {
         return (
             <div className="more-btn" onClick={() => this.handleClick()}>
-                <span>More</span>
+                <span>Read More</span>
                 <i className="fa fa-chevron-right fa-1x" style={{paddingLeft: 10}}></i>
             </div>
         )
