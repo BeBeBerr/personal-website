@@ -159,7 +159,7 @@
                     "labelText": "Research",
                     "descriptionList": [
                         {
-                            "title": "Research Assistant",
+                            "title": "VPC Lab - Research Assistant",
                             "info": "2019.02 - 2019.06",
                             "detailInfo": "I worked at the Video Processing and Communication Lab, University of Missouri, as an undergraduate research assistant. My job was to develop a prototype in order to explore the feasibility of vision-guided autonomous driving. I designed and developed the entire software system and a part of the hardware system."
                         }
@@ -169,12 +169,12 @@
                     "labelText": "Work Experience",
                     "descriptionList": [
                         {
-                            "title": "ByteDance Inc.",
+                            "title": "ByteDance - Software Engineer",
                             "info": "2019.07 - Present",
                             "detailInfo": "I joined ByteDance as it is the fastest-growing as well as the biggest unicorn company in the world. It's famous App, Tik Tok, gains great popularity all over the world. I work as a software R&D engineer. My job is quite challenging, and I learned a lot from this job."
                         },
                         {
-                            "title": "Tencent Inc.",
+                            "title": "Tencent - Software Engineer Intern",
                             "info": "2018.06 - 2018.08",
                             "detailInfo": "Tencent is one of the biggest and most well-known internet company in China. Almost every Chinese people use it's social media App Wechat and QQ. My position was software R&D intern."
                         }
@@ -228,53 +228,53 @@
             },
             {
                 "title": "LLVM Loop Optimization Comparison",
-                "imageSrc": "images/loop_opt.jpg",
+                "imageSrc": "images/loop_opt.png",
                 "detail": "In this project, I wrote 4 simple C programs, and use Clang with LLVM to compile them with different options. The generated LLVM IR code before and after optimization are compared. The gem5 simulator is used to analyze the time consumption and the cache miss rate. Finally, these optimization techniques are applied to Polybench to make comparisons."
             },
             {
-                "title": "机器人翻倒纠正",
+                "title": "Tip-over Prevention for Mobile Robots",
                 "imageSrc": "images/tipover.jpg",
-                "detail": "通过旋转移动平台上沉重的机械臂控制机器人的重心，使之通过崎岖地形时不易翻倒。模拟器采用了V-REP平台。机器人模型结合了两种V-REP自带的模型，并调整了参数。通过翻倒实验可以估计出机器人的重心。最后，Lua代码和Matlab进行通信，控制算法由Matlab实现。"
+                "detail": "By controlling the heavy manipulator installed on the mobile robot, the Center of Gravity (CoG) can be adjusted. Thus, the stability of the robot can be improved. In this project, I implemented an algorithm to read the IMU sensors and calculate the ideal pose of the robot. The algorithm is tested and verified with V-REP simulator. The simulating code is written in Lua, and the controller program is implemented in Matlab."
             },
             {
-                "title": "机器人协作运输物体",
+                "title": "Course Project of Building Intelligent Robot",
                 "imageSrc": "images/arm_robot.jpg",
-                "detail": "桌面上的三台PUMA机器人通过双目摄像头识别、定位并捡起散落在白纸上的黑色圆柱体，放置到地面上的移动机器人上。移动机器人通过编码器和迷宫上粘贴的二维码定位，并在迷宫中按顺序移动到PUMA机器人下方以便接收圆柱体。在迷宫中的导航通过机器人上的红外光传感器和接触传感器以避障的方式实现。所有的机器人（3台PUMA手臂机器人和1台扫地机器人）通过ROS进行通信。"
+                "detail": "There are 3 PUMA robots and 1 mobile robot. The binocular camera system can detect the position of black cylinders, and guide the PUMA robot arm to pick up and place them on the mobile robot. The mobile robot can localize itself by recognizing AR markers, and navigate to the next position. It can also use infrared sensors to detect and avoid obstacles. All these robots communicate with each other through ROS."
             },
             {
-                "title": "社团信息管理网站",
+                "title": "Club Management System",
                 "imageSrc": "images/club_web.jpg",
-                "detail": "具有登录、编辑成员和组别、项目管理、财务计算等功能。前端通过React实现，后端通过Django实现。数据库采用了MySQL。"
+                "detail": "The system has multiple functions including project, budget, and team members managements. The front-end is implemented with React.js, and the back-end is realized with Django. The database is MySQL."
             },
             {
-                "title": "协程调度器",
+                "title": "Coroutine Scheduler",
                 "imageSrc": "images/co_scheduler.jpg",
-                "detail": "在C语言上实现了协程，并可在多个协程任务之间调度。采用修改函数调用过程中的一系列寄存器实现，因此需要使用汇编语言。\n通过简单的调度器，每个任务可以睡眠和“非标准”输出。输出的内容通过Named Pipe在另一个Terminal显示以防干扰系统指令的输入。支持macOS和Linux平台。"
+                "detail": "Implemented a coroutine library and its scheduler in C. In order to control the registers while a function is being called, the Assembly language is also used. Each coroutine task has the ability to call blocking functions, such as 'sleep' without freezing the whole system. The outputs from each task are transferred to a named pipe to display in another terminal. This project is originally designed for Linux. Then, after fixed a byte alignment problem, it can also run on macOS, as macOS has additional constraints."
             },
             {
-                "title": "守门小车",
+                "title": "Robotic Goalkeeper",
                 "imageSrc": "images/car_ball.jpg",
-                "detail": "通过一个连接在电脑上的摄像头识别地面上滚动的网球，并预测网球轨迹。在计算出预测的轨迹和“球门”的交点后，电脑通过蓝牙发送指令给小车上的Arduino单片机。小车可以提前运动到交点出将网球拦截。为了方便调试，在Mac端使用Swift语言开发了带有图形界面的应用程序，可以可视化地展示出网球位置及预测的轨迹。蓝牙通信部分使用了CoreBluetooth框架。"
+                "detail": "Used a camera to detect the rolling tennis ball and predict its track. After the cross point is calculated, commands will be sent to the car-like robot to catch the ball through Bluetooth. The core controller is designed with GUI to visualize the system status."
             },
             {
-                "title": "背它",
+                "title": "Beita App",
                 "imageSrc": "images/beta.jpg",
-                "detail": "一款方便学生背诵古诗词、课文的App。已上架App Store。"
+                "detail": "An app that can help students memorize course materials easier. You can either copy and paste your documents, or use the camera to scan it. This app support user-friendly gesture operations, so selecting the important paragraphs is really easy."
             },
             {
-                "title": "蛛网",
+                "title": "Cobweb App",
                 "imageSrc": "images/zhuwang.jpg",
-                "detail": "冰岩作坊内部工具。"
+                "detail": "An internal team management tool for Bingyan Studio."
             },
             {
-                "title": "PlutoSDR移动通信",
+                "title": "A Wireless Communication System with Pluto SDR",
                 "imageSrc": "images/pluto.jpg",
-                "detail": "使用PlutoSDR构建了一个简易的移动通信系统，并实现了滑动窗口和停止等待两个协议。文本或二进制文件可在此基础上实现可靠传输。"
+                "detail": "Used Pluto SDR to implement a simple wireless communication system. Realized two communication protocols to support reliable communication: stop-and-wait & sliding window. This system can transmit texts or arbitrary files."
             },
             {
-                "title": "超声波体感游戏",
+                "title": "Ultrasonic Somatosensory Game",
                 "imageSrc": "images/vga_game.jpg",
-                "detail": "通过在FPGA上下载IP核模拟一颗单片机，根据超声波传感器的读数控制屏幕上两个小球的距离。玩家需要控制手掌距离超声波传感器的距离控制小球避开掉落的障碍物。\n屏幕显示通过操作VGA接口实现。"
+                "detail": "By changing the distance with your hand and the sensor, players can control the distance between the two read squares. Your job is preventing those squares from hitting the blue bars. The higher scores you got, the faster the bars move. We used a FPGA board (with a IP Core installed) to read the ultrasonic sensor and control the VGA display."
             }
         ]
     }
