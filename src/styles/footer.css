@@ -1,7 +1,7 @@
 .footer {
     background-color: #2f2f2f;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -11,4 +11,20 @@
     color: #a8a8a8;
     align-self: center;
     margin: 5px 0px 5px 0px;
+}
+
+.footer-link-gov {
+    align-self: center;
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.footer-link-gov:link {
+    color: #777777;
+    
+}
+
+.footer-link-gov:visited {
+    color: #777777;
 }
