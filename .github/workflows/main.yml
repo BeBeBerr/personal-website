@@ -27,7 +27,9 @@ jobs:
       uses: actions/setup-node@v1
       
     - name: Build
-      run: npm run build
+      run: |
+        cd personal-website
+        npm run build
     
     - name: Deploy
       uses: appleboy/scp-action@master
@@ -35,6 +37,6 @@ jobs:
         host: ${{ secrets.host }}
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
-        source: "personal-website/build/*"
+        source: "build/*"
         target: "~/personal-website/"
       
