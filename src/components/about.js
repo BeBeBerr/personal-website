@@ -21,7 +21,7 @@ class About extends React.Component {
                     <div className="about-detail">
                         GitHub: github.com/BeBeBerr<br />
                         Blog: blog.wangluyuan.cc<br />
-                        E-mail: e@wangluyuan.cc<br />
+                        E-mail: mail@luyuan.wang<br />
                     </div>
                 </div>
                 <ResumeButton isChinese={this.props.isChinese}/>
