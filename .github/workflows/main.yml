@@ -31,13 +31,14 @@ jobs:
         pwd
         npm install
         npm run build
+        mv build personal-website
     
     - name: Deploy
-      uses: appleboy/scp-action@master
+      use: garygrossgarten/github-action-scp@release
       with:
+        local: build
+        remote: ~/
         host: ${{ secrets.host }}
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
-        source: "personal-website/build/*"
-        target: "~/personal-website/"
       
