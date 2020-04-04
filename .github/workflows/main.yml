@@ -37,8 +37,9 @@ jobs:
       uses: garygrossgarten/github-action-scp@release
       with:
         local: personal-website
-        remote: ~/
+        remote: /home/wangluyuan/personal-website
         host: ${{ secrets.host }}
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
+        recursive: true
       
