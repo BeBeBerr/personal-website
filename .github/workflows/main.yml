@@ -36,7 +36,7 @@ jobs:
     - name: Deploy
       uses: garygrossgarten/github-action-scp@release
       with:
-        local: build
+        local: personal-website
         remote: ~/
         host: ${{ secrets.host }}
         username: ${{ secrets.username }}
