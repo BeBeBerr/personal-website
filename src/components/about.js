@@ -20,7 +20,7 @@ class About extends React.Component {
                     <h2 className="about-title">Contact Details</h2>
                     <div className="about-detail">
                         GitHub: github.com/BeBeBerr<br />
-                        Blog: blog.wangluyuan.cc<br />
+                        Blog: blog.luyuan.wang<br />
                         E-mail: mail@luyuan.wang<br />
                     </div>
                 </div>
