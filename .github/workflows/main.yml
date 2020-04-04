@@ -28,7 +28,8 @@ jobs:
       
     - name: Build
       run: |
-        cd personal-website
+        pwd
+        npm install
         npm run build
     
     - name: Deploy
@@ -37,6 +38,6 @@ jobs:
         host: ${{ secrets.host }}
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
-        source: "build/*"
+        source: "personal-website/build/*"
         target: "~/personal-website/"
       
