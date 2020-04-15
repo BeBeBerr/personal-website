@@ -8,6 +8,16 @@
     src : url('/fonts/OpenSans-Regular-webfont.ttf');
 }
 
+.timeline-graph {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.taskText {
+    font-size: 16px;
+}
+
 .resume {
     padding: 40px 0px;
 }
