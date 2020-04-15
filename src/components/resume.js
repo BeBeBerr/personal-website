@@ -3,11 +3,6 @@ import mermaid from 'mermaid';
 import '../styles/resume.css';
 
 class Resume extends React.Component {
-
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         if (!this.props.data.resume) {
             return (<div></div>);

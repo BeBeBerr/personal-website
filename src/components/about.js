@@ -2,10 +2,6 @@ import React from 'react'
 import '../styles/about.css'
 
 class About extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         if (!this.props.data.about) {
             return (<div></div>);
