@@ -1,5 +1,4 @@
 import React from 'react';
-import mermaid from 'mermaid';
 import '../styles/resume.css';
 
 class Resume extends React.Component {
@@ -47,35 +46,37 @@ class TimeLineGraph extends React.Component {
             theme: 'neutral',
             securityLevel: 'loose',
         };
-        mermaid.initialize(config);
-        var graphDefinition = `gantt
-        title TIMELINE
-        dateFormat  YYYY-MM
-        section Education
-        Undergrad: done, 2015-09 , 2019-06
-        
-        section University
-        HUST : 2015-09, 2018-08
-        Mizzou: 2018-08, 2019-06
 
-        section Work
-        Tencent: 2018-06, 2018-08
-        ByteDance: 2019-07, 2020-12
+        import('mermaid').then(({default: mermaid}) => {
+            mermaid.initialize(config);
+            var graphDefinition = `gantt
+            title TIMELINE
+            dateFormat  YYYY-MM
+            section Education
+            Undergrad: done, 2015-09 , 2019-06
+            
+            section University
+            HUST : 2015-09, 2018-08
+            Mizzou: 2018-08, 2019-06
 
-        section Others
-        Bingyan Studio: 2017-03, 2018-08
-        VPC Lab: 2019-02, 2019-06
-        `;
-        mermaid.render("theGraph", graphDefinition, function(svgCode) {
+            section Work
+            Tencent: 2018-06, 2018-08
+            ByteDance: 2019-07, 2020-12
 
-            graph.innerHTML = svgCode;
+            section Others
+            Bingyan Studio: 2017-03, 2018-08
+            VPC Lab: 2019-02, 2019-06
+            `;
+            mermaid.render("theGraph", graphDefinition, function(svgCode) {
+
+                graph.innerHTML = svgCode;
+            });
         });
+        
     }
     render() {
         return (
-  
             <div id="timeline" className="timeline-graph"></div>
- 
         );
     }
 }
