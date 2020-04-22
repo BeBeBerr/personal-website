@@ -47,7 +47,13 @@ class TimeLineGraph extends React.Component {
             securityLevel: 'loose',
         };
 
-        import('mermaid').then(({default: mermaid}) => {
+        const script = document.createElement('script');
+        script.src = "https://cdn.bootcss.com/mermaid/8.5.0/mermaid.js";
+        script.id = "mermaid-script";
+        document.body.appendChild(script);
+
+        script.onload = () => {
+            const mermaid = window.mermaid;
             mermaid.initialize(config);
             var graphDefinition = `gantt
             title TIMELINE
@@ -68,11 +74,9 @@ class TimeLineGraph extends React.Component {
             VPC Lab: 2019-02, 2019-06
             `;
             mermaid.render("theGraph", graphDefinition, function(svgCode) {
-
                 graph.innerHTML = svgCode;
             });
-        });
-        
+        };
     }
     render() {
         return (
