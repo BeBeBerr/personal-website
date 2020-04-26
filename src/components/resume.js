@@ -33,6 +33,7 @@ class Resume extends React.Component {
             <div className="resume">
                 <TimeLineGraph />
                 {resumeView}
+                <VisitorMapButton jumpURL={"/visitor"}/>
             </div>
         );
     }
@@ -140,6 +141,22 @@ class RowItem extends React.Component {
                     </div>
                 </div>
                 <hr className="resume-row-item-divider"/>
+            </div>
+        )
+    }
+}
+
+class VisitorMapButton extends React.Component {
+    handleClick() {
+        //window.location.pathname=this.props.jumpURL;
+        window.open(this.props.jumpURL, "_blank");
+    }
+    render() {
+        return (
+            <div className="visitor-btn" onClick={() => this.handleClick()}>
+                <i className="fa fa-globe fa-1x" style={{paddingRight: 10}}></i>
+                <span>Visitor Map</span>
+                <i className="fa fa-globe fa-1x" style={{paddingLeft: 10}}></i>
             </div>
         )
     }

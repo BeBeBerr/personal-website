@@ -29,7 +29,9 @@ class AppComponent extends React.Component {
             this.setState({
                 data: json
             });
-        });
+		});
+		
+		fetch("http://api.wangluyuan.cc/visit/record");
 	}
 
 	scrollToAbout() {

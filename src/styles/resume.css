@@ -19,14 +19,14 @@
 }
 
 .resume {
-    padding: 40px 0px;
+    padding: 40px 0px 10px 0px;
 }
 
 .resume-label {
     width: fit-content;
     font-size: 24px;
     font-family: OpenSans-Bold;
-    border-bottom: 3px solid #abdcff;
+    border-bottom: 3px solid #5D9CEC;
     padding: 4px 0px;
 }
 
@@ -96,6 +96,24 @@
 
 .more-btn:hover {
     color: #a8a8a8;
+}
+
+.visitor-btn {
+    background-color: #5C80BC;
+    color: white;
+    font-family: OpenSans-Regular;
+    width: fit-content;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    font-size: 16px;
+    transition: 0.4s;
+    margin: auto;
+}
+
+.visitor-btn:hover {
+    color: #4D5061;
 }
 
 @media (max-width: 961px) {
