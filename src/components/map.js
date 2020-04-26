@@ -13,7 +13,7 @@ class VisitorMap extends React.Component {
         require("echarts/lib/component/toolbox");
 
         fetch('http://api.wangluyuan.cc/visit/result').then(response => response.json()).then((visitor_records) => {
-            fetch('https://raw.githubusercontent.com/apache/incubator-echarts/master/map/json/world.json').then(response => response.json()).then((data) => {
+            fetch('http://share.luyuan.wang/geojson/world-map.json').then(response => response.json()).then((data) => {
 
                 var option = {
                     backgroundColor: '#404a59',
@@ -110,7 +110,7 @@ class VisitorMap extends React.Component {
                 worldMap.setOption(option);
             });
 
-            fetch('https://raw.githubusercontent.com/apache/incubator-echarts/master/map/json/china.json').then(response => response.json()).then((data) => {
+            fetch('http://share.luyuan.wang/geojson/china.json').then(response => response.json()).then((data) => {
 
                 var option = {
                     backgroundColor: '#404a59',
