@@ -12,6 +12,11 @@ class VisitorMap extends React.Component {
         require("echarts/lib/component/visualMap");
         require("echarts/lib/component/toolbox");
 
+        var worldMap = echarts.init(document.getElementById('global-map'));
+        var chinaMap = echarts.init(document.getElementById('china-map'));
+
+        worldMap.showLoading();
+        chinaMap.showLoading();
         fetch('http://api.wangluyuan.cc/visit/result').then(response => response.json()).then((visitor_records) => {
             fetch('http://share.luyuan.wang/geojson/world-map.json').then(response => response.json()).then((data) => {
 
@@ -26,15 +31,6 @@ class VisitorMap extends React.Component {
                     },
                     tooltip: {
                         trigger: 'item'
-                    },
-                    legend: {
-                        orient: 'vertical',
-                        top: 'bottom',
-                        left: 'right',
-                        data:['pm2.5'],
-                        textStyle: {
-                            color: '#fff'
-                        }
                     },
                     toolbox: {
                         show: true,
@@ -90,7 +86,7 @@ class VisitorMap extends React.Component {
                                 },
                                 emphasis: {
                                     show: false
-                                }
+                                },
                             },
                             itemStyle: {
                                 emphasis: {
@@ -102,7 +98,7 @@ class VisitorMap extends React.Component {
                     ]
                 };
             
-                var worldMap = echarts.init(document.getElementById('global-map'));
+                worldMap.hideLoading();
                 echarts.registerMap('world-map', data);
             
                 option.series[0].data = visitor_records.data;
@@ -123,15 +119,6 @@ class VisitorMap extends React.Component {
                     },
                     tooltip: {
                         trigger: 'item'
-                    },
-                    legend: {
-                        orient: 'vertical',
-                        top: 'bottom',
-                        left: 'right',
-                        data:['pm2.5'],
-                        textStyle: {
-                            color: '#fff'
-                        }
                     },
                     toolbox: {
                         show: true,
@@ -199,7 +186,7 @@ class VisitorMap extends React.Component {
                     ]
                 };
 
-                var chinaMap = echarts.init(document.getElementById('china-map'));
+                chinaMap.hideLoading();
                 echarts.registerMap('china-map', data);
             
                 option.series[0].data = visitor_records.data;
