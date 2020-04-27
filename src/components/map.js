@@ -153,7 +153,7 @@ class VisitorMap extends React.Component {
                         }
                     },
                     geo: {
-                        map: 'world-map',
+                        map: 'china-map',
                         label: {
                             emphasis: {
                                 show: false
@@ -200,7 +200,7 @@ class VisitorMap extends React.Component {
                 };
 
                 var chinaMap = echarts.init(document.getElementById('china-map'));
-                echarts.registerMap('world-map', data);
+                echarts.registerMap('china-map', data);
             
                 option.series[0].data = visitor_records.data;
                 option.title.text = "Visitor Map - China";
