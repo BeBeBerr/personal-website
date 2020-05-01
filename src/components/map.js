@@ -44,7 +44,8 @@ class VisitorMap extends React.Component {
                     },
                     visualMap: {
                         min: 0,
-                        max: 30,
+                        max: 50,
+                        maxOpen: true,
                         splitNumber: 5,
                         color: ['#d94e5d','#eac736','#50a3ba'],
                         textStyle: {
@@ -132,7 +133,8 @@ class VisitorMap extends React.Component {
                     },
                     visualMap: {
                         min: 0,
-                        max: 30,
+                        max: 50,
+                        maxOpen: true,
                         splitNumber: 5,
                         color: ['#d94e5d','#eac736','#50a3ba'],
                         textStyle: {
