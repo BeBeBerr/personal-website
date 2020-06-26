@@ -98,8 +98,14 @@
     color: #a8a8a8;
 }
 
+.bottom-button-list {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .visitor-btn {
-    background-color: #5C80BC;
     color: white;
     font-family: OpenSans-Regular;
     width: fit-content;
@@ -109,7 +115,7 @@
     user-select: none;
     font-size: 16px;
     transition: 0.4s;
-    margin: auto;
+    margin: 0 10px 0 10px;
 }
 
 .visitor-btn:hover {

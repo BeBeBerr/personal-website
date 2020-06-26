@@ -33,7 +33,7 @@ class Resume extends React.Component {
             <div className="resume">
                 <TimeLineGraph />
                 {resumeView}
-                <VisitorMapButton jumpURL={"/visitor"}/>
+                <BottomButtonList />
             </div>
         );
     }
@@ -146,6 +146,17 @@ class RowItem extends React.Component {
     }
 }
 
+class BottomButtonList extends React.Component {
+    render() {
+        return (
+            <div className="bottom-button-list">
+                <VisitorMapButton jumpURL={"/visitor"}/>
+                <StatisticsButton jumpURL={"/statistics"}/>
+            </div>
+        );
+    }
+}
+
 class VisitorMapButton extends React.Component {
     handleClick() {
         //window.location.pathname=this.props.jumpURL;
@@ -153,10 +164,24 @@ class VisitorMapButton extends React.Component {
     }
     render() {
         return (
-            <div className="visitor-btn" onClick={() => this.handleClick()}>
+            <div className="visitor-btn" onClick={() => this.handleClick()} style={{backgroundColor: "#5C80BC"}} >
                 <i className="fa fa-globe fa-1x" style={{paddingRight: 10}}></i>
                 <span>Visitor Map</span>
-                <i className="fa fa-globe fa-1x" style={{paddingLeft: 10}}></i>
+            </div>
+        )
+    }
+}
+
+class StatisticsButton extends React.Component {
+    handleClick() {
+        //window.location.pathname=this.props.jumpURL;
+        window.open(this.props.jumpURL, "_blank");
+    }
+    render() {
+        return (
+            <div className="visitor-btn" onClick={() => this.handleClick()} style={{backgroundColor: "#228B22"}} >
+                <i className="fa fa-bar-chart fa-1x" style={{paddingRight: 10}}></i>
+                <span>Statistics</span>
             </div>
         )
     }
