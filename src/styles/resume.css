@@ -56,6 +56,17 @@
     white-space: pre-line;
 }
 
+.resume-info-image-container {
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.resume-info-image {
+    height: 100%;
+    object-fit: contain;
+}
+
 .resume-row-item {
     display: flex;
     display: -webkit-flex;

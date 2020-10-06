@@ -18,6 +18,7 @@ class Resume extends React.Component {
                     title={desc.title}
                     info={desc.info}
                     infoDetail={desc.detailInfo}
+                    imageURL={desc.imageURL}
                 />;
                 descriptionViewList.push(descView);
             }
@@ -112,11 +113,19 @@ class MoreButton extends React.Component {
 //每栏中的一项 包括题目/时间/细节等 如华中科技大学
 class Description extends React.Component {
     render() {
+        var image;
+        if (this.props.imageURL) {
+            image = 
+            <div className="resume-info-image-container">
+                <img src={this.props.imageURL} alt="" className="resume-info-image"/>
+            </div>
+        }
         return (
             <div className="resume-description">
                 <h3 className="resume-title">{this.props.title}</h3>
                 <div className="resume-info">{this.props.info}</div>
                 <div className="resume-info-detail">{this.props.infoDetail}</div>
+                {image}
             </div>
         )
     }
@@ -137,7 +146,6 @@ class RowItem extends React.Component {
                             this.props.jumpURL && // render more button only when jump url is defined
                             <MoreButton jumpURL={this.props.jumpURL}/>
                         }
-                        
                     </div>
                 </div>
                 <hr className="resume-row-item-divider"/>

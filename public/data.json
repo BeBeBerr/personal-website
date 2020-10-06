@@ -16,12 +16,14 @@
                         {
                             "title": "密苏里大学 - 哥伦比亚分校",
                             "info": "2018.08 - 2019.06",
-                            "detailInfo": "大四在密苏里大学参加校级交流项目，就读于 EECS 学院。主修课程：机器人、嵌入式计算、机器学习、云计算等。GPA 3.88。"
+                            "detailInfo": "大四在密苏里大学参加校级交流项目，就读于 EECS 学院。主修课程：机器人、嵌入式计算、机器学习、云计算等。GPA 3.88。",
+                            "imageURL": "https://i.loli.net/2020/10/07/BS5zWUthe8JrcaP.png"
                         },
                         {
                             "title": "华中科技大学",
                             "info": "2015.09 - 2019.06",
-                            "detailInfo": "本科毕业于华中科技大学，电子信息与通信学院，通信工程专业。主修课程：通信原理、数字信号处理、通信电子线路、电磁场与电磁波、微波技术、模拟电路与数字系统等。GPA 3.6。"
+                            "detailInfo": "本科毕业于华中科技大学，电子信息与通信学院，通信工程专业。主修课程：通信原理、数字信号处理、通信电子线路、电磁场与电磁波、微波技术、模拟电路与数字系统等。GPA 3.6。",
+                            "imageURL": "https://i.loli.net/2020/10/07/YB2ElRO3Mju4zh9.png"
                         },
                         {
                             "title": "北京一零一中学",
@@ -36,7 +38,8 @@
                         {
                             "title": "冰岩作坊",
                             "info": "2017.03 - 2018.08",
-                            "detailInfo": "冰岩作坊（www.bingyan.net）是华中科技大学最具影响力的互联网技术团队之一。我在冰岩作坊期间任 iOS 组组长。"
+                            "detailInfo": "冰岩作坊（www.bingyan.net）是华中科技大学最具影响力的互联网技术团队之一。我在冰岩作坊期间任 iOS 组组长。",
+                            "imageURL": "https://i.loli.net/2020/10/07/4lbNdoGmXzLJPAI.jpg"
                         }
                     ]
                 },
@@ -56,12 +59,14 @@
                         {
                             "title": "字节跳动",
                             "info": "2019.07 - 今",
-                            "detailInfo": "互娱（IES）研发部，iOS 开发工程师。"
+                            "detailInfo": "互娱（IES）研发部，iOS 开发工程师。",
+                            "imageURL": "https://i.loli.net/2020/10/07/BI7FmuWa3xVifSp.png"
                         },
                         {
                             "title": "腾讯",
                             "info": "2018.06 - 2018.08",
-                            "detailInfo": "原腾讯社交网络事业群（SNG）移动客户端开发实习生。"
+                            "detailInfo": "原腾讯社交网络事业群（SNG）移动客户端开发实习生。",
+                            "imageURL": "https://i.loli.net/2020/10/07/9E24wiLcuZaUX65.png"
                         }
                     ]
                 },
@@ -136,12 +141,14 @@
                         {
                             "title": "University of Missouri - Columbia",
                             "info": "2018.08 - 2019.06",
-                            "detailInfo": "I spent my last undergraduate year at University of Missouri - Columbia, as an exchange student. I took 8 courses, and 4 of them were chosen as graduate level. Those courses include Building Intelligent Robots, Machine Learning, Real-time Embedded Computing and so on. My overall GPA was 3.88."
+                            "detailInfo": "I spent my last undergraduate year at University of Missouri - Columbia, as an exchange student. I took 8 courses, and 4 of them were chosen as graduate level. Those courses include Building Intelligent Robots, Machine Learning, Real-time Embedded Computing and so on. My overall GPA was 3.88.",
+                            "imageURL": "https://i.loli.net/2020/10/07/BS5zWUthe8JrcaP.png"
                         },
                         {
                             "title": "Huazhong University of Science and Technology",
                             "info": "2015.09 - 2019.06",
-                            "detailInfo": "I got my bachelor's degree at Huazhong University of Science and Technology (HUST), Wuhan, China. My major was Telecommunication Engineering. The main courses include Information Theory, Digital Signal Processing, Analog Circuits and Digital Systems, Computer Networks, Electromagnetic Filed and Electromagnetic Waves, and so on. My overall GPA at HUST was 3.6."
+                            "detailInfo": "I got my bachelor's degree at Huazhong University of Science and Technology (HUST), Wuhan, China. My major was Telecommunication Engineering. The main courses include Information Theory, Digital Signal Processing, Analog Circuits and Digital Systems, Computer Networks, Electromagnetic Filed and Electromagnetic Waves, and so on. My overall GPA at HUST was 3.6.",
+                            "imageURL": "https://i.loli.net/2020/10/07/YB2ElRO3Mju4zh9.png"
                         }
                     ]
                 },
@@ -151,7 +158,8 @@
                         {
                             "title": "Bingyan Studio",
                             "info": "2017.03 - 2019.06",
-                            "detailInfo": "Bingyan Studio (www.bingyan.net) is one of the most influential student technical team at HUST. I was the leader of the iOS group, mainly in charge of recruitment & interviews,  technical training & sharing, and lead the team to develop iOS Apps."
+                            "detailInfo": "Bingyan Studio (www.bingyan.net) is one of the most influential student technical team at HUST. I was the leader of the iOS group, mainly in charge of recruitment & interviews,  technical training & sharing, and lead the team to develop iOS Apps.",
+                            "imageURL": "https://i.loli.net/2020/10/07/4lbNdoGmXzLJPAI.jpg"
                         }
                     ]
                 },
@@ -171,12 +179,14 @@
                         {
                             "title": "ByteDance - Software Engineer",
                             "info": "2019.07 - Present",
-                            "detailInfo": "I joined ByteDance as it is the fastest-growing as well as the biggest unicorn company in the world. It's famous App, Tik Tok, gains great popularity all over the world. I work as a software R&D engineer. My job is quite challenging, and I learned a lot from this job."
+                            "detailInfo": "I joined ByteDance as it is the fastest-growing as well as the biggest unicorn company in the world. It's famous App, Tik Tok, gains great popularity all over the world. I work as a software R&D engineer. My job is quite challenging, and I learned a lot from this job.",
+                            "imageURL": "https://i.loli.net/2020/10/07/BI7FmuWa3xVifSp.png"
                         },
                         {
                             "title": "Tencent - Software Engineer Intern",
                             "info": "2018.06 - 2018.08",
-                            "detailInfo": "Tencent is one of the biggest and most well-known internet company in China. Almost every Chinese people use it's social media App Wechat and QQ. My position was software R&D intern."
+                            "detailInfo": "Tencent is one of the biggest and most well-known internet company in China. Almost every Chinese people use it's social media App Wechat and QQ. My position was software R&D intern.",
+                            "imageURL": "https://i.loli.net/2020/10/07/9E24wiLcuZaUX65.png"
                         }
                     ]
                 },
