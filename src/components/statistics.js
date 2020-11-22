@@ -73,12 +73,24 @@ class ContributionGraph extends React.Component {
         for (var week = 0; week < 53; week++) {
             for (var day = 0; day < 7; day++) {
                 var depth = 3;
-                var color = 0xebedf0;
+                var color = 0xebedf0; // background color
 
                 if (index < data.length) {
                     const one_data = data[index];
                     depth = 3 + 8 * one_data.count;
-                    color = parseInt(one_data.color.substr(1), 16); // remove first '#'
+
+                    // GitHub API 变动 下发的所有颜色都是黑色
+                    // color = parseInt(one_data.color.substr(1), 16); // remove first '#'
+                    
+                    if (one_data.count == 0) {
+                        color = 0xebedf0; // background color
+                    } else if (one_data.count <= 1) {
+                        color = 0x9be9a8;
+                    } else if (one_data.count <= 3) {
+                        color = 0x40c463;
+                    } else {
+                        color = 0x216e39;
+                    }
                 }
 
                 let geometry = new THREE.BoxGeometry(9.5, 9.5, depth);
