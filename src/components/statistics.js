@@ -82,7 +82,7 @@ class ContributionGraph extends React.Component {
                     // GitHub API 变动 下发的所有颜色都是黑色
                     // color = parseInt(one_data.color.substr(1), 16); // remove first '#'
                     
-                    if (one_data.count == 0) {
+                    if (one_data.count <= 0) {
                         color = 0xebedf0; // background color
                     } else if (one_data.count <= 1) {
                         color = 0x9be9a8;
