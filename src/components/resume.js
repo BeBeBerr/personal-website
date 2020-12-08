@@ -43,6 +43,7 @@ class Resume extends React.Component {
 class TimeLineGraph extends React.Component {
     componentDidMount() {
         var graph = document.getElementById("timeline");
+        var graph2 = document.getElementById("timeline2");
         var config = {
             startOnLoad: true,
             theme: 'neutral',
@@ -50,7 +51,7 @@ class TimeLineGraph extends React.Component {
         };
 
         const script = document.createElement('script');
-        script.src = "https://cdn.bootcss.com/mermaid/8.5.0/mermaid.js";
+        script.src = "https://cdn.bootcdn.net/ajax/libs/mermaid/8.8.2/mermaid.min.js";
         script.id = "mermaid-script";
         document.body.appendChild(script);
 
@@ -58,8 +59,11 @@ class TimeLineGraph extends React.Component {
             const mermaid = window.mermaid;
             mermaid.initialize(config);
             var graphDefinition = `gantt
+            todayMarker off
             title TIMELINE
             dateFormat  YYYY-MM
+            axisFormat  %y-%m
+
             section Education
             Undergrad: done, 2015-09 , 2019-06
             
@@ -69,20 +73,38 @@ class TimeLineGraph extends React.Component {
 
             section Work
             Tencent: 2018-06, 2018-08
-            ByteDance: 2019-07, 2020-12
+            ByteDance: 2019-07, 2019-12
 
             section Others
             Bingyan Studio: 2017-03, 2018-08
             VPC Lab: 2019-02, 2019-06
             `;
-            mermaid.render("theGraph", graphDefinition, function(svgCode) {
+            mermaid.render("graph", graphDefinition, function(svgCode) {
                 graph.innerHTML = svgCode;
+            });
+
+            var graphDefinition2 = `gantt
+            title TIMELINE - Continue
+            dateFormat  YYYY-MM
+            axisFormat  %y-%m
+
+            section Work
+            ByteDance: 2019-07, 2020-12
+
+            section Others
+            VIS Lab: 2020-12, 2021-06
+            `;
+            mermaid.render("graph2", graphDefinition2, function(svgCode) {
+                graph2.innerHTML = svgCode;
             });
         };
     }
     render() {
         return (
-            <div id="timeline" className="timeline-graph"></div>
+            <div>
+                <div id="timeline" className="timeline-graph"></div>
+                <div id="timeline2" className="timeline-graph"></div>
+            </div>
         );
     }
 }
