@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import MainPage from './components/Main';
 import ProjectPage from './components/projects';
 import VisitorMap from './components/map';
+import ContactPage from './components/contact';
 import ContributionGraph from './components/statistics'
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -16,6 +17,7 @@ class MainRouter extends React.Component {
                     <Route exact path={'/projects'} component={ProjectPage} />
                     <Route exact path={'/visitor'} component={VisitorMap} />
                     <Route exact path={'/statistics'} component={ContributionGraph} />
+                    <Route exact path={'/contact'} component={ContactPage} />
                 </Switch>
             </BrowserRouter>
         );

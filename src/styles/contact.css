@@ -1,0 +1,65 @@
+.contactPage {
+
+}
+
+.nameBar {
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF60;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nameBarItem {
+    transform: rotate(-5deg);
+    position: absolute;
+    margin-top: 110px;
+    font-size: 22px;
+    color: white;
+    background-color: #F55555A0;
+}
+
+.nameBarImage {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.contactList {
+    position: fixed;
+    top: 152px;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    overflow-y: scroll;
+    display: grid;
+    justify-content: space-around;
+    align-content: start;
+    grid-template-columns: repeat(auto-fill, 80px);
+    grid-row-gap: 0px;
+    grid-column-gap: 10px;
+}
+
+/* 单条联系信息 */
+.contactItem {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactItemIcon {
+    width: 80px;
+    height: 80px;
+}
+
+.contactItemText {
+    margin-top: 2px;
+    font-size: 14px;
+    color: #000000A0;
+}
+
