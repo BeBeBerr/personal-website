@@ -24,7 +24,7 @@ class Cover extends React.Component {
             <div className="cover">
                 <div className="cover-main">
                     <h1 className="title">I'm Luyuan Wang.</h1>
-                    <p className="intro">Work Hard, Play Harder.</p>
+                    <p className="intro">Sometimes You Win, Sometimes You Learn.</p>
                     <hr className="divider" />
                     <IconButtonListView />
                 </div>
