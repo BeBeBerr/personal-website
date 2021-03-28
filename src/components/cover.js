@@ -41,10 +41,10 @@ class IconButtonListView extends React.Component {
         return(
             <div className="cover-icon-list">
                 <IconButton iconName="fa fa-github" title="GitHub" url="https://github.com/BeBeBerr"/>
-                <IconButton iconName="fa fa-gitlab" title="GitLab" url="https://git.bingyan.net/BeBeBerr"/>
+                <IconButton iconName="fa fa-linkedin-square" title="LinkedIn" url="https://www.linkedin.com/in/luyuanwang/"/>
                 <IconButton iconName="fa fa-link" title="My Blog" url="http://blog.wangluyuan.cc"/>
                 <IconButton iconName="fa fa-weibo" title="Sina Weibo" url="http://weibo.com/BeBeBerr"/>
-                <IconButton iconName="fa fa-envelope" title="E-mail" url="mailto:e@wangluyuan.cc"/>
+                <IconButton iconName="fa fa-envelope" title="E-mail" url="mailto:mail@luyuan.wang"/>
             </div>
         )
     }
