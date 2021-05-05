@@ -1,10 +1,10 @@
 {
     "about": {
         "cn": {
-            "text": "我叫王路远，本科毕业于华中科技大学，通信工程专业。虽然我的专业更偏重于硬件，但我也非常喜欢软件编程。\n受到专业和兴趣的共同影响，我对计算机工程的方方面面都很感兴趣，也接触过其中的许多领域。我还在不断地学习，以求对这个世界理解得更深入些。\n但我并不想变成一个“技术宅”。我喜欢看电影，和朋友出去玩儿，以及各种各样的体育运动。游泳、射箭、滑雪、羽毛球……谈不上对这些运动有多么精通，只是为了开心而已。\n毕竟，做人最重要的就是开心！"
+            "text": "我叫王路远，是一名在CMU学习计算机工程的研究生。本科的时候，我的专业更偏重于硬件，但我更加喜欢软件编程。\n受到专业和兴趣的共同影响，我对计算机工程的方方面面都很感兴趣，也接触过其中的许多领域。我还在不断地学习，以求对这个世界理解得更深入些。\n但我并不想变成一个“技术宅”。我喜欢看电影，和朋友出去玩儿，以及各种各样的体育运动。游泳、射箭、滑雪、羽毛球……谈不上对这些运动有多么精通，只是为了开心而已。\n毕竟，做人最重要的就是开心！"
         },
         "i18n": {
-            "text": "Hello! My name is Luyuan Wang. I got my bachelor's degree at Huazhong University of Science and Technology, and my major is Telecommunication Engineering. Though what I learned in school concentrates on hardware, I have great interests in software programming.\nInfluenced by both my major and my interests, I have a great passion for almost every aspect of Computer Engineering. I will keep learning to have a better understanding of our complicated, yet fascinating world.\nDuring my spare time, I enjoy watching movies, hanging out with my friends, and doing all kinds of sports games. Swimming, archery, skiing, badminton... I can't say I'm good at these sports. I doing them just for fun.\nBecause the true meaning of life is living with fun and joy!"
+            "text": "Hello! My name is Luyuan Wang. I'm a MSECE student at CMU, Pittsburgh. Though my undergraduate program concentrated on hardware, I found great interests in software programming.\nInfluenced by both my major and my interests, I have a great passion for almost every aspects of Computer Engineering. I will keep learning to have a better understanding of our complicated, yet fascinating world.\nDuring my spare time, I enjoy watching movies, hanging out with my friends, and doing all kinds of sports games. Swimming, archery, skiing, badminton... I can't say I'm good at these sports. I doing them just for fun.\nBecause the true meaning of life is living with fun and joy!"
         }
     },
     "resume": {
@@ -13,6 +13,12 @@
                 {
                     "labelText": "教育",
                     "descriptionList": [
+                        {
+                            "title": "卡内基·梅隆大学",
+                            "info": "2021.02 - 2023.05",
+                            "detailInfo": "硕士研究生就读于卡内基梅隆大学，计算机工程专业。",
+                            "imageURL": "https://i.loli.net/2021/05/05/PcBw3p2ejfD7nXq.jpg"
+                        },
                         {
                             "title": "密苏里大学 - 哥伦比亚分校",
                             "info": "2018.08 - 2019.06",
@@ -145,6 +151,12 @@
                 {
                     "labelText": "Education",
                     "descriptionList": [
+                        {
+                            "title": "Carnegie Mellon University",
+                            "info": "2021.02 - 2023.05",
+                            "detailInfo": "Master's Degree, Electrical and Computer Engineering.",
+                            "imageURL": "https://i.loli.net/2021/05/05/PcBw3p2ejfD7nXq.jpg"
+                        },
                         {
                             "title": "University of Missouri - Columbia",
                             "info": "2018.08 - 2019.06",

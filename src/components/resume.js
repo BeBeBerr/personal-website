@@ -65,7 +65,7 @@ class TimeLineGraph extends React.Component {
             axisFormat  %y-%m
 
             section Education
-            Undergrad: done, 2015-09 , 2019-06
+            Undergraduate: done, 2015-09 , 2019-06
             
             section University
             HUST : 2015-09, 2018-08
@@ -87,6 +87,12 @@ class TimeLineGraph extends React.Component {
             title TIMELINE - Continue
             dateFormat  YYYY-MM
             axisFormat  %y-%m
+
+            section Education
+            Postgraduate: done, 2021-02, 2023-05
+            
+            section University
+            CMU : 2021-02, 2023-05
 
             section Work
             ByteDance: 2019-07, 2020-12
