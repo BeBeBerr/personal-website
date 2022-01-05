@@ -5,7 +5,7 @@ import '../styles/statistics.css';
 class ContributionGraph extends React.Component {
 
     componentDidMount() {
-        fetch('http://api.wangluyuan.cc/statistics/github').then(response => response.json()).then((json) => {
+        fetch('https://api.luyuan.wang/statistics/github').then(response => response.json()).then((json) => {
             this.build3DScene(json.data);
         });
     }

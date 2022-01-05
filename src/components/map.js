@@ -17,8 +17,8 @@ class VisitorMap extends React.Component {
 
         worldMap.showLoading();
         chinaMap.showLoading();
-        fetch('http://api.wangluyuan.cc/visit/result').then(response => response.json()).then((visitor_records) => {
-            fetch('http://share.luyuan.wang/geojson/world-map.json').then(response => response.json()).then((data) => {
+        fetch('https://api.luyuan.wang/visit/result').then(response => response.json()).then((visitor_records) => {
+            fetch('https://share.luyuan.wang/geojson/world-map.json').then(response => response.json()).then((data) => {
 
                 var option = {
                     backgroundColor: '#404a59',
@@ -107,7 +107,7 @@ class VisitorMap extends React.Component {
                 worldMap.setOption(option);
             });
 
-            fetch('http://share.luyuan.wang/geojson/china.json').then(response => response.json()).then((data) => {
+            fetch('https://share.luyuan.wang/geojson/china.json').then(response => response.json()).then((data) => {
 
                 var option = {
                     backgroundColor: '#404a59',

@@ -53,7 +53,7 @@ class ContactList extends React.Component {
 
     componentDidMount() {
         let token = this.props.token;
-        fetch("http://api.luyuan.wang/contact/info?token=" + token).then((resp) => resp.json()).then((json) => {
+        fetch("https://api.luyuan.wang/contact/info?token=" + token).then((resp) => resp.json()).then((json) => {
             this.setState({
                 data: json.data,
                 status: json.status
