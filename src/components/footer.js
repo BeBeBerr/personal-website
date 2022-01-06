@@ -6,8 +6,8 @@ class Footer extends React.Component {
         return(
             <div className="footer">
                 <span className="footer-text">www.wangluyuan.cc</span>
-                <span className="footer-text">© 2021 Luyuan Wang</span>
-                <a href="http://www.beian.miit.gov.cn" className="footer-link-gov">京ICP备17051145号</a>
+                <span className="footer-text">© 2022 Luyuan Wang</span>
+                <a href="http://beian.miit.gov.cn" className="footer-link-gov">京ICP备17051145号</a>
             </div>
         )
     }
