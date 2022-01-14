@@ -97,15 +97,19 @@
     background-color: #fc464a;
 }
 
-.timesheet.white .data li .bubble-lorem {
+.timesheet.white .data li .bubble-research {
+    background-color: #fc464a;
+}
+
+.timesheet.white .data li .bubble-edu {
     background-color: #9aca27;
 }
 
-.timesheet.white .data li .bubble-ipsum {
+.timesheet.white .data li .bubble-work {
     background-color: #3cb6e3;
 }
 
-.timesheet.white .data li .bubble-dolor {
+.timesheet.white .data li .bubble-activity {
     background-color: #f4cf30;
 }
 

@@ -60,9 +60,15 @@
                         },
                         {
                             "title": "清华大学 - 助研",
-                            "info": "2020.12 - 今",
+                            "info": "2020.12 - 2021.08",
                             "detailInfo": "在可视化与图形学研究室任助研。",
                             "imageURL": " https://i.loli.net/2020/12/08/n36Leq89B4zftiF.png"
+                        },
+                        {
+                            "title": "卡内基梅隆大学 - 助研",
+                            "info": "2021.10 - 今",
+                            "detailInfo": "Biorobotics Lab",
+                            "imageURL": "https://s2.loli.net/2022/01/14/PHS14mijNVRepbA.png"
                         }
                     ]
                 },
@@ -193,9 +199,15 @@
                         },
                         {
                             "title": "VIS Lab - Research Assistant",
-                            "info": "2020.12 - Present",
-                            "detailInfo": "I'm currently working at the Visualization and Graphics Laboratory, Tsinghua University, as a research assistant.",
+                            "info": "2020.12 - 2021.08",
+                            "detailInfo": "I worked at the Visualization and Graphics Laboratory, Tsinghua University, as a research assistant.",
                             "imageURL": " https://i.loli.net/2020/12/08/n36Leq89B4zftiF.png"
+                        },
+                        {
+                            "title": "Biorobotics Lab - Research Assistant",
+                            "info": "2021.10 - Present",
+                            "detailInfo": "Currently working on ARPA-E CMU Mapping project.",
+                            "imageURL": "https://s2.loli.net/2022/01/14/PHS14mijNVRepbA.png"
                         }
                     ]
                 },

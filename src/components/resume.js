@@ -47,14 +47,15 @@ class TimeLineGraph extends React.Component {
     // }
     render() {
         var data = [
-            ['09/2015', '06/2019', 'HUST', 'lorem'],
-            ['08/2018', '06/2019', 'Mizzou', 'lorem'],
-            ['06/2018', '08/2018', 'Tencent Internship', 'lorem'],
-            ['07/2019', '12/2020', 'ByteDance', 'lorem'],
-            ['03/2017', '08/2018', 'Bingyan Studio', 'lorem'],
-            ['02/2019', '06/2019', 'Mizzou VPC Lab', 'lorem'],
-            ['12/2020', '06/2021', 'Tsinghua VIS Lab', 'lorem'],
-            ['02/2021', '05/2023', 'Carnegie Mellon', 'lorem'],
+            ['09/2015', '06/2019', 'HUST', 'edu'],
+            ['03/2017', '08/2018', 'Bingyan Studio', 'activity'],
+            ['06/2018', '08/2018', 'Tencent Internship', 'work'],
+            ['08/2018', '05/2019', 'Mizzou', 'edu'],
+            ['02/2019', '05/2019', 'Mizzou VPC Lab', 'research'],
+            ['07/2019', '12/2020', 'ByteDance', 'work'],
+            ['12/2020', '08/2021', 'Tsinghua VIS Lab', 'research'],
+            ['02/2021', '05/2023', 'Carnegie Mellon', 'edu'],
+            ['10/2021', '05/2023', 'CMU Biorobotics Lab', 'research'],
         ]
         return (
             <div>
