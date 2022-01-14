@@ -210,7 +210,7 @@ class TimeSheet extends React.Component {
         }
 
         var lists = this.getLists(data, year);
-        var className = "timesheet" + " " + (this.props.theme || '');
+        var className = "timesheet " + (this.props.theme || '');
 
         return (
             <div className={className}>
