@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     transition: 0.5s;
+    z-index: 100;
 }
 
 .navbar-switch-language {

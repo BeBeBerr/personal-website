@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/resume.css';
+import TimeSheet from '../third-party/timesheet';
 
 class Resume extends React.Component {
     render() {
@@ -41,75 +42,23 @@ class Resume extends React.Component {
 }
 
 class TimeLineGraph extends React.Component {
-    componentDidMount() {
-        var graph = document.getElementById("timeline");
-        var graph2 = document.getElementById("timeline2");
-        var config = {
-            startOnLoad: true,
-            theme: 'neutral',
-            securityLevel: 'loose',
-        };
-
-        const script = document.createElement('script');
-        script.src = "https://cdn.bootcdn.net/ajax/libs/mermaid/8.8.2/mermaid.min.js";
-        script.id = "mermaid-script";
-        document.body.appendChild(script);
-
-        script.onload = () => {
-            const mermaid = window.mermaid;
-            mermaid.initialize(config);
-            var graphDefinition = `gantt
-            todayMarker off
-            title TIMELINE
-            dateFormat  YYYY-MM
-            axisFormat  %y-%m
-
-            section Education
-            Undergraduate: done, 2015-09 , 2019-06
-            
-            section University
-            HUST : 2015-09, 2018-08
-            Mizzou: 2018-08, 2019-06
-
-            section Work
-            Tencent: 2018-06, 2018-08
-            ByteDance: 2019-07, 2019-12
-
-            section Others
-            Bingyan Studio: 2017-03, 2018-08
-            VPC Lab: 2019-02, 2019-06
-            `;
-            mermaid.render("graph", graphDefinition, function(svgCode) {
-                graph.innerHTML = svgCode;
-            });
-
-            var graphDefinition2 = `gantt
-            title TIMELINE - Continue
-            dateFormat  YYYY-MM
-            axisFormat  %y-%m
-
-            section Education
-            Postgraduate: done, 2021-02, 2023-05
-            
-            section University
-            CMU : 2021-02, 2023-05
-
-            section Work
-            ByteDance: 2019-07, 2020-12
-
-            section Others
-            VIS Lab: 2020-12, 2021-06
-            `;
-            mermaid.render("graph2", graphDefinition2, function(svgCode) {
-                graph2.innerHTML = svgCode;
-            });
-        };
-    }
+    // componentDidMount() {
+        
+    // }
     render() {
+        var data = [
+            ['09/2015', '06/2019', 'HUST', 'lorem'],
+            ['08/2018', '06/2019', 'Mizzou', 'lorem'],
+            ['06/2018', '08/2018', 'Tencent Internship', 'lorem'],
+            ['07/2019', '12/2020', 'ByteDance', 'lorem'],
+            ['03/2017', '08/2018', 'Bingyan Studio', 'lorem'],
+            ['02/2019', '06/2019', 'Mizzou VPC Lab', 'lorem'],
+            ['12/2020', '06/2021', 'Tsinghua VIS Lab', 'lorem'],
+            ['02/2021', '05/2023', 'Carnegie Mellon', 'lorem'],
+        ]
         return (
             <div>
-                <div id="timeline" className="timeline-graph"></div>
-                <div id="timeline2" className="timeline-graph"></div>
+                <TimeSheet data={data} theme={"white"} className="timeline-graph"/>
             </div>
         );
     }
