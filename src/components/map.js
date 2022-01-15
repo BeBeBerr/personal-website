@@ -1,208 +1,61 @@
 import React from 'react';
 import '../styles/map.css';
+import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import 'mapbox-gl/dist/mapbox-gl.css';
+
+mapboxgl.accessToken = "pk.eyJ1IjoiYmViZWJlcnIiLCJhIjoiY2t5Znp0eHl5MDkzeTJ2cW5jb2VrajdnYSJ9.IPe3dtWlbTSqiJYOmkHKag";
 
 class VisitorMap extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            lat: 180.3949,
+            long: 36.7639,
+            zoom: 2
+        };
+        this.mapContainer = React.createRef();
+    }
+
+    getColor(count) {
+        if (count >= 50) return "#ff3757;";
+        if (count >= 30) return "#ff715a;";
+        if (count >= 10) return "#ffa974;";
+        return "#64c4ed;";
+    }
 
     componentDidMount() {
-        var echarts = require('echarts/lib/echarts');
-        require('echarts/lib/chart/map');
-        require("echarts/lib/chart/scatter");
-        require("echarts/lib/component/geo");
-        require("echarts/lib/component/title");
-        require("echarts/lib/component/visualMap");
-        require("echarts/lib/component/toolbox");
+        const {lat, long, zoom} = this.state;
+        const map = new mapboxgl.Map({
+            container: this.mapContainer.current,
+            style: 'mapbox://styles/mapbox/dark-v10',
+            center: [lat, long],
+            attributionControl: false,
+            zoom: zoom
+        });
 
-        var worldMap = echarts.init(document.getElementById('global-map'));
-        var chinaMap = echarts.init(document.getElementById('china-map'));
-
-        worldMap.showLoading();
-        chinaMap.showLoading();
         fetch('https://api.luyuan.wang/visit/result').then(response => response.json()).then((visitor_records) => {
-            fetch('https://share.luyuan.wang/geojson/world-map.json').then(response => response.json()).then((data) => {
-
-                var option = {
-                    backgroundColor: '#404a59',
-                    title: {
-                        text: 'Visitor Map',
-                        left: 'right',
-                        textStyle: {
-                            color: '#fff'
-                        }
-                    },
-                    tooltip: {
-                        trigger: 'item'
-                    },
-                    toolbox: {
-                        show: true,
-                        orient: 'vertical',
-                        left: 'left',
-                        top: 'top',
-                        feature: {
-                            restore: {},
-                            saveAsImage: {}
-                        }
-                    },
-                    visualMap: {
-                        min: 0,
-                        max: 50,
-                        maxOpen: true,
-                        splitNumber: 5,
-                        color: ['#d94e5d','#eac736','#50a3ba'],
-                        textStyle: {
-                            color: '#fff'
-                        }
-                    },
-                    geo: {
-                        map: 'world-map',
-                        label: {
-                            emphasis: {
-                                show: false
-                            }
-                        },
-                        itemStyle: {
-                            normal: {
-                                areaColor: '#323c48',
-                                borderColor: '#111'
-                            },
-                            emphasis: {
-                                areaColor: '#2a333d'
-                            }
-                        },
-                        roam: true,
-                        scaleLimit: { //滚轮缩放的极限控制
-                            min: 1,
-                            max: 4
-                        },
-                        zoom: 1,
-                    },
-                    series: [
-                        {
-                            name: 'Count',
-                            type: 'scatter',
-                            coordinateSystem: 'geo',
-                            symbolSize: 12,
-                            label: {
-                                normal: {
-                                    show: false
-                                },
-                                emphasis: {
-                                    show: false
-                                },
-                            },
-                            itemStyle: {
-                                emphasis: {
-                                    borderColor: '#fff',
-                                    borderWidth: 1
-                                }
-                            },
-                        }
-                    ]
-                };
-            
-                worldMap.hideLoading();
-                echarts.registerMap('world-map', data);
-            
-                option.series[0].data = visitor_records.data;
-                option.title.text = "Visitor Map - World";
-                worldMap.setOption(option);
+            var data_list = visitor_records.data;
+            // draw higher count markers last -- to avoid blocking
+            data_list.sort((e1, e2) => {
+                return e1[2] - e2[2];
             });
-
-            fetch('https://share.luyuan.wang/geojson/china.json').then(response => response.json()).then((data) => {
-
-                var option = {
-                    backgroundColor: '#404a59',
-                    title: {
-                        text: 'Visitor Map',
-                        left: 'right',
-                        textStyle: {
-                            color: '#fff'
-                        }
-                    },
-                    tooltip: {
-                        trigger: 'item'
-                    },
-                    toolbox: {
-                        show: true,
-                        orient: 'vertical',
-                        left: 'left',
-                        top: 'top',
-                        feature: {
-                            restore: {},
-                            saveAsImage: {}
-                        }
-                    },
-                    visualMap: {
-                        min: 0,
-                        max: 50,
-                        maxOpen: true,
-                        splitNumber: 5,
-                        color: ['#d94e5d','#eac736','#50a3ba'],
-                        textStyle: {
-                            color: '#fff'
-                        }
-                    },
-                    geo: {
-                        map: 'china-map',
-                        label: {
-                            emphasis: {
-                                show: false
-                            }
-                        },
-                        itemStyle: {
-                            normal: {
-                                areaColor: '#323c48',
-                                borderColor: '#111'
-                            },
-                            emphasis: {
-                                areaColor: '#2a333d'
-                            }
-                        },
-                        roam: true,
-                        scaleLimit: { //滚轮缩放的极限控制
-                            min: 1,
-                            max: 4
-                        },
-                        zoom: 1,
-                    },
-                    series: [
-                        {
-                            name: 'Count',
-                            type: 'scatter',
-                            coordinateSystem: 'geo',
-                            symbolSize: 12,
-                            label: {
-                                normal: {
-                                    show: false
-                                },
-                                emphasis: {
-                                    show: false
-                                }
-                            },
-                            itemStyle: {
-                                emphasis: {
-                                    borderColor: '#fff',
-                                    borderWidth: 1
-                                }
-                            },
-                        }
-                    ]
-                };
-
-                chinaMap.hideLoading();
-                echarts.registerMap('china-map', data);
-            
-                option.series[0].data = visitor_records.data;
-                option.title.text = "Visitor Map - China";
-                chinaMap.setOption(option);
+            console.log(data_list);
+            data_list.forEach(each => {
+                const ele = document.createElement('div');
+                ele.className = 'marker';
+                ele.setAttribute("style", "background-color: " + this.getColor(each[2]));
+                // eslint-disable-next-line
+                const marker = new mapboxgl.Marker(ele)
+                    .setLngLat([each[0], each[1]])
+                    .addTo(map);
             });
         });
-        
+
     }
     render() {
-        return(
-            <div className="wrapper">
-                <div id="global-map" className="map-world"></div>
-                <div id="china-map" className="map-world"></div>
+        return (
+            <div className="map-div">
+                <div ref={this.mapContainer} className="map-container" />
             </div>
         );
     }
