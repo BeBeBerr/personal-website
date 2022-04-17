@@ -1,5 +1,6 @@
 // Ref: https://github.com/yuanyan/react-timesheet
 import React from 'react';
+import { FaceColors } from 'three';
 import './timesheet.css';
 
 /**
@@ -184,7 +185,7 @@ class TimeSheet extends React.Component {
             var half_year = year.min + (year.max - year.min) / 2;
             if (cur.start.getFullYear() > half_year) {
                 line = [
-                    <span className="info-left" style={left_style}>
+                    <span className="info-left" style={left_style} key="span-info">
                         <span className="label" key="line-label">{label}</span>
                         <span className="date" key="line-date">{date}</span>
                     </span>,
@@ -212,10 +213,30 @@ class TimeSheet extends React.Component {
         var lists = this.getLists(data, year);
         var className = "timesheet " + (this.props.theme || '');
 
+        // calculate number of months between min and current date
+        var indicatorOffset = -1
+        if (this.state) {
+            var minDate = new Date()
+            minDate.setFullYear(year.min, 0, 0)
+            var currentDate = new Date()
+            var diffMonths = currentDate.getMonth() - minDate.getMonth() + 12 * (currentDate.getFullYear() - minDate.getFullYear())
+            if (diffMonths >= 0) {
+                indicatorOffset = this.state.widthMonth * diffMonths / 12
+            }
+
+            if (currentDate.getFullYear() > year.max) {
+                indicatorOffset = -1;
+            }
+        }
+        var indicatorVisibility = indicatorOffset < 0 ? "hidden" : "visible"
+        
+
         return (
             <div className={className}>
                 <div className="scale">
+                    <div className="indicator" style={{left: indicatorOffset + 'px', visibility: indicatorVisibility}}></div>
                     {sections}
+                    
                 </div>
                 <ul className="data">
                     {lists}

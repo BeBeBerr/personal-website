@@ -1,10 +1,10 @@
 {
     "about": {
         "cn": {
-            "text": "我叫王路远，是一名在CMU学习计算机工程的研究生。本科的时候，我的专业更偏重于硬件，但我更加喜欢软件编程。\n受到专业和兴趣的共同影响，我对计算机工程的方方面面都很感兴趣，也接触过其中的许多领域。我还在不断地学习，以求对这个世界理解得更深入些。\n但我并不想变成一个“技术宅”。我喜欢看电影，和朋友出去玩儿，以及各种各样的体育运动。游泳、射箭、滑雪、羽毛球……谈不上对这些运动有多么精通，只是为了开心而已。\n毕竟，做人最重要的就是开心！"
+            "text": "我叫王路远，卡内基梅隆大学电子与计算机工程专业在读研究生。我的研究兴趣包括软件工程、计算机视觉、SLAM 以及机器学习。\n业余时间，我喜欢打羽毛球、滑雪、爬山等运动。我喜欢和朋友出去玩但是很社恐。"
         },
         "i18n": {
-            "text": "Hello! My name is Luyuan Wang. I'm a MSECE student at CMU, Pittsburgh. Though my undergraduate program concentrated on hardware, I found great interests in software programming.\nInfluenced by both my major and my interests, I have a great passion for almost every aspects of Computer Engineering. I will keep learning to have a better understanding of our complicated, yet fascinating world.\nDuring my spare time, I enjoy watching movies, hanging out with my friends, and doing all kinds of sports games. Swimming, archery, skiing, badminton... I can't say I'm good at these sports. I doing them just for fun.\nBecause the true meaning of life is living with fun and joy!"
+            "text": "My name is Luyuan Wang, and I'm pursuing a Master's degree in Electrical and Computer Engineering at Carnegie Mellon University. My research interests include Software Engineering, Computer Vision, SLAM, and Machine Learning. \nI like playing badminton, snowboarding, hiking, and many other sports. I enjoy hanging out with my friends, but I also have a social phobia."
         }
     },
     "resume": {

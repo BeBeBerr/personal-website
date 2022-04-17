@@ -20,6 +20,15 @@
     
 }
 
+.indicator {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 1px;
+    height: 100%;
+    border-left: rgba(255, 0, 0, 0.4) solid 2px;
+}
+
 .timesheet.white .scale section {
     float: left;
     /* width: 100px; */
