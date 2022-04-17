@@ -1,6 +1,5 @@
 // Ref: https://github.com/yuanyan/react-timesheet
 import React from 'react';
-import { FaceColors } from 'three';
 import './timesheet.css';
 
 /**
