@@ -53,10 +53,10 @@
                     "labelText": "科研",
                     "descriptionList": [
                         {
-                            "title": "密苏里大学 - 助研",
-                            "info": "2019.02 - 2019.06",
-                            "detailInfo": "在 Video Processing and Communication Lab 任助研。负责开发一个用于探索智能道路可行性的原型系统。",
-                            "imageURL": "https://i.loli.net/2020/10/08/gDk56f3HicwxPKN.jpg"
+                            "title": "卡内基梅隆大学 - 助研",
+                            "info": "2021.10 - 今",
+                            "detailInfo": "Biorobotics Lab",
+                            "imageURL": "https://s2.loli.net/2022/01/14/PHS14mijNVRepbA.png"
                         },
                         {
                             "title": "清华大学 - 助研",
@@ -65,10 +65,10 @@
                             "imageURL": " https://i.loli.net/2020/12/08/n36Leq89B4zftiF.png"
                         },
                         {
-                            "title": "卡内基梅隆大学 - 助研",
-                            "info": "2021.10 - 今",
-                            "detailInfo": "Biorobotics Lab",
-                            "imageURL": "https://s2.loli.net/2022/01/14/PHS14mijNVRepbA.png"
+                            "title": "密苏里大学 - 助研",
+                            "info": "2019.02 - 2019.06",
+                            "detailInfo": "在 Video Processing and Communication Lab 任助研。负责开发一个用于探索智能道路可行性的原型系统。",
+                            "imageURL": "https://i.loli.net/2020/10/08/gDk56f3HicwxPKN.jpg"
                         }
                     ]
                 },
@@ -178,40 +178,6 @@
                     ]
                 },
                 {
-                    "labelText": "Student Activities",
-                    "descriptionList": [
-                        {
-                            "title": "Bingyan Studio",
-                            "info": "2017.03 - 2019.06",
-                            "detailInfo": "Bingyan Studio (www.bingyan.net) is one of the most influential student technical team at HUST. I was the leader of the iOS group, mainly in charge of recruitment & interviews,  technical training & sharing, and lead the team to develop iOS Apps.",
-                            "imageURL": "https://i.loli.net/2020/10/07/4lbNdoGmXzLJPAI.jpg"
-                        }
-                    ]
-                },
-                {
-                    "labelText": "Research",
-                    "descriptionList": [
-                        {
-                            "title": "VPC Lab - Research Assistant",
-                            "info": "2019.02 - 2019.06",
-                            "detailInfo": "I worked at the Video Processing and Communication Lab, University of Missouri, as an undergraduate research assistant. My job was to develop a prototype in order to explore the feasibility of vision-guided autonomous driving. I designed and developed the entire software system and a part of the hardware system.",
-                            "imageURL": "https://i.loli.net/2020/10/08/gDk56f3HicwxPKN.jpg"
-                        },
-                        {
-                            "title": "VIS Lab - Research Assistant",
-                            "info": "2020.12 - 2021.08",
-                            "detailInfo": "I worked at the Visualization and Graphics Laboratory, Tsinghua University, as a research assistant.",
-                            "imageURL": " https://i.loli.net/2020/12/08/n36Leq89B4zftiF.png"
-                        },
-                        {
-                            "title": "Biorobotics Lab - Research Assistant",
-                            "info": "2021.10 - Present",
-                            "detailInfo": "Currently working on ARPA-E CMU Mapping project.",
-                            "imageURL": "https://s2.loli.net/2022/01/14/PHS14mijNVRepbA.png"
-                        }
-                    ]
-                },
-                {
                     "labelText": "Work Experience",
                     "descriptionList": [
                         {
@@ -225,6 +191,40 @@
                             "info": "2018.06 - 2018.08",
                             "detailInfo": "Tencent is one of the biggest and most well-known internet company in China. My position was software R&D intern.",
                             "imageURL": "https://i.loli.net/2020/10/07/9E24wiLcuZaUX65.png"
+                        }
+                    ]
+                },
+                {
+                    "labelText": "Research",
+                    "descriptionList": [
+                        {
+                            "title": "Biorobotics Lab - Research Assistant",
+                            "info": "2021.10 - Present",
+                            "detailInfo": "Currently working on ARPA-E CMU Mapping project.",
+                            "imageURL": "https://s2.loli.net/2022/01/14/PHS14mijNVRepbA.png"
+                        },
+                        {
+                            "title": "VIS Lab - Research Assistant",
+                            "info": "2020.12 - 2021.08",
+                            "detailInfo": "I worked at the Visualization and Graphics Laboratory, Tsinghua University, as a research assistant.",
+                            "imageURL": " https://i.loli.net/2020/12/08/n36Leq89B4zftiF.png"
+                        },
+                        {
+                            "title": "VPC Lab - Research Assistant",
+                            "info": "2019.02 - 2019.06",
+                            "detailInfo": "I worked at the Video Processing and Communication Lab, University of Missouri, as an undergraduate research assistant. My job was to develop a prototype in order to explore the feasibility of vision-guided autonomous driving. I designed and developed the entire software system and a part of the hardware system.",
+                            "imageURL": "https://i.loli.net/2020/10/08/gDk56f3HicwxPKN.jpg"
+                        }             
+                    ]
+                },
+                {
+                    "labelText": "Student Activities",
+                    "descriptionList": [
+                        {
+                            "title": "Bingyan Studio",
+                            "info": "2017.03 - 2019.06",
+                            "detailInfo": "Bingyan Studio (www.bingyan.net) is one of the most influential student technical team at HUST. I was the leader of the iOS group, mainly in charge of recruitment & interviews,  technical training & sharing, and lead the team to develop iOS Apps.",
+                            "imageURL": "https://i.loli.net/2020/10/07/4lbNdoGmXzLJPAI.jpg"
                         }
                     ]
                 },
