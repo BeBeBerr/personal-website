@@ -56,6 +56,7 @@ class TimeLineGraph extends React.Component {
             ['12/2020', '08/2021', 'Tsinghua VIS Lab', 'research'],
             ['02/2021', '05/2023', 'Carnegie Mellon', 'edu'],
             ['10/2021', '05/2023', 'CMU Biorobotics Lab', 'research'],
+            ['05/2022', '08/2022', 'Apple', 'work']
         ]
         return (
             <div>

@@ -76,6 +76,12 @@
                     "labelText": "工作",
                     "descriptionList": [
                         {
+                            "title": "Apple",
+                            "info": "2022.05 - 2022.08",
+                            "detailInfo": "Software Engineering Intern at ACS",
+                            "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
+                        },
+                        {
                             "title": "字节跳动",
                             "info": "2019.07 - 2020.12",
                             "detailInfo": "互娱（IES）研发部，iOS 开发工程师。",
@@ -181,13 +187,19 @@
                     "labelText": "Work Experience",
                     "descriptionList": [
                         {
-                            "title": "ByteDance - Software Engineer",
+                            "title": "Apple",
+                            "info": "2022.05 - 2022.08",
+                            "detailInfo": "Software Engineering Intern at ACS",
+                            "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
+                        },
+                        {
+                            "title": "ByteDance",
                             "info": "2019.07 - 2020.12",
                             "detailInfo": "I joined ByteDance since July 2019. I took part in new feature development, bug fixing, and code refactoring for Douyin (Huoshan version) and Vigo Video.",
                             "imageURL": "https://i.loli.net/2020/10/07/BI7FmuWa3xVifSp.png"
                         },
                         {
-                            "title": "Tencent - Software Engineer Intern",
+                            "title": "Tencent",
                             "info": "2018.06 - 2018.08",
                             "detailInfo": "Tencent is one of the biggest and most well-known internet company in China. My position was software R&D intern.",
                             "imageURL": "https://i.loli.net/2020/10/07/9E24wiLcuZaUX65.png"
