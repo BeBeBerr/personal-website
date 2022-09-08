@@ -44,5 +44,5 @@ class ResumeButton extends React.Component {
 export default About;
 
 
-var resumeLinkChinese = "http://www.wangluyuan.cc/resume.pdf";
-var resumeLinkEnglish = "http://www.wangluyuan.cc/resume_en.pdf"
+var resumeLinkChinese = "https://share.luyuan.wang/resume.pdf";
+var resumeLinkEnglish = "https://share.luyuan.wang/resume_cn.pdf"
