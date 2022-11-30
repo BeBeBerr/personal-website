@@ -31,7 +31,9 @@ class AppComponent extends React.Component {
             });
 		});
 		
-		fetch("https://api.luyuan.wang/visit/record");
+		fetch("https://api.luyuan.wang/visit/record").catch((error) => {
+			//
+		});
 	}
 
 	scrollToAbout() {

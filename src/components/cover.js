@@ -1,4 +1,5 @@
 import React from 'react'
+import waves from 'vanta/dist/vanta.waves.min'
 import '../styles/cover.css'
 
 class Cover extends React.Component {
@@ -6,6 +7,7 @@ class Cover extends React.Component {
     constructor(props) {
         super(props);
         this.onClickNextBtn = this.onClickNextBtn.bind(this);
+        this.vantaRef = React.createRef();
     }
 
     onClickNextBtn() {
@@ -19,9 +21,23 @@ class Cover extends React.Component {
         this.props.scrollToNextPage();
     }
 
+    componentDidMount() {
+        this.vantaEffect = waves({
+            el: this.vantaRef.current,
+            color: 0x73255,
+            shininess: 57.00
+        });
+    }
+
+    componentWillUnmount() {
+        if (this.vantaEffect) {
+            this.vantaEffect.destroy();
+        }
+    }
+
     render() {
         return(
-            <div className="cover">
+            <div className="cover" ref={this.vantaRef}>
                 <div className="cover-main">
                     <h1 className="title">I'm Luyuan Wang.</h1>
                     <p className="intro">Sometimes You Win, Sometimes You Learn.</p>
