@@ -71,7 +71,7 @@ class VisitorMap extends React.Component {
                     </div>
                     <div className="legend-item">
                         <div className='marker' style={{backgroundColor: this.getColor(1)}}></div>
-                        <span> &lt; 10</span>
+                        <span> &gt; 0</span>
                     </div>
                 </div>
             </div>
