@@ -17,17 +17,17 @@ class VisitorMap extends React.Component {
     }
 
     getColor(count) {
-        if (count >= 50) return "#ff3757;";
-        if (count >= 30) return "#ff715a;";
-        if (count >= 10) return "#ffa974;";
-        return "#64c4ed;";
+        if (count >= 50) return "#ff3757";
+        if (count >= 30) return "#ff715a";
+        if (count >= 10) return "#ffa974";
+        return "#64c4ed";
     }
 
     componentDidMount() {
         const {lat, long, zoom} = this.state;
         const map = new mapboxgl.Map({
             container: this.mapContainer.current,
-            style: 'mapbox://styles/mapbox/dark-v10',
+            style: 'mapbox://styles/bebeberr/clccwruan000114p9wc087o71',
             center: [lat, long],
             attributionControl: false,
             zoom: zoom
@@ -43,7 +43,7 @@ class VisitorMap extends React.Component {
             data_list.forEach(each => {
                 const ele = document.createElement('div');
                 ele.className = 'marker';
-                ele.setAttribute("style", "background-color: " + this.getColor(each[2]));
+                ele.setAttribute("style", "background-color: " + this.getColor(each[2]) + ";");
                 // eslint-disable-next-line
                 const marker = new mapboxgl.Marker(ele)
                     .setLngLat([each[0], each[1]])
@@ -56,6 +56,24 @@ class VisitorMap extends React.Component {
         return (
             <div className="map-div">
                 <div ref={this.mapContainer} className="map-container" />
+                <div className="legend">
+                    <div className="legend-item">
+                        <div className='marker' style={{backgroundColor: this.getColor(50)}}></div>
+                        <span> &gt; 50</span>
+                    </div>
+                    <div className="legend-item">
+                        <div className='marker' style={{backgroundColor: this.getColor(30)}}></div>
+                        <span> &gt; 30</span>
+                    </div>
+                    <div className="legend-item">
+                        <div className='marker' style={{backgroundColor: this.getColor(10)}}></div>
+                        <span> &gt; 10</span>
+                    </div>
+                    <div className="legend-item">
+                        <div className='marker' style={{backgroundColor: this.getColor(1)}}></div>
+                        <span> &lt; 10</span>
+                    </div>
+                </div>
             </div>
         );
     }
