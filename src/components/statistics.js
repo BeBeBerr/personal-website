@@ -13,6 +13,7 @@ class ContributionGraph extends React.Component {
     build3DScene(data) {
         const canvas = document.getElementById("contribution-graph");
         const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+        renderer.setPixelRatio(window.devicePixelRatio);
         renderer.setClearColor(0xffffff);
 
         const fov = 75;
