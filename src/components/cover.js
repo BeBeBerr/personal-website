@@ -59,7 +59,7 @@ class IconButtonListView extends React.Component {
                 <IconButton iconName="fa fa-github" title="GitHub" url="https://github.com/BeBeBerr"/>
                 <IconButton iconName="fa fa-linkedin-square" title="LinkedIn" url="https://www.linkedin.com/in/luyuanwang/"/>
                 <IconButton iconName="fa fa-link" title="My Blog" url="http://blog.wangluyuan.cc"/>
-                <IconButton iconName="fa fa-weibo" title="Sina Weibo" url="http://weibo.com/BeBeBerr"/>
+                <IconButton iconName="fa fa-google" title="Google Scholar" url="https://scholar.google.com/citations?hl=en&user=s3bdNA8AAAAJ"/>
                 <IconButton iconName="fa fa-envelope" title="E-mail" url="mailto:mail@luyuan.wang"/>
             </div>
         )

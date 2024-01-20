@@ -77,6 +77,18 @@
                     "descriptionList": [
                         {
                             "title": "Apple",
+                            "info": "2023.10 - Present",
+                            "detailInfo": "Software Engineer at AIML",
+                            "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
+                        },
+                        {
+                            "title": "AIM Intelligent Machines",
+                            "info": "2023.07 - 2023.09",
+                            "detailInfo": "Machine Learning Engineer",
+                            "imageURL": "https://s2.loli.net/2024/01/20/4MJeFr5qLmhECdp.jpg"
+                        },
+                        {
+                            "title": "Apple",
                             "info": "2022.05 - 2022.08",
                             "detailInfo": "Software Engineering Intern at ACS",
                             "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
@@ -186,6 +198,18 @@
                 {
                     "labelText": "Work Experience",
                     "descriptionList": [
+                        {
+                            "title": "Apple",
+                            "info": "2023.10 - Present",
+                            "detailInfo": "Software Engineer at AIML",
+                            "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
+                        },
+                        {
+                            "title": "AIM Intelligent Machines",
+                            "info": "2023.07 - 2023.09",
+                            "detailInfo": "Machine Learning Engineer",
+                            "imageURL": "https://s2.loli.net/2024/01/20/4MJeFr5qLmhECdp.jpg"
+                        },
                         {
                             "title": "Apple",
                             "info": "2022.05 - 2022.08",
