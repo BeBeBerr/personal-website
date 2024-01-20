@@ -42,4 +42,5 @@ jobs:
         username: ${{ secrets.username }}
         password: ${{ secrets.password }}
         recursive: true
+        tryKeyboard: true
       
