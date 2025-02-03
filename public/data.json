@@ -1,10 +1,10 @@
 {
     "about": {
         "cn": {
-            "text": "我叫王路远，卡内基梅隆大学电子与计算机工程专业在读研究生。我的研究兴趣包括软件工程、计算机视觉、SLAM 以及机器学习。\n业余时间，我喜欢打羽毛球、滑雪、爬山等运动。我喜欢和朋友出去玩但是很社恐。"
+            "text": "我叫王路远，我是一名软件工程师。我的研究兴趣包括软件工程、计算机视觉、机器人学，以及大语言模型的应用。\n业余时间，我喜欢打羽毛球、滑雪、爬山等运动。作为一个 INTJ，我喜欢和朋友出去玩但同时也很社恐。"
         },
         "i18n": {
-            "text": "My name is Luyuan Wang, and I'm pursuing a Master's degree in Electrical and Computer Engineering at Carnegie Mellon University. My research interests include Software Engineering, Computer Vision, SLAM, and Machine Learning. \nI like playing badminton, snowboarding, hiking, and many other sports. I enjoy hanging out with my friends, but I also have a social phobia."
+            "text": "My name is Wang Luyuan, and I am a software engineer. My research interests include software engineering, computer vision, robotics, and applications of large language models.\nIn my free time, I enjoy playing badminton, skiing, and hiking. As an INTJ, I like hanging out with friends, but at the same time, I can be quite socially anxious."
         }
     },
     "resume": {
@@ -16,19 +16,19 @@
                         {
                             "title": "卡内基·梅隆大学",
                             "info": "2021.02 - 2023.05",
-                            "detailInfo": "硕士研究生就读于卡内基梅隆大学，计算机工程专业。",
+                            "detailInfo": "硕士研究生就读于卡内基梅隆大学，电子与计算机工程专业。",
                             "imageURL": "https://i.loli.net/2021/05/05/PcBw3p2ejfD7nXq.jpg"
                         },
                         {
                             "title": "密苏里大学 - 哥伦比亚分校",
                             "info": "2018.08 - 2019.06",
-                            "detailInfo": "大四在密苏里大学参加校级交流项目，就读于 EECS 学院。主修课程：机器人、嵌入式计算、机器学习、云计算等。GPA 3.88。",
+                            "detailInfo": "大四在密苏里大学参加校级交流项目，就读于 EECS 学院。主修课程：机器人、嵌入式计算、机器学习、云计算等。",
                             "imageURL": "https://i.loli.net/2020/10/07/BS5zWUthe8JrcaP.png"
                         },
                         {
                             "title": "华中科技大学",
                             "info": "2015.09 - 2019.06",
-                            "detailInfo": "本科毕业于华中科技大学，电子信息与通信学院，通信工程专业。主修课程：通信原理、数字信号处理、通信电子线路、电磁场与电磁波、微波技术、模拟电路与数字系统等。GPA 3.6。",
+                            "detailInfo": "本科毕业于华中科技大学，电子信息与通信学院，通信工程专业。主修课程：通信原理、数字信号处理、通信电子线路、电磁场与电磁波、微波技术、模拟电路与数字系统等。",
                             "imageURL": "https://i.loli.net/2020/10/07/YB2ElRO3Mju4zh9.png"
                         },
                         {
@@ -54,7 +54,7 @@
                     "descriptionList": [
                         {
                             "title": "卡内基梅隆大学 - 助研",
-                            "info": "2021.10 - 今",
+                            "info": "2021.10 - 2023.05",
                             "detailInfo": "Biorobotics Lab",
                             "imageURL": "https://s2.loli.net/2022/01/14/PHS14mijNVRepbA.png"
                         },
@@ -77,15 +77,15 @@
                     "descriptionList": [
                         {
                             "title": "Apple",
-                            "info": "2023.10 - Present",
-                            "detailInfo": "Software Engineer at AIML",
+                            "info": "2023.10 - 今",
+                            "detailInfo": "Software Engineer, AI/ML",
                             "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
                         },
                         {
                             "title": "AIM Intelligent Machines",
                             "info": "2023.07 - 2023.09",
-                            "detailInfo": "Machine Learning Engineer",
-                            "imageURL": "https://s2.loli.net/2024/01/20/4MJeFr5qLmhECdp.jpg"
+                            "detailInfo": "Sofware / Machine Learning Engineer",
+                            "imageURL": "https://s2.loli.net/2025/02/03/HJ3AqzfaoPpFgd4.png"
                         },
                         {
                             "title": "Apple",
@@ -201,14 +201,14 @@
                         {
                             "title": "Apple",
                             "info": "2023.10 - Present",
-                            "detailInfo": "Software Engineer at AIML",
+                            "detailInfo": "Software Engineer, AI/ML",
                             "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
                         },
                         {
                             "title": "AIM Intelligent Machines",
                             "info": "2023.07 - 2023.09",
-                            "detailInfo": "Machine Learning Engineer",
-                            "imageURL": "https://s2.loli.net/2024/01/20/4MJeFr5qLmhECdp.jpg"
+                            "detailInfo": "Sofware / Machine Learning Engineer",
+                            "imageURL": "https://s2.loli.net/2025/02/03/HJ3AqzfaoPpFgd4.png"
                         },
                         {
                             "title": "Apple",
