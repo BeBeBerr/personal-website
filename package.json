@@ -1,34 +1,24 @@
 {
   "name": "personal-website",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
-    "mapbox-gl": "^2.11.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-redux": "^5.0.7",
-    "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "2.x.x",
-    "react-scroll-to-component": "^1.0.2",
-    "redux": "^4.0.0",
-    "three": "^0.118.1",
-    "vanta": "^0.5.24"
+    "lucide-react": "^0.525.0",
+    "mapbox-gl": "^3.15.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/three": "^0.103.2",
-    "redux-devtools": "^3.4.1"
+    "@vitejs/plugin-react": "^5.1.0",
+    "vite": "^7.2.0"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "engines": {
+    "node": ">=20.19.0"
+  }
 }

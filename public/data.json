@@ -1,365 +1,1937 @@
 {
-    "about": {
-        "cn": {
-            "text": "我叫王路远，我是一名软件工程师。我的研究兴趣包括软件工程、计算机视觉、机器人学，以及大语言模型的应用。\n业余时间，我喜欢打羽毛球、滑雪、爬山等运动。作为一个 INTJ，我喜欢和朋友出去玩但同时也很社恐。"
-        },
-        "i18n": {
-            "text": "My name is Wang Luyuan, and I am a software engineer. My research interests include software engineering, computer vision, robotics, and applications of large language models.\nIn my free time, I enjoy playing badminton, skiing, and hiking. As an INTJ, I like hanging out with friends, but at the same time, I can be quite socially anxious."
+  "site": {
+    "title": {
+      "en": "Luyuan Wang | Software Engineer",
+      "zh": "王路远 | 软件工程师"
+    },
+    "defaultLocale": "en",
+    "supportedLocales": [
+      "en",
+      "zh"
+    ]
+  },
+  "ui": {
+    "languageToggle": {
+      "en": "中文",
+      "zh": "English"
+    }
+  },
+  "navigation": [
+    {
+      "id": "home",
+      "label": {
+        "en": "Home",
+        "zh": "首页"
+      }
+    },
+    {
+      "id": "about",
+      "label": {
+        "en": "About",
+        "zh": "关于我"
+      }
+    },
+    {
+      "id": "timeline",
+      "label": {
+        "en": "Timeline",
+        "zh": "时间线"
+      }
+    },
+    {
+      "id": "contact",
+      "label": {
+        "en": "Contact",
+        "zh": "联系"
+      }
+    }
+  ],
+  "socialLinks": [
+    {
+      "id": "github",
+      "icon": "github",
+      "label": {
+        "en": "GitHub",
+        "zh": "GitHub"
+      },
+      "href": "https://github.com/BeBeBerr",
+      "external": true
+    },
+    {
+      "id": "linkedin",
+      "icon": "linkedin",
+      "label": {
+        "en": "LinkedIn",
+        "zh": "LinkedIn"
+      },
+      "href": "https://www.linkedin.com/in/luyuanwang/",
+      "external": true
+    },
+    {
+      "id": "blog",
+      "icon": "blog",
+      "label": {
+        "en": "Blog",
+        "zh": "博客"
+      },
+      "href": "https://blog.luyuan.wang",
+      "external": true
+    },
+    {
+      "id": "scholar",
+      "icon": "scholar",
+      "label": {
+        "en": "Google Scholar",
+        "zh": "Google Scholar"
+      },
+      "href": "https://scholar.google.com/citations?hl=en&user=s3bdNA8AAAAJ",
+      "external": true
+    },
+    {
+      "id": "email",
+      "icon": "email",
+      "label": {
+        "en": "Email",
+        "zh": "邮箱"
+      },
+      "href": "mailto:mail@luyuan.wang",
+      "external": false
+    }
+  ],
+  "hero": {
+    "eyebrow": {
+      "en": "Software engineer with a research backbone and product instincts.",
+      "zh": "兼具科研背景与产品思维的软件工程师。"
+    },
+    "lead": {
+      "en": "I'm",
+      "zh": "我是"
+    },
+    "name": {
+      "en": "Luyuan Wang",
+      "zh": "王路远"
+    },
+    "roleLead": {
+      "en": "focused on",
+      "zh": "专注于"
+    },
+    "roleFocus": {
+      "en": "AI, robotics, and\ndurable software.",
+      "zh": "AI、机器人&\n可靠的软件系统"
+    },
+    "intro": [
+      {
+        "en": "My work spans software engineering, computer vision, robotics, and practical applications of large language models. I care about products that feel thoughtful on the surface and solid underneath.",
+        "zh": "我的工作横跨软件工程、计算机视觉、机器人，以及大语言模型的实际应用。我在意的不只是功能本身，也在意产品表层体验与底层工程是否同样扎实。"
+      },
+      {
+        "en": "Outside work, I recharge through badminton, skiing, hiking, and side projects that keep my curiosity sharp.",
+        "zh": "工作之外，我会通过打羽毛球、滑雪、爬山，以及做一些小型 side project 来保持好奇心与能量。"
+      }
+    ],
+    "chips": [
+      {
+        "id": "chip-1",
+        "tone": "pink",
+        "label": {
+          "en": "AI/ML Engineer",
+          "zh": "AI/ML 工程师"
         }
+      },
+      {
+        "id": "chip-2",
+        "tone": "blue",
+        "label": {
+          "en": "Computer Vision",
+          "zh": "计算机视觉"
+        }
+      },
+      {
+        "id": "chip-3",
+        "tone": "mint",
+        "label": {
+          "en": "Robotics",
+          "zh": "机器人"
+        }
+      },
+      {
+        "id": "chip-4",
+        "tone": "gold",
+        "label": {
+          "en": "Product-minded Builder",
+          "zh": "具备产品思维的构建者"
+        }
+      }
+    ],
+    "primaryCta": {
+      "label": {
+        "en": "Explore my timeline",
+        "zh": "查看我的时间线"
+      },
+      "href": "#timeline"
+    },
+    "secondaryCta": {
+      "label": {
+        "en": "Download resume",
+        "zh": "下载简历"
+      },
+      "href": {
+        "en": "https://share.luyuan.wang/resume.pdf",
+        "zh": "https://share.luyuan.wang/resume_cn.pdf"
+      }
+    },
+    "portrait": {
+      "src": "/icon.jpg",
+      "alt": {
+        "en": "Illustrated portrait of Luyuan Wang",
+        "zh": "王路远的插画头像"
+      }
+    },
+    "status": {
+      "en": "Machine Learning Engineer at Meta",
+      "zh": "Meta 机器学习工程师"
+    },
+    "visitorCta": {
+      "label": {
+        "en": "Visitor map",
+        "zh": "访客地图"
+      },
+      "href": "/visitor/"
+    }
+  },
+  "about": {
+    "eyebrow": {
+      "en": "Profile",
+      "zh": "个人简介"
+    },
+    "title": {
+      "en": "A clean overview of how I work.",
+      "zh": "用更清晰的方式介绍我如何工作。"
+    },
+    "description": {
+      "en": "I hope this message provides a better understanding of who I am.",
+      "zh": "希望这段文字能让你更了解我。"
+    },
+    "paragraphs": [
+      {
+        "en": "My name is Wang Luyuan, and I am a software engineer. My interests include software engineering, computer vision, robotics, and applications of large language models.",
+        "zh": "我叫王路远，是一名软件工程师。我的兴趣方向包括软件工程、计算机视觉、机器人，以及大语言模型的应用。"
+      },
+      {
+        "en": "I enjoy building systems that bridge research and real-world product constraints. I like shipping polished interfaces, but I am equally motivated by debugging, refactoring, and making a system easier to trust.",
+        "zh": "我喜欢做那些能把科研思路与真实产品约束连接起来的系统。我喜欢打磨界面，也同样享受调试、重构，以及让系统更值得信任的过程。"
+      },
+      {
+        "en": "In my free time, I enjoy badminton, skiing, hiking, and spending time with friends. As an INTJ, I can be outgoing with people I know well, while still being naturally reserved.",
+        "zh": "业余时间我喜欢打羽毛球、滑雪、爬山，也喜欢和朋友出去玩。作为一个 INTJ，我会在熟悉的人面前很放松，但本质上依然偏内向。"
+      }
+    ],
+    "focusCards": [
+      {
+        "id": "focus-1",
+        "tone": "pink",
+        "title": {
+          "en": "Engineering rigor",
+          "zh": "工程 rigor"
+        },
+        "description": {
+          "en": "I value maintainability, clarity, and refactors that reduce long-term friction.",
+          "zh": "我重视可维护性、清晰度，以及真正能降低长期成本的重构。"
+        }
+      },
+      {
+        "id": "focus-2",
+        "tone": "blue",
+        "title": {
+          "en": "Research literacy",
+          "zh": "科研素养"
+        },
+        "description": {
+          "en": "I am comfortable moving from papers and prototypes into production-minded implementation.",
+          "zh": "我能把论文和原型里的思路，落到更贴近生产环境的实现里。"
+        }
+      },
+      {
+        "id": "focus-3",
+        "tone": "mint",
+        "title": {
+          "en": "Product empathy",
+          "zh": "产品共情"
+        },
+        "description": {
+          "en": "I think about user trust, interaction details, and how technical choices shape the experience.",
+          "zh": "我会考虑用户信任、交互细节，以及技术选型如何影响最终体验。"
+        }
+      },
+      {
+        "id": "focus-4",
+        "tone": "gold",
+        "title": {
+          "en": "Curiosity outside work",
+          "zh": "工作之外的好奇心"
+        },
+        "description": {
+          "en": "Badminton, skiing, hiking, and side projects keep my learning loop alive.",
+          "zh": "羽毛球、滑雪、爬山与 side project 一直在帮我保持学习的节奏。"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "title": {
+      "en": "Contact details",
+      "zh": "联系方式"
+    },
+    "description": {
+      "en": "Find the main ways to reach me and the public links I keep active.",
+      "zh": "这里整理了最常用的联系方式和公开链接。"
+    },
+    "sidebarDescription": {
+      "en": "Email is the fastest way to reach me. You can also find me on GitHub, LinkedIn, and my blog.",
+      "zh": "邮件是联系我最快的方式，也可以通过 GitHub、LinkedIn 和博客找到我。"
+    },
+    "cardDescription": {
+      "en": "If you have something interesting to build, research, or discuss, feel free to reach out.",
+      "zh": "如果你有想合作、交流或一起推进的事情，欢迎直接联系我。"
+    },
+    "email": "mail@luyuan.wang",
+    "primaryCta": {
+      "en": "Send an email",
+      "zh": "发送邮件"
     },
     "resume": {
-        "cn": {
-            "data": [
-                {
-                    "labelText": "教育",
-                    "descriptionList": [
-                        {
-                            "title": "卡内基·梅隆大学",
-                            "info": "2021.02 - 2023.05",
-                            "detailInfo": "硕士研究生就读于卡内基梅隆大学，电子与计算机工程专业。",
-                            "imageURL": "https://i.loli.net/2021/05/05/PcBw3p2ejfD7nXq.jpg"
-                        },
-                        {
-                            "title": "密苏里大学 - 哥伦比亚分校",
-                            "info": "2018.08 - 2019.06",
-                            "detailInfo": "大四在密苏里大学参加校级交流项目，就读于 EECS 学院。主修课程：机器人、嵌入式计算、机器学习、云计算等。",
-                            "imageURL": "https://i.loli.net/2020/10/07/BS5zWUthe8JrcaP.png"
-                        },
-                        {
-                            "title": "华中科技大学",
-                            "info": "2015.09 - 2019.06",
-                            "detailInfo": "本科毕业于华中科技大学，电子信息与通信学院，通信工程专业。主修课程：通信原理、数字信号处理、通信电子线路、电磁场与电磁波、微波技术、模拟电路与数字系统等。",
-                            "imageURL": "https://i.loli.net/2020/10/07/YB2ElRO3Mju4zh9.png"
-                        },
-                        {
-                            "title": "北京一零一中学",
-                            "info": "2012.09 - 2015.06",
-                            "detailInfo": "高中毕业于北京一零一中学。"
-                        }
-                    ]
-                },
-                {
-                    "labelText": "学生活动",
-                    "descriptionList": [
-                        {
-                            "title": "冰岩作坊",
-                            "info": "2017.03 - 2018.08",
-                            "detailInfo": "冰岩作坊（www.bingyan.net）是华中科技大学最具影响力的互联网技术团队之一。我在冰岩作坊期间任 iOS 组组长。",
-                            "imageURL": "https://i.loli.net/2020/10/07/4lbNdoGmXzLJPAI.jpg"
-                        }
-                    ]
-                },
-                {
-                    "labelText": "科研",
-                    "descriptionList": [
-                        {
-                            "title": "卡内基梅隆大学 - 助研",
-                            "info": "2021.10 - 2023.05",
-                            "detailInfo": "Biorobotics Lab",
-                            "imageURL": "https://s2.loli.net/2022/01/14/PHS14mijNVRepbA.png"
-                        },
-                        {
-                            "title": "清华大学 - 助研",
-                            "info": "2020.12 - 2021.08",
-                            "detailInfo": "在可视化与图形学研究室任助研。",
-                            "imageURL": " https://i.loli.net/2020/12/08/n36Leq89B4zftiF.png"
-                        },
-                        {
-                            "title": "密苏里大学 - 助研",
-                            "info": "2019.02 - 2019.06",
-                            "detailInfo": "在 Video Processing and Communication Lab 任助研。负责开发一个用于探索智能道路可行性的原型系统。",
-                            "imageURL": "https://i.loli.net/2020/10/08/gDk56f3HicwxPKN.jpg"
-                        }
-                    ]
-                },
-                {
-                    "labelText": "工作",
-                    "descriptionList": [
-                        {
-                            "title": "Apple",
-                            "info": "2023.10 - 今",
-                            "detailInfo": "Software Engineer, AI/ML",
-                            "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
-                        },
-                        {
-                            "title": "AIM Intelligent Machines",
-                            "info": "2023.07 - 2023.09",
-                            "detailInfo": "Sofware / Machine Learning Engineer",
-                            "imageURL": "https://s2.loli.net/2025/02/03/HJ3AqzfaoPpFgd4.png"
-                        },
-                        {
-                            "title": "Apple",
-                            "info": "2022.05 - 2022.08",
-                            "detailInfo": "Software Engineering Intern at ACS",
-                            "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
-                        },
-                        {
-                            "title": "字节跳动",
-                            "info": "2019.07 - 2020.12",
-                            "detailInfo": "互娱（IES）研发部，iOS 开发工程师。",
-                            "imageURL": "https://i.loli.net/2020/10/07/BI7FmuWa3xVifSp.png"
-                        },
-                        {
-                            "title": "腾讯",
-                            "info": "2018.06 - 2018.08",
-                            "detailInfo": "原腾讯社交网络事业群（SNG）移动客户端开发实习生。",
-                            "imageURL": "https://i.loli.net/2020/10/07/9E24wiLcuZaUX65.png"
-                        }
-                    ]
-                },
-                {
-                    "labelText": "项目经验",
-                    "descriptionList": [
-                        {
-                            "title": "重医助手",
-                            "info": "2017.06 - 2017.08",
-                            "detailInfo": "“重医助手”是一个独立项目，我一人负责从产品到运营的完整流程。“重医助手”是一款课表类应用，方便重庆医科大学的学生查看课程表、查询成绩。通过爬取重医教务系统获取数据，并存入本地数据库。曾上架 AppStore，下载量 3000+。"
-                        },
-                        {
-                            "title": "背它",
-                            "info": "2017.12 - 2018.01",
-                            "detailInfo": "“背它”是冰岩作坊的团队项目，我独立负责 iOS 端开发。“背它”是一款小众工具类应用，具有图片记背、文字记背等功能。在项目推广期间，我还负责编写了“背它 Lite”小程序，用于临时的推广活动。已上架 AppStore，下载量 5800+。"
-                        },
-                        {
-                            "title": "蛛网",
-                            "info": "2018.03 - 2018.05",
-                            "detailInfo": "“蛛网”是冰岩作坊的团队项目，我独立负责 iOS 端开发。“蛛网”是一款内部应用，可以通过日历的形式查看团队活动事项，并编辑参与者。通过 TestFlight 分发。"
-                        }
-                    ],
-                    "jumpURL": "/projects"
-                },
-                {
-                    "labelText": "奖项与荣誉",
-                    "descriptionList": [
-                        {
-                            "title": "最佳冰岩人",
-                            "info": "2017",
-                            "detailInfo": "“最佳冰岩人”是冰岩作坊内部最高荣誉。"
-                        },
-                        {
-                            "title": "雏鹰计划 铜奖",
-                            "info": "2018.06",
-                            "detailInfo": "雏鹰计划是原腾讯 SNG 事业群面向实习生举办的小型比赛。我们组实现了一款通过深度学习识别司机情绪，进而提高行车安全性的 App。"
-                        },
-                        {
-                            "title": "中兴捧月杯软件开发大赛 二等奖",
-                            "info": "2017",
-                            "detailInfo": "实现了一款拍照自动识别车牌号的 App，目的是方便学校保卫处处理违规停车行为。团队共 2 人，我负责 iOS 端开发，另一人负责服务器端开发。此项目同时获得“武汉大学移动应用设计大赛”二等奖。"
-                        },
-                        {
-                            "title": "种子杯编程大赛 优胜奖",
-                            "info": "2017",
-                            "detailInfo": "通过机器学习技术，预测 NBA 比赛结果。"
-                        }
-                    ]
-                },
-                {
-                    "labelText": "技术栈",
-                    "descriptionList": [
-                        {
-                            "title": "编程语言",
-                            "info": "",
-                            "detailInfo": "熟悉：Swift/C/Objective-C\n了解: Java/C++/Python/Matlab/JavaScript/SQL\n接触过：Dart/Lua/ASM/Verilog/Bash"
-                        },
-                        {
-                            "title": "技术、技能及框架",
-                            "info": "",
-                            "detailInfo": "熟悉：iOS 应用开发\n了解：Web 前端（React）/Web 后端（Django）/嵌入式系统（Arduino，Raspberry-Pi，嵌入式 Linux）/机器人（ROS，V-REP）/图像处理/人工智能（ML，CI） \n接触过：Flutter/MySQL/Android/微信小程序"
-                        }
-                    ]
-                }
-            ]
-        },
-        "i18n": {
-            "data": [
-                {
-                    "labelText": "Education",
-                    "descriptionList": [
-                        {
-                            "title": "Carnegie Mellon University",
-                            "info": "2021.02 - 2023.05",
-                            "detailInfo": "Master's Degree, Electrical and Computer Engineering.",
-                            "imageURL": "https://i.loli.net/2021/05/05/PcBw3p2ejfD7nXq.jpg"
-                        },
-                        {
-                            "title": "University of Missouri - Columbia",
-                            "info": "2018.08 - 2019.06",
-                            "detailInfo": "I spent my last undergraduate year at University of Missouri - Columbia, as an exchange student. I took 8 courses, and 4 of them were chosen as graduate level. Those courses include Building Intelligent Robots, Machine Learning, Real-time Embedded Computing and so on. My overall GPA was 3.88.",
-                            "imageURL": "https://i.loli.net/2020/10/07/BS5zWUthe8JrcaP.png"
-                        },
-                        {
-                            "title": "Huazhong University of Science and Technology",
-                            "info": "2015.09 - 2019.06",
-                            "detailInfo": "I got my bachelor's degree at Huazhong University of Science and Technology (HUST), Wuhan, China. My major was Telecommunication Engineering. The main courses include Information Theory, Digital Signal Processing, Analog Circuits and Digital Systems, Computer Networks, Electromagnetic Filed and Electromagnetic Waves, and so on. My overall GPA at HUST was 3.6.",
-                            "imageURL": "https://i.loli.net/2020/10/07/YB2ElRO3Mju4zh9.png"
-                        }
-                    ]
-                },
-                {
-                    "labelText": "Work Experience",
-                    "descriptionList": [
-                        {
-                            "title": "Apple",
-                            "info": "2023.10 - Present",
-                            "detailInfo": "Software Engineer, AI/ML",
-                            "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
-                        },
-                        {
-                            "title": "AIM Intelligent Machines",
-                            "info": "2023.07 - 2023.09",
-                            "detailInfo": "Sofware / Machine Learning Engineer",
-                            "imageURL": "https://s2.loli.net/2025/02/03/HJ3AqzfaoPpFgd4.png"
-                        },
-                        {
-                            "title": "Apple",
-                            "info": "2022.05 - 2022.08",
-                            "detailInfo": "Software Engineering Intern at ACS",
-                            "imageURL": "https://s2.loli.net/2022/06/01/sBMYuikr2nUzTCQ.png"
-                        },
-                        {
-                            "title": "ByteDance",
-                            "info": "2019.07 - 2020.12",
-                            "detailInfo": "I joined ByteDance since July 2019. I took part in new feature development, bug fixing, and code refactoring for Douyin (Huoshan version) and Vigo Video.",
-                            "imageURL": "https://i.loli.net/2020/10/07/BI7FmuWa3xVifSp.png"
-                        },
-                        {
-                            "title": "Tencent",
-                            "info": "2018.06 - 2018.08",
-                            "detailInfo": "Tencent is one of the biggest and most well-known internet company in China. My position was software R&D intern.",
-                            "imageURL": "https://i.loli.net/2020/10/07/9E24wiLcuZaUX65.png"
-                        }
-                    ]
-                },
-                {
-                    "labelText": "Research",
-                    "descriptionList": [
-                        {
-                            "title": "Biorobotics Lab - Research Assistant",
-                            "info": "2021.10 - Present",
-                            "detailInfo": "Currently working on ARPA-E CMU Mapping project.",
-                            "imageURL": "https://s2.loli.net/2022/01/14/PHS14mijNVRepbA.png"
-                        },
-                        {
-                            "title": "VIS Lab - Research Assistant",
-                            "info": "2020.12 - 2021.08",
-                            "detailInfo": "I worked at the Visualization and Graphics Laboratory, Tsinghua University, as a research assistant.",
-                            "imageURL": " https://i.loli.net/2020/12/08/n36Leq89B4zftiF.png"
-                        },
-                        {
-                            "title": "VPC Lab - Research Assistant",
-                            "info": "2019.02 - 2019.06",
-                            "detailInfo": "I worked at the Video Processing and Communication Lab, University of Missouri, as an undergraduate research assistant. My job was to develop a prototype in order to explore the feasibility of vision-guided autonomous driving. I designed and developed the entire software system and a part of the hardware system.",
-                            "imageURL": "https://i.loli.net/2020/10/08/gDk56f3HicwxPKN.jpg"
-                        }             
-                    ]
-                },
-                {
-                    "labelText": "Student Activities",
-                    "descriptionList": [
-                        {
-                            "title": "Bingyan Studio",
-                            "info": "2017.03 - 2019.06",
-                            "detailInfo": "Bingyan Studio (www.bingyan.net) is one of the most influential student technical team at HUST. I was the leader of the iOS group, mainly in charge of recruitment & interviews,  technical training & sharing, and lead the team to develop iOS Apps.",
-                            "imageURL": "https://i.loli.net/2020/10/07/4lbNdoGmXzLJPAI.jpg"
-                        }
-                    ]
-                },
-                {
-                    "labelText": "Projects",
-                    "descriptionList": [
-                        {
-                            "title": "CQMU Schedule",
-                            "info": "2017.06 - 2017.08",
-                            "detailInfo": "CQMU Schedule is a mobile App that developed for students at ChongQing Medical University. After getting the access permission from the student, this App can automatically log in to the university's teaching management website and download course schedule, scores of each exam, and many other useful information. All this information is stored in a local database and can be present in a clear and handy way. As everything happens right within the App, there is no risk of password leaking or other privacy issues. As it is much easier to use than the original official website, I got tens of thanks letters, and I'm super proud of that."
-                        },
-                        {
-                            "title": "Fuzzy Navigation System for Mobile Robots",
-                            "info": "2018.11 - 2018.12",
-                            "detailInfo": "This is a navigation system that can guide a mobile robot moving to the desired destination without hitting into obstacles. To test the system, we first build a simple simulation environment using Python. The simulator can allow us to put different shapes of obstacles and tell the robot the readings of its virtual sensors. Then, we use Fuzzy Logic to teach the robot some basic fuzzy rules, for example, \"If the obstacle is close to the left, then turn right for a little bit\". The outputs of the fuzzy engine are defuzzified and used to drive the robot."
-                        }
-                    ],
-                    "jumpURL": "/projects"
-                },
-                {
-                    "labelText": "Technology Stack",
-                    "descriptionList": [
-                        {
-                            "title": "Programming Languages",
-                            "info": "",
-                            "detailInfo": "Proficient in：Swift / Java / C / C++ / Objective-C\nFamiliar with: Python / Matlab / JavaScript / SQL ..."
-                        },
-                        {
-                            "title": "Technologies",
-                            "info": "",
-                            "detailInfo": "Proficient in: Mobile App Development\nFamiliar with: Web Front-end Design / Web Back-end Design / Robotics / Embedded Systems / Computer Vision / Machine Learning / Signal Processing / Communication Systems..."
-                        }
-                    ]
-                }
-            ]
-        }
+      "label": {
+        "en": "Resume PDF",
+        "zh": "简历 PDF"
+      },
+      "href": {
+        "en": "https://share.luyuan.wang/resume.pdf",
+        "zh": "https://share.luyuan.wang/resume_cn.pdf"
+      }
     },
-    "project": {
-        "data": [
-            {
-                "title": "Smart Road System",
-                "imageSrc": "images/smart_road_0.jpg",
-                "detail": "This project is an early prototype of a smart road system. There are 4 cameras that cover the whole lab. Each camera is connected to a computer. Using image processing, I can precisely detect the position of the front point and the end point of a car in the image frame. As the cameras are calibrated, those positions can be converted into the world frame. Thus the 3D position and orientation of a given car can be calculated.\nTo control the mini-car through the Wi-Fi network, we replace the built-in remote controller with Raspberry-Pi. PWM waves are generated and control the servo motor and the DC motor. The 4 computers share information through the Ethernet network, and each of them has a separate Wi-Fi network card and acts as a small base station. To make the mini-car able to roam across different base stations, the network card on the mini-car works in a connectionless way.\nThe lane-keeping controller is a PID controller. Given the position and status of a mini-car, we can calculate a virtual target position. As the car is moving, the virtual target is also moving. So, the car can run along the lane stably.\nWe use ROS as our inter-computers communication framework. As all the information is transmitting through ROS, we use Rviz to visualize the status of the system, which is pretty helpful for debugging.\nI designed and implemented the entire software system, as well as part of the hardware system."
-            },
-            {
-                "title": "A Hand Gesture Recognizer based on Machine Learning",
-                "imageSrc": "images/gesture_ml.jpg",
-                "detail": "We use HOG, LBP and skin color as the key features. To get a better performance, PCA is used to reduce the dimension. \nIn order to detect the position of the hand, we use 3 different sizes of sliding windows to scan the image. Then, a heat-map is generated and the \"hottest\" location is most likely represent hand.\nThe sub-image is then fed into the next classifier to classify gestures. 5 different gestures can be recognized, including open-hand, thumb-up, and so on. As you can see, the gesture recognizer is able to tell both the position and the gesture class in a relatively complicated image.\nInstead of download training sets from the Internet, we collect hundreds of images by ourselves."
-            },
-            {
-                "title": "LLVM Loop Optimization Comparison",
-                "imageSrc": "images/loop_opt.png",
-                "detail": "In this project, I wrote 4 simple C programs, and use Clang with LLVM to compile them with different options. The generated LLVM IR code before and after optimization are compared. The gem5 simulator is used to analyze the time consumption and the cache miss rate. Finally, these optimization techniques are applied to Polybench to make comparisons."
-            },
-            {
-                "title": "Tip-over Prevention for Mobile Robots",
-                "imageSrc": "images/tipover.jpg",
-                "detail": "By controlling the heavy manipulator installed on the mobile robot, the Center of Gravity (CoG) can be adjusted. Thus, the stability of the robot can be improved. In this project, I implemented an algorithm to read the IMU sensors and calculate the ideal pose of the robot. The algorithm is tested and verified with V-REP simulator. The simulating code is written in Lua, and the controller program is implemented in Matlab."
-            },
-            {
-                "title": "Course Project of Building Intelligent Robot",
-                "imageSrc": "images/arm_robot.jpg",
-                "detail": "There are 3 PUMA robots and 1 mobile robot. The binocular camera system can detect the position of black cylinders, and guide the PUMA robot arm to pick up and place them on the mobile robot. The mobile robot can localize itself by recognizing AR markers, and navigate to the next position. It can also use infrared sensors to detect and avoid obstacles. All these robots communicate with each other through ROS."
-            },
-            {
-                "title": "Club Management System",
-                "imageSrc": "images/club_web.jpg",
-                "detail": "The system has multiple functions including project, budget, and team members managements. The front-end is implemented with React.js, and the back-end is realized with Django. The database is MySQL."
-            },
-            {
-                "title": "Coroutine Scheduler",
-                "imageSrc": "images/co_scheduler.jpg",
-                "detail": "Implemented a coroutine library and its scheduler in C. In order to control the registers while a function is being called, the Assembly language is also used. Each coroutine task has the ability to call blocking functions, such as 'sleep' without freezing the whole system. The outputs from each task are transferred to a named pipe to display in another terminal. This project is originally designed for Linux. Then, after fixed a byte alignment problem, it can also run on macOS, as macOS has additional constraints."
-            },
-            {
-                "title": "Robotic Goalkeeper",
-                "imageSrc": "images/car_ball.jpg",
-                "detail": "Used a camera to detect the rolling tennis ball and predict its track. After the cross point is calculated, commands will be sent to the car-like robot to catch the ball through Bluetooth. The core controller is designed with GUI to visualize the system status."
-            },
-            {
-                "title": "Beita App",
-                "imageSrc": "images/beta.jpg",
-                "detail": "An app that can help students memorize course materials easier. You can either copy and paste your documents, or use the camera to scan it. This app support user-friendly gesture operations, so selecting the important paragraphs is really easy."
-            },
-            {
-                "title": "Cobweb App",
-                "imageSrc": "images/zhuwang.jpg",
-                "detail": "An internal team management tool for Bingyan Studio."
-            },
-            {
-                "title": "A Wireless Communication System with Pluto SDR",
-                "imageSrc": "images/pluto.jpg",
-                "detail": "Used Pluto SDR to implement a simple wireless communication system. Realized two communication protocols to support reliable communication: stop-and-wait & sliding window. This system can transmit texts or arbitrary files."
-            },
-            {
-                "title": "Ultrasonic Somatosensory Game",
-                "imageSrc": "images/vga_game.jpg",
-                "detail": "By changing the distance with your hand and the sensor, players can control the distance between the two read squares. Your job is preventing those squares from hitting the blue bars. The higher scores you got, the faster the bars move. We used a FPGA board (with a IP Core installed) to read the ultrasonic sensor and control the VGA display."
-            }
-        ]
+    "channels": [
+      {
+        "id": "channel-1",
+        "label": {
+          "en": "Email",
+          "zh": "邮箱"
+        },
+        "value": "mail@luyuan.wang"
+      },
+      {
+        "id": "channel-2",
+        "label": {
+          "en": "GitHub",
+          "zh": "GitHub"
+        },
+        "value": "github.com/BeBeBerr"
+      },
+      {
+        "id": "channel-3",
+        "label": {
+          "en": "Blog",
+          "zh": "博客"
+        },
+        "value": "blog.luyuan.wang"
+      },
+      {
+        "id": "channel-4",
+        "label": {
+          "en": "LinkedIn",
+          "zh": "LinkedIn"
+        },
+        "value": "linkedin.com/in/luyuanwang"
+      }
+    ],
+    "eyebrow": {
+      "en": "Contact",
+      "zh": "联系"
+    },
+    "sectionTitle": {
+      "en": "Let’s connect",
+      "zh": "欢迎联系"
     }
+  },
+  "timeline": {
+    "eyebrow": {
+      "en": "Career timeline",
+      "zh": "经历时间线"
+    },
+    "title": {
+      "en": "Selected milestones across industry, research, and school.",
+      "zh": "按时间梳理的重要阶段。"
+    },
+    "description": {
+      "en": "A concise view of the roles, labs, and schools that shaped how I build.",
+      "zh": "用更简洁的方式展示塑造我做事方法的工作、科研和求学经历。"
+    },
+    "items": [
+      {
+        "type": "education",
+        "period": {
+          "en": "2015.09 - 2019.06",
+          "zh": "2015.09 - 2019.06"
+        },
+        "role": {
+          "en": "Bachelor of Telecommunication Engineering",
+          "zh": "通信工程本科"
+        },
+        "org": {
+          "en": "Huazhong University of Science and Technology",
+          "zh": "华中科技大学"
+        },
+        "logo": {
+          "src": "/images/logos/hust.png",
+          "alt": {
+            "en": "Huazhong University of Science and Technology logo",
+            "zh": "华中科技大学校徽"
+          }
+        },
+        "description": {
+          "en": "Built a foundation across information theory, digital signal processing, computer networks, and engineering systems.",
+          "zh": "系统学习了信息论、数字信号处理、计算机网络等课程，打下了扎实的工程基础。"
+        }
+      },
+      {
+        "type": "activity",
+        "period": {
+          "en": "2017.03 - 2019.06",
+          "zh": "2017.03 - 2019.06"
+        },
+        "role": {
+          "en": "iOS Team Leader",
+          "zh": "iOS 组长"
+        },
+        "org": {
+          "en": "Bingyan Studio",
+          "zh": "冰岩作坊"
+        },
+        "logo": {
+          "src": "/images/logos/bingyan.png",
+          "alt": {
+            "en": "Bingyan Studio logo",
+            "zh": "冰岩作坊 logo"
+          }
+        },
+        "description": {
+          "en": "Led recruitment, technical sharing, and delivery for one of the most influential student technical communities at HUST.",
+          "zh": "在华科最具影响力的学生技术团队之一负责招新、技术分享与 iOS 项目推进。"
+        }
+      },
+      {
+        "type": "work",
+        "period": {
+          "en": "2018.06 - 2018.08",
+          "zh": "2018.06 - 2018.08"
+        },
+        "role": {
+          "en": "Software R&D Intern",
+          "zh": "移动客户端开发实习生"
+        },
+        "org": {
+          "en": "Tencent",
+          "zh": "腾讯"
+        },
+        "logo": {
+          "src": "/images/logos/tencent.png",
+          "alt": {
+            "en": "Tencent logo",
+            "zh": "腾讯标志"
+          }
+        },
+        "description": {
+          "en": "Joined Tencent SNG as an intern and worked on mobile client development in a large-scale consumer internet environment.",
+          "zh": "在腾讯 SNG 实习，参与移动客户端开发，第一次接触大规模互联网产品的工程协作方式。"
+        }
+      },
+      {
+        "type": "education",
+        "period": {
+          "en": "2018.08 - 2019.06",
+          "zh": "2018.08 - 2019.06"
+        },
+        "role": {
+          "en": "Exchange Student, EECS",
+          "zh": "EECS 国际交流生"
+        },
+        "org": {
+          "en": "University of Missouri - Columbia",
+          "zh": "密苏里大学哥伦比亚分校"
+        },
+        "logo": {
+          "src": "/images/logos/missouri.png",
+          "alt": {
+            "en": "University of Missouri logo",
+            "zh": "密苏里大学校徽"
+          }
+        },
+        "description": {
+          "en": "Studied robotics, machine learning, real-time embedded computing, and cloud systems during my final undergraduate year.",
+          "zh": "在大四赴美交流，学习机器人、机器学习、实时嵌入式计算与云计算等课程。"
+        }
+      },
+      {
+        "type": "research",
+        "period": {
+          "en": "2019.02 - 2019.06",
+          "zh": "2019.02 - 2019.06"
+        },
+        "role": {
+          "en": "Undergraduate Research Assistant",
+          "zh": "本科助研"
+        },
+        "org": {
+          "en": "Video Processing and Communication Lab",
+          "zh": "密苏里大学 VPC Lab"
+        },
+        "logo": {
+          "src": "/images/logos/missouri.png",
+          "alt": {
+            "en": "University of Missouri logo",
+            "zh": "密苏里大学校徽"
+          }
+        },
+        "description": {
+          "en": "Developed a prototype for a vision-guided autonomous driving setup and designed much of the software system end to end.",
+          "zh": "在视觉引导自动驾驶原型项目中负责系统级设计与开发，覆盖软件主体与部分硬件方案。"
+        }
+      },
+      {
+        "type": "work",
+        "period": {
+          "en": "2019.07 - 2020.12",
+          "zh": "2019.07 - 2020.12"
+        },
+        "role": {
+          "en": "Software Engineer",
+          "zh": "iOS 软件开发工程师"
+        },
+        "org": {
+          "en": "ByteDance",
+          "zh": "字节跳动"
+        },
+        "logo": {
+          "src": "/images/logos/bytedance.png",
+          "alt": {
+            "en": "ByteDance logo",
+            "zh": "字节跳动标志"
+          }
+        },
+        "description": {
+          "en": "Worked on feature delivery, bug fixing, and code refactoring for consumer video products inside IES.",
+          "zh": "参与新功能开发、问题修复与代码重构，服务面向大众的视频产品。"
+        }
+      },
+      {
+        "type": "research",
+        "period": {
+          "en": "2020.12 - 2021.08",
+          "zh": "2020.12 - 2021.08"
+        },
+        "role": {
+          "en": "Research Assistant",
+          "zh": "助理研究员"
+        },
+        "org": {
+          "en": "Visualization and Graphics Laboratory, Tsinghua University",
+          "zh": "清华大学可视化与图形学研究室"
+        },
+        "logo": {
+          "src": "/images/logos/tsinghua.svg.png",
+          "alt": {
+            "en": "Tsinghua University logo",
+            "zh": "清华大学校徽"
+          }
+        },
+        "description": {
+          "en": "Worked on visualization-related research as part of the VIS Lab.",
+          "zh": "在清华大学可视化与图形学研究室从事科研工作。"
+        }
+      },
+      {
+        "type": "education",
+        "period": {
+          "en": "2021.02 - 2023.05",
+          "zh": "2021.02 - 2023.05"
+        },
+        "role": {
+          "en": "Master of Electrical and Computer Engineering",
+          "zh": "电子与计算机工程硕士"
+        },
+        "org": {
+          "en": "Carnegie Mellon University",
+          "zh": "卡内基梅隆大学"
+        },
+        "logo": {
+          "src": "/images/logos/cmu.jpg",
+          "alt": {
+            "en": "Carnegie Mellon University logo",
+            "zh": "卡内基梅隆大学校徽"
+          }
+        },
+        "description": {
+          "en": "Focused on advanced coursework and research at the intersection of systems, perception, and robotics.",
+          "zh": "在系统、感知与机器人交叉方向继续深造。"
+        }
+      },
+      {
+        "type": "research",
+        "period": {
+          "en": "2021.10 - 2023.05",
+          "zh": "2021.10 - 2023.05"
+        },
+        "role": {
+          "en": "Research Assistant",
+          "zh": "助理研究员"
+        },
+        "org": {
+          "en": "Biorobotics Lab, Carnegie Mellon University",
+          "zh": "卡内基梅隆大学 Biorobotics Lab"
+        },
+        "logo": {
+          "src": "/images/logos/biorobotics.png",
+          "alt": {
+            "en": "Carnegie Mellon University logo",
+            "zh": "卡内基梅隆大学校徽"
+          }
+        },
+        "description": {
+          "en": "Contributed to CMU biorobotics research and 3D mapping-related work.",
+          "zh": "参与 CMU Biorobotics Lab 的科研与三维重建相关项目。"
+        }
+      },
+      {
+        "type": "work",
+        "period": {
+          "en": "2022.05 - 2022.08",
+          "zh": "2022.05 - 2022.08"
+        },
+        "role": {
+          "en": "Software Engineering Intern, iCloud",
+          "zh": "软件工程实习生，iCloud"
+        },
+        "org": {
+          "en": "Apple",
+          "zh": "Apple"
+        },
+        "logo": {
+          "src": "/images/logos/apple.png",
+          "alt": {
+            "en": "Apple logo",
+            "zh": "Apple 标志"
+          }
+        },
+        "description": {
+          "en": "Completed a software engineering internship focused on shipping product-facing engineering work inside Apple.",
+          "zh": "在 Apple Services 完成软件工程实习，参与面向产品的工程工作。"
+        }
+      },
+      {
+        "type": "work",
+        "period": {
+          "en": "2023.07 - 2023.09",
+          "zh": "2023.07 - 2023.09"
+        },
+        "role": {
+          "en": "Software / Machine Learning Engineer",
+          "zh": "软件 / 机器学习工程师"
+        },
+        "org": {
+          "en": "AIM Intelligent Machines",
+          "zh": "AIM Intelligent Machines"
+        },
+        "logo": {
+          "src": "/images/logos/aim.png",
+          "alt": {
+            "en": "AIM Intelligent Machines logo",
+            "zh": "AIM Intelligent Machines 标志"
+          }
+        },
+        "description": {
+          "en": "Worked on machine learning and software engineering problems in an intelligent machines setting.",
+          "zh": "在智能机器场景中处理机器学习与软件工程问题。"
+        }
+      },
+      {
+        "type": "work",
+        "period": {
+          "en": "2023.10 - 2026.02",
+          "zh": "2023.10 - 2026.02"
+        },
+        "role": {
+          "en": "Software Engineer, AI/ML",
+          "zh": "AI/ML 软件工程师"
+        },
+        "org": {
+          "en": "Apple",
+          "zh": "Apple"
+        },
+        "logo": {
+          "src": "/images/logos/apple.png",
+          "alt": {
+            "en": "Apple logo",
+            "zh": "Apple 标志"
+          }
+        },
+        "description": {
+          "en": "Built reliable AI/ML systems with production constraints, polish, and scale in mind.",
+          "zh": "继续在生产环境约束下打造稳定、可扩展且具备完成度的 AI/ML 系统。"
+        }
+      },
+      {
+        "type": "work",
+        "period": {
+          "en": "2026.02 - Present",
+          "zh": "2026.02 - 至今"
+        },
+        "role": {
+          "en": "Machine Learning Engineer",
+          "zh": "机器学习工程师"
+        },
+        "org": {
+          "en": "Meta",
+          "zh": "Meta"
+        },
+        "logo": {
+          "src": "/images/logos/meta.png",
+          "alt": {
+            "en": "Meta logo",
+            "zh": "Meta 标志"
+          }
+        },
+        "description": {
+          "en": "Building video generation models with a focus on production quality, scale, and practical impact.",
+          "zh": "在 Meta 训练视频生成模型，继续关注生产质量、规模化与真实业务影响。"
+        }
+      }
+    ]
+  },
+  "background": {
+    "eyebrow": {
+      "en": "Background",
+      "zh": "经历展开"
+    },
+    "title": {
+      "en": "The fuller background behind the headline.",
+      "zh": "标题之下，更完整的经历背景。"
+    },
+    "description": {
+      "en": "A fuller view of my work, study, research, and side projects.",
+      "zh": "这里汇总了我的工作、求学、科研和个人项目经历。"
+    },
+    "groups": [
+      {
+        "id": "education",
+        "title": {
+          "en": "Education",
+          "zh": "教育"
+        },
+        "description": {
+          "en": "Academic foundations across China and the United States.",
+          "zh": "在中国与美国完成的学术积累。"
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Carnegie Mellon University",
+              "zh": "卡内基·梅隆大学"
+            },
+            "period": {
+              "en": "2021.02 - 2023.05",
+              "zh": "2021.02 - 2023.05"
+            },
+            "detail": {
+              "en": "Master's Degree, Electrical and Computer Engineering.",
+              "zh": "硕士研究生就读于卡内基梅隆大学，电子与计算机工程专业。"
+            },
+            "logo": {
+              "src": "/images/logos/cmu.jpg",
+              "alt": {
+                "en": "Carnegie Mellon University logo",
+                "zh": "卡内基梅隆大学校徽"
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "University of Missouri - Columbia",
+              "zh": "密苏里大学 - 哥伦比亚分校"
+            },
+            "period": {
+              "en": "2018.08 - 2019.06",
+              "zh": "2018.08 - 2019.06"
+            },
+            "detail": {
+              "en": "Spent my last undergraduate year there as an exchange student and studied robotics, machine learning, real-time embedded computing, and cloud systems.",
+              "zh": "大四参加校级交流项目，就读于 EECS 学院，主要学习机器人、嵌入式计算、机器学习、云计算等课程。"
+            },
+            "logo": {
+              "src": "/images/logos/missouri.png",
+              "alt": {
+                "en": "University of Missouri logo",
+                "zh": "密苏里大学校徽"
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "Huazhong University of Science and Technology",
+              "zh": "华中科技大学"
+            },
+            "period": {
+              "en": "2015.09 - 2019.06",
+              "zh": "2015.09 - 2019.06"
+            },
+            "detail": {
+              "en": "Bachelor's degree in Telecommunication Engineering with coursework spanning signal processing, communication systems, computer networks, and electromagnetics.",
+              "zh": "本科毕业于华中科技大学电子信息与通信学院，通信工程专业，学习过通信原理、数字信号处理、通信电子线路、电磁场与电磁波等课程。"
+            },
+            "logo": {
+              "src": "/images/logos/hust.png",
+              "alt": {
+                "en": "Huazhong University of Science and Technology logo",
+                "zh": "华中科技大学校徽"
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "Beijing 101 Middle School",
+              "zh": "北京一零一中学"
+            },
+            "period": {
+              "en": "2012.09 - 2015.06",
+              "zh": "2012.09 - 2015.06"
+            },
+            "detail": {
+              "en": "Completed high school in Beijing.",
+              "zh": "高中毕业于北京一零一中学。"
+            },
+            "logo": {
+              "src": "/images/logos/101.jpeg",
+              "alt": {
+                "en": "Beijing 101 Middle School logo",
+                "zh": "北京一零一中学校徽"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "work",
+        "title": {
+          "en": "Work experience",
+          "zh": "工作"
+        },
+        "description": {
+          "en": "Industry roles across consumer products, intelligent machines, and AI/ML systems.",
+          "zh": "在消费产品、智能机器和 AI/ML 系统方向的行业经历。"
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Meta",
+              "zh": "Meta"
+            },
+            "period": {
+              "en": "2026.02 - Present",
+              "zh": "2026.02 - 至今"
+            },
+            "detail": {
+              "en": "Machine Learning Engineer building production ML systems with a focus on scale, quality, and real-world impact.",
+              "zh": "机器学习工程师，继续在生产环境中处理具备规模、质量要求与真实业务影响的机器学习系统。"
+            },
+            "logo": {
+              "src": "/images/logos/meta.png",
+              "alt": {
+                "en": "Meta logo",
+                "zh": "Meta 标志"
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "Apple",
+              "zh": "Apple"
+            },
+            "period": {
+              "en": "2023.10 - 2026.02",
+              "zh": "2023.10 - 2026.02"
+            },
+            "detail": {
+              "en": "Software Engineer, AI/ML. Building reliable AI/ML systems with production constraints, polish, and scale in mind.",
+              "zh": "AI/ML 软件工程师，继续在生产环境约束下打造稳定、可扩展且具备完成度的 AI/ML 系统。"
+            },
+            "logo": {
+              "src": "/images/logos/apple.png",
+              "alt": {
+                "en": "Apple logo",
+                "zh": "Apple 标志"
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "AIM Intelligent Machines",
+              "zh": "AIM Intelligent Machines"
+            },
+            "period": {
+              "en": "2023.07 - 2023.09",
+              "zh": "2023.07 - 2023.09"
+            },
+            "detail": {
+              "en": "Software / Machine Learning Engineer working on machine learning and software systems in an intelligent machines environment.",
+              "zh": "软件 / 机器学习工程师，在智能机器场景中处理机器学习与软件工程问题。"
+            },
+            "logo": {
+              "src": "/images/logos/aim.png",
+              "alt": {
+                "en": "AIM Intelligent Machines logo",
+                "zh": "AIM Intelligent Machines 标志"
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "Apple Services",
+              "zh": "Apple Services"
+            },
+            "period": {
+              "en": "2022.05 - 2022.08",
+              "zh": "2022.05 - 2022.08"
+            },
+            "detail": {
+              "en": "Software Engineering Intern focused on shipping product-facing engineering work inside Apple.",
+              "zh": "软件工程实习生，参与 Apple 内部面向产品的工程工作。"
+            },
+            "logo": {
+              "src": "/images/logos/apple.png",
+              "alt": {
+                "en": "Apple logo",
+                "zh": "Apple 标志"
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "ByteDance",
+              "zh": "字节跳动"
+            },
+            "period": {
+              "en": "2019.07 - 2020.12",
+              "zh": "2019.07 - 2020.12"
+            },
+            "detail": {
+              "en": "iOS Engineer working on feature delivery, bug fixing, and refactoring for consumer video products inside IES.",
+              "zh": "iOS 开发工程师，参与互娱业务的视频产品功能开发、问题修复与代码重构。"
+            },
+            "logo": {
+              "src": "/images/logos/bytedance.png",
+              "alt": {
+                "en": "ByteDance logo",
+                "zh": "字节跳动标志"
+              }
+            }
+          },
+          {
+            "title": {
+              "en": "Tencent",
+              "zh": "腾讯"
+            },
+            "period": {
+              "en": "2018.06 - 2018.08",
+              "zh": "2018.06 - 2018.08"
+            },
+            "detail": {
+              "en": "Software R&D Intern in Tencent SNG, working on mobile client development in a large-scale consumer internet environment.",
+              "zh": "腾讯 SNG 软件研发实习生，参与大规模消费互联网环境中的移动客户端开发。"
+            },
+            "logo": {
+              "src": "/images/logos/tencent.png",
+              "alt": {
+                "en": "Tencent logo",
+                "zh": "腾讯标志"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "research",
+        "title": {
+          "en": "Research",
+          "zh": "科研"
+        },
+        "description": {
+          "en": "Research experience across robotics, visualization, and perception systems.",
+          "zh": "在机器人、可视化与感知系统方向的科研经历。"
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Biorobotics Lab - Research Assistant",
+              "zh": "卡内基梅隆大学 - 助理研究员"
+            },
+            "period": {
+              "en": "2021.10 - 2023.05",
+              "zh": "2021.10 - 2023.05"
+            },
+            "detail": {
+              "en": "Worked in the Biorobotics Lab at Carnegie Mellon University.",
+              "zh": "在卡内基梅隆大学 Biorobotics Lab 任助研。"
+            }
+          },
+          {
+            "title": {
+              "en": "VIS Lab - Research Assistant",
+              "zh": "清华大学 - 助研"
+            },
+            "period": {
+              "en": "2020.12 - 2021.08",
+              "zh": "2020.12 - 2021.08"
+            },
+            "detail": {
+              "en": "Worked at the Visualization and Graphics Laboratory, Tsinghua University, as a research assistant.",
+              "zh": "在清华大学可视化与图形学研究室任助研。"
+            }
+          },
+          {
+            "title": {
+              "en": "VPC Lab - Research Assistant",
+              "zh": "密苏里大学 - 助研"
+            },
+            "period": {
+              "en": "2019.02 - 2019.06",
+              "zh": "2019.02 - 2019.06"
+            },
+            "detail": {
+              "en": "Developed a prototype to explore the feasibility of vision-guided autonomous driving and designed the overall software system.",
+              "zh": "在 Video Processing and Communication Lab 任助研，负责开发一个用于探索视觉引导自动驾驶可行性的原型系统。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "activities",
+        "title": {
+          "en": "Student activities",
+          "zh": "学生活动"
+        },
+        "description": {
+          "en": "Leadership and community-building work outside formal coursework.",
+          "zh": "在正式课程之外的组织与带队经历。"
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Bingyan Studio",
+              "zh": "冰岩作坊"
+            },
+            "period": {
+              "en": "2017.03 - 2019.06",
+              "zh": "2017.03 - 2019.06"
+            },
+            "detail": {
+              "en": "One of the most influential student technical teams at HUST. I served as the leader of the iOS group and was involved in recruitment, technical training, and delivery.",
+              "zh": "冰岩作坊是华中科技大学最具影响力的互联网技术团队之一。我曾任 iOS 组组长，负责招新面试、技术培训与项目交付。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "projects",
+        "title": {
+          "en": "Selected personal projects",
+          "zh": "项目经验"
+        },
+        "description": {
+          "en": "Smaller product and systems work that still matters to how I build.",
+          "zh": "一些规模较小但同样影响我做事方式的产品与系统实践。"
+        },
+        "items": [
+          {
+            "title": {
+              "en": "CQMU Schedule",
+              "zh": "重医助手"
+            },
+            "period": {
+              "en": "2017.06 - 2017.08",
+              "zh": "2017.06 - 2017.08"
+            },
+            "detail": {
+              "en": "A schedule app for Chongqing Medical University students. I handled the full flow from product and engineering to operations; the app was released on the App Store.",
+              "zh": "“重医助手”是一款为重庆医科大学学生服务的课表类应用，我独立负责从产品到运营的完整流程，并曾上架 App Store。"
+            }
+          },
+          {
+            "title": {
+              "en": "Beita App",
+              "zh": "背它"
+            },
+            "period": {
+              "en": "2017.12 - 2018.01",
+              "zh": "2017.12 - 2018.01"
+            },
+            "detail": {
+              "en": "An education-focused tool app where I independently handled the iOS client and also created a mini-program for promotion.",
+              "zh": "“背它”是冰岩作坊的团队项目，我独立负责 iOS 端开发，并为推广活动编写过“背它 Lite”小程序。"
+            }
+          },
+          {
+            "title": {
+              "en": "Cobweb App",
+              "zh": "蛛网"
+            },
+            "period": {
+              "en": "2018.03 - 2018.05",
+              "zh": "2018.03 - 2018.05"
+            },
+            "detail": {
+              "en": "An internal app for managing team events and participants through a calendar interface, distributed via TestFlight.",
+              "zh": "“蛛网”是一款内部应用，可以通过日历查看团队活动并编辑参与者，通过 TestFlight 分发。"
+            }
+          },
+          {
+            "title": {
+              "en": "Fuzzy Navigation System for Mobile Robots",
+              "zh": "模糊逻辑移动机器人导航系统"
+            },
+            "period": {
+              "en": "2018.11 - 2018.12",
+              "zh": "2018.11 - 2018.12"
+            },
+            "detail": {
+              "en": "A navigation system that uses fuzzy logic to guide a mobile robot toward a destination while avoiding obstacles.",
+              "zh": "通过模糊逻辑让移动机器人在避障的同时接近目标点的导航系统。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "awards",
+        "title": {
+          "en": "Awards and honors",
+          "zh": "奖项与荣誉"
+        },
+        "description": {
+          "en": "Recognition from student communities, competitions, and internships.",
+          "zh": "来自学生组织、比赛和实习项目的阶段性认可。"
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Best Bingyan Member",
+              "zh": "最佳冰岩人"
+            },
+            "period": {
+              "en": "2017",
+              "zh": "2017"
+            },
+            "detail": {
+              "en": "The highest internal honor within Bingyan Studio.",
+              "zh": "“最佳冰岩人”是冰岩作坊内部最高荣誉。"
+            }
+          },
+          {
+            "title": {
+              "en": "Eagle Program Bronze Award",
+              "zh": "雏鹰计划 铜奖"
+            },
+            "period": {
+              "en": "2018.06",
+              "zh": "2018.06"
+            },
+            "detail": {
+              "en": "Won at Tencent SNG's intern competition with an app that used deep learning to recognize driver emotions for safer driving.",
+              "zh": "在腾讯 SNG 实习生比赛中获奖，项目通过深度学习识别司机情绪，从而提升行车安全性。"
+            }
+          },
+          {
+            "title": {
+              "en": "ZTE Cup Software Development Competition, Second Prize",
+              "zh": "中兴捧月杯软件开发大赛 二等奖"
+            },
+            "period": {
+              "en": "2017",
+              "zh": "2017"
+            },
+            "detail": {
+              "en": "Built an app that automatically recognizes license plates to help campus security handle illegal parking. The same project also received second prize in Wuhan University's mobile app design competition.",
+              "zh": "实现了一款自动识别车牌号的 App，用于帮助学校保卫处处理违规停车。该项目同时获得“武汉大学移动应用设计大赛”二等奖。"
+            }
+          },
+          {
+            "title": {
+              "en": "Seed Cup Programming Competition, Merit Award",
+              "zh": "种子杯编程大赛 优胜奖"
+            },
+            "period": {
+              "en": "2017",
+              "zh": "2017"
+            },
+            "detail": {
+              "en": "Predicted NBA game results using machine learning techniques.",
+              "zh": "通过机器学习技术预测 NBA 比赛结果。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": {
+          "en": "Technology stack",
+          "zh": "技术栈"
+        },
+        "description": {
+          "en": "A practical snapshot rather than an exhaustive list.",
+          "zh": "更偏向实践中的能力概览，而不是穷尽式清单。"
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Programming languages",
+              "zh": "编程语言"
+            },
+            "period": {
+              "en": "Core tools",
+              "zh": "核心能力"
+            },
+            "detail": {
+              "en": "Proficient in Swift, C, Objective-C, Java, and C++. Familiar with Python, Matlab, JavaScript, and SQL. Also explored Dart, Lua, Assembly, Verilog, and Bash.",
+              "zh": "熟悉 Swift、C、Objective-C；了解 Java、C++、Python、Matlab、JavaScript、SQL；接触过 Dart、Lua、汇编、Verilog、Bash。"
+            }
+          },
+          {
+            "title": {
+              "en": "Technologies and frameworks",
+              "zh": "技术、技能及框架"
+            },
+            "period": {
+              "en": "Applied domains",
+              "zh": "应用方向"
+            },
+            "detail": {
+              "en": "Experienced in iOS application development and familiar with web front-end, web back-end, embedded systems, robotics, image processing, and AI/ML workflows.",
+              "zh": "熟悉 iOS 应用开发；了解 Web 前端、Web 后端、嵌入式系统、机器人、图像处理与人工智能相关工作流。"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": {
+      "en": "Build archive",
+      "zh": "作品档案"
+    },
+    "title": {
+      "en": "Selected builds from earlier stages of my work.",
+      "zh": "来自不同阶段的一组代表作品。"
+    },
+    "description": {
+      "en": "A selection of earlier projects from school, research, and the first years of my career.",
+      "zh": "这里收录了我在求学、科研和职业早期阶段完成的一些项目。"
+    },
+    "items": [
+      {
+        "title": {
+          "en": "Smart Road System",
+          "zh": "智能道路系统"
+        },
+        "period": {
+          "en": "Autonomous systems",
+          "zh": "自动驾驶系统"
+        },
+        "kind": {
+          "en": "Research prototype",
+          "zh": "科研原型"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/smart_road_0.jpg",
+          "alt": {
+            "en": "Smart road system prototype",
+            "zh": "智能道路系统原型"
+          }
+        },
+        "detail": {
+          "en": "This project is an early prototype of a smart road system. There are 4 cameras that cover the whole lab. Each camera is connected to a computer. Using image processing, I can precisely detect the position of the front point and the end point of a car in the image frame. As the cameras are calibrated, those positions can be converted into the world frame. Thus the 3D position and orientation of a given car can be calculated. To control the mini-car through the Wi-Fi network, we replace the built-in remote controller with Raspberry-Pi. PWM waves are generated and control the servo motor and the DC motor. The 4 computers share information through the Ethernet network, and each of them has a separate Wi-Fi network card and acts as a small base station. To make the mini-car able to roam across different base stations, the network card on the mini-car works in a connectionless way. The lane-keeping controller is a PID controller. Given the position and status of a mini-car, we can calculate a virtual target position. As the car is moving, the virtual target is also moving, so the car can run along the lane stably. We use ROS as our inter-computers communication framework and Rviz to visualize the system state. I designed and implemented the entire software system, as well as part of the hardware system.",
+          "zh": "这是一个智能道路系统的早期原型。实验室中有 4 个摄像头覆盖整块区域，每个摄像头连接一台电脑。通过图像处理，可以精确定位小车前后端点在图像中的位置；由于摄像头已经完成标定，这些位置能够进一步转换到世界坐标系，从而得到小车的三维位置与朝向。为了通过 Wi-Fi 控制小车，我们用 Raspberry Pi 替换了原有遥控器，并通过 PWM 控制舵机和直流电机。4 台电脑通过以太网共享信息，每台电脑还配有独立的 Wi-Fi 网卡，相当于一个小型基站。为了让小车能在不同基站间漫游，车载网卡采用无连接的通信方式。车道保持部分使用 PID 控制器，根据小车当前位置和状态实时计算虚拟目标点，使车辆能够稳定沿车道行驶。整个系统采用 ROS 进行多机通信，并用 Rviz 做状态可视化。我负责了整个软件系统的设计与实现，以及部分硬件系统。"
+        }
+      },
+      {
+        "title": {
+          "en": "A Hand Gesture Recognizer based on Machine Learning",
+          "zh": "基于机器学习的手势识别器"
+        },
+        "period": {
+          "en": "Machine learning",
+          "zh": "机器学习"
+        },
+        "kind": {
+          "en": "Computer vision",
+          "zh": "计算机视觉"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/gesture_ml.jpg",
+          "alt": {
+            "en": "Hand gesture recognizer project",
+            "zh": "手势识别项目"
+          }
+        },
+        "detail": {
+          "en": "We use HOG, LBP and skin color as the key features. To get better performance, PCA is used to reduce the dimension. In order to detect the position of the hand, we use 3 different sizes of sliding windows to scan the image. Then, a heat-map is generated and the hottest location is most likely the hand. The sub-image is then fed into the next classifier to classify gestures. 5 different gestures can be recognized, including open-hand and thumb-up. Instead of downloading training sets from the Internet, we collected hundreds of images by ourselves.",
+          "zh": "我们使用 HOG、LBP 与肤色信息作为关键特征，并通过 PCA 进行降维以提升性能。为了检测手在图像中的位置，我们采用 3 种不同尺寸的滑动窗口扫描图像，再生成热力图，热度最高的位置最有可能是手部区域。随后将该局部图像送入下一级分类器，用于判断具体手势。系统可以识别包括张开手掌、竖拇指在内的 5 种手势。训练数据并非从网上直接下载，而是我们自己采集了数百张图片。"
+        }
+      },
+      {
+        "title": {
+          "en": "LLVM Loop Optimization Comparison",
+          "zh": "LLVM 循环优化对比"
+        },
+        "period": {
+          "en": "Compiler systems",
+          "zh": "编译系统"
+        },
+        "kind": {
+          "en": "Performance analysis",
+          "zh": "性能分析"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/loop_opt.png",
+          "alt": {
+            "en": "LLVM optimization project",
+            "zh": "LLVM 优化项目"
+          }
+        },
+        "detail": {
+          "en": "In this project, I wrote four simple C programs and used Clang with LLVM to compile them with different options. The generated LLVM IR code before and after optimization was compared. The gem5 simulator was used to analyze execution time and cache miss rate. Finally, these optimization techniques were applied to Polybench for broader comparison.",
+          "zh": "在这个项目中，我编写了 4 个简单的 C 程序，并使用 Clang 与 LLVM 在不同编译选项下进行编译，对比优化前后的 LLVM IR。之后借助 gem5 模拟器分析运行时间与缓存未命中率，并将这些优化方法进一步应用到 Polybench 上进行更广泛的比较。"
+        }
+      },
+      {
+        "title": {
+          "en": "Tip-over Prevention for Mobile Robots",
+          "zh": "移动机器人防倾覆控制"
+        },
+        "period": {
+          "en": "Robotics",
+          "zh": "机器人"
+        },
+        "kind": {
+          "en": "Control systems",
+          "zh": "控制系统"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/tipover.jpg",
+          "alt": {
+            "en": "Tip-over prevention project",
+            "zh": "机器人防倾覆项目"
+          }
+        },
+        "detail": {
+          "en": "By controlling the heavy manipulator installed on the mobile robot, the center of gravity can be adjusted and the stability of the robot can be improved. In this project, I implemented an algorithm to read IMU sensors and calculate the ideal pose of the robot. The algorithm was tested and verified with the V-REP simulator. The simulation code was written in Lua, and the controller program was implemented in Matlab.",
+          "zh": "通过控制安装在移动机器人上的重型机械臂，可以主动调整重心，从而提升系统稳定性。我在这个项目中实现了一个算法，用于读取 IMU 传感器并计算机器人的理想姿态。算法在 V-REP 模拟器中进行了验证，仿真代码使用 Lua 编写，控制程序使用 Matlab 实现。"
+        }
+      },
+      {
+        "title": {
+          "en": "Course Project of Building Intelligent Robot",
+          "zh": "智能机器人课程项目"
+        },
+        "period": {
+          "en": "Robotics",
+          "zh": "机器人"
+        },
+        "kind": {
+          "en": "Multi-robot system",
+          "zh": "多机器人系统"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/arm_robot.jpg",
+          "alt": {
+            "en": "Intelligent robot course project",
+            "zh": "智能机器人课程项目"
+          }
+        },
+        "detail": {
+          "en": "There are three PUMA robots and one mobile robot. A binocular camera system detects black cylinders and guides the PUMA robot arm to pick them up and place them on the mobile robot. The mobile robot localizes itself using AR markers, navigates to the next position, and avoids obstacles with infrared sensors. All robots communicate through ROS.",
+          "zh": "该项目包含 3 台 PUMA 机械臂和 1 台移动机器人。双目摄像系统负责检测黑色圆柱体的位置，并引导 PUMA 机械臂抓取后放置到移动机器人上。移动机器人通过识别 AR 标记完成定位，并依靠红外传感器进行避障导航。所有机器人之间通过 ROS 完成通信。"
+        }
+      },
+      {
+        "title": {
+          "en": "Club Management System",
+          "zh": "社团管理系统"
+        },
+        "period": {
+          "en": "Web application",
+          "zh": "Web 应用"
+        },
+        "kind": {
+          "en": "Full-stack build",
+          "zh": "全栈项目"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/club_web.jpg",
+          "alt": {
+            "en": "Club management system",
+            "zh": "社团管理系统"
+          }
+        },
+        "detail": {
+          "en": "The system includes project, budget, and team member management. The front-end is implemented with React, the back-end with Django, and the database with MySQL.",
+          "zh": "系统具备项目管理、预算管理与成员管理等功能。前端使用 React，后端使用 Django，数据库使用 MySQL。"
+        }
+      },
+      {
+        "title": {
+          "en": "Coroutine Scheduler",
+          "zh": "协程调度器"
+        },
+        "period": {
+          "en": "Systems programming",
+          "zh": "系统编程"
+        },
+        "kind": {
+          "en": "C / Assembly",
+          "zh": "C / 汇编"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/co_scheduler.jpg",
+          "alt": {
+            "en": "Coroutine scheduler project",
+            "zh": "协程调度器项目"
+          }
+        },
+        "detail": {
+          "en": "Implemented a coroutine library and its scheduler in C. Assembly was used to control register states across function calls. Each coroutine can call blocking functions such as sleep without freezing the whole system. Outputs from tasks are transferred to a named pipe and displayed in another terminal. The project was designed for Linux and later adapted to macOS after solving a byte alignment issue.",
+          "zh": "我使用 C 实现了一套协程库及其调度器，并使用汇编语言控制函数调用过程中的寄存器状态。每个协程任务都可以调用 sleep 这类阻塞函数而不影响整个系统继续运行。任务输出通过命名管道传递到另一个终端显示。项目最初面向 Linux 设计，后来在修复字节对齐问题后也适配了 macOS。"
+        }
+      },
+      {
+        "title": {
+          "en": "Robotic Goalkeeper",
+          "zh": "机器人守门员"
+        },
+        "period": {
+          "en": "Robotics",
+          "zh": "机器人"
+        },
+        "kind": {
+          "en": "Vision + control",
+          "zh": "视觉与控制"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/car_ball.jpg",
+          "alt": {
+            "en": "Robotic goalkeeper project",
+            "zh": "机器人守门员项目"
+          }
+        },
+        "detail": {
+          "en": "A camera detects the rolling tennis ball and predicts its trajectory. Once the interception point is calculated, commands are sent to a car-like robot through Bluetooth so that it can catch the ball. The core controller also has a GUI to visualize system status.",
+          "zh": "系统通过摄像头检测滚动中的网球并预测其轨迹，在计算出交点后，通过蓝牙向小车式机器人发送控制指令，以便其拦截小球。核心控制器还带有图形界面，用于可视化系统状态。"
+        }
+      },
+      {
+        "title": {
+          "en": "Beita App",
+          "zh": "背它 App"
+        },
+        "period": {
+          "en": "Consumer app",
+          "zh": "消费级应用"
+        },
+        "kind": {
+          "en": "iOS product",
+          "zh": "iOS 产品"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/beta.jpg",
+          "alt": {
+            "en": "Beita app project",
+            "zh": "背它应用项目"
+          }
+        },
+        "detail": {
+          "en": "An app that helps students memorize course materials more easily. Users can paste documents or scan them with the camera. The app supports gesture interactions that make it easy to mark important content.",
+          "zh": "这是一款帮助学生更高效记忆课程内容的应用。用户既可以复制粘贴资料，也可以用相机扫描。应用支持手势交互，方便快速标记重点内容。"
+        }
+      },
+      {
+        "title": {
+          "en": "Cobweb App",
+          "zh": "蛛网 App"
+        },
+        "period": {
+          "en": "Internal tools",
+          "zh": "内部工具"
+        },
+        "kind": {
+          "en": "Team utility",
+          "zh": "团队工具"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/zhuwang.jpg",
+          "alt": {
+            "en": "Cobweb app project",
+            "zh": "蛛网应用项目"
+          }
+        },
+        "detail": {
+          "en": "An internal team management tool for Bingyan Studio.",
+          "zh": "一款为冰岩作坊内部协作打造的团队管理工具。"
+        }
+      },
+      {
+        "title": {
+          "en": "A Wireless Communication System with Pluto SDR",
+          "zh": "基于 Pluto SDR 的无线通信系统"
+        },
+        "period": {
+          "en": "Communication systems",
+          "zh": "通信系统"
+        },
+        "kind": {
+          "en": "Reliable protocols",
+          "zh": "可靠传输协议"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/pluto.jpg",
+          "alt": {
+            "en": "Pluto SDR project",
+            "zh": "Pluto SDR 项目"
+          }
+        },
+        "detail": {
+          "en": "Used Pluto SDR to implement a simple wireless communication system. Two reliable communication protocols, stop-and-wait and sliding window, were built to support stable communication. The system can transmit text or arbitrary files.",
+          "zh": "该项目使用 Pluto SDR 实现了一个简单的无线通信系统，并实现了停止等待协议与滑动窗口协议两种可靠传输机制，从而支持稳定的数据传输。系统既可以发送文本，也可以传输任意文件。"
+        }
+      },
+      {
+        "title": {
+          "en": "Ultrasonic Somatosensory Game",
+          "zh": "超声波体感游戏"
+        },
+        "period": {
+          "en": "Embedded systems",
+          "zh": "嵌入式系统"
+        },
+        "kind": {
+          "en": "FPGA prototype",
+          "zh": "FPGA 原型"
+        },
+        "moreLabel": {
+          "en": "Read more",
+          "zh": "展开详情"
+        },
+        "image": {
+          "src": "/images/projects/vga_game.jpg",
+          "alt": {
+            "en": "Ultrasonic game project",
+            "zh": "超声波体感游戏项目"
+          }
+        },
+        "detail": {
+          "en": "By changing the distance between a hand and the sensor, players can control the distance between two red squares. The goal is to prevent those squares from hitting blue bars. The higher the score, the faster the bars move. We used an FPGA board with an IP core to read the ultrasonic sensor and control the VGA display.",
+          "zh": "玩家通过改变手与传感器之间的距离，来控制屏幕上两个红色方块之间的间距，目标是避免方块撞到蓝色障碍物。分数越高，障碍移动越快。我们使用带有 IP Core 的 FPGA 开发板读取超声波传感器，并驱动 VGA 显示。"
+        }
+      }
+    ]
+  },
+  "signalStrip": {
+    "items": [
+      {
+        "en": "Software Engineering",
+        "zh": "软件工程"
+      },
+      {
+        "en": "AI / ML",
+        "zh": "AI / ML"
+      },
+      {
+        "en": "Computer Vision",
+        "zh": "计算机视觉"
+      },
+      {
+        "en": "Robotics",
+        "zh": "机器人"
+      },
+      {
+        "en": "Badminton",
+        "zh": "羽毛球"
+      },
+      {
+        "en": "Skiing",
+        "zh": "滑雪"
+      },
+      {
+        "en": "Hiking",
+        "zh": "爬山"
+      },
+      {
+        "en": "INTJ",
+        "zh": "INTJ"
+      },
+      {
+        "en": "Research to product",
+        "zh": "从科研到产品"
+      },
+      {
+        "en": "System design",
+        "zh": "系统设计"
+      }
+    ]
+  },
+  "footer": {
+    "eyebrow": {
+      "en": "Let’s build something durable.",
+      "zh": "一起做点经得起时间考验的东西。"
+    },
+    "title": {
+      "en": "Thoughtful products, clean systems, and room to keep learning.",
+      "zh": "既做有完成度的产品，也做干净可靠的系统。"
+    },
+    "description": {
+      "en": "Open to thoughtful collaborations across engineering, research, and product work.",
+      "zh": "也期待继续参与工程、研究与产品交叉点上的合作。"
+    },
+    "copyright": {
+      "en": "© 2026 Luyuan Wang",
+      "zh": "© 2026 王路远"
+    },
+    "registration": {
+      "value": "京ICP备17051145号",
+      "href": "https://beian.miit.gov.cn"
+    }
+  },
+  "pageLinks": {
+    "projects": {
+      "en": "Build archive",
+      "zh": "作品档案"
+    },
+    "papers": {
+      "en": "Research papers",
+      "zh": "研究论文"
+    }
+  },
+  "projectNavigation": [
+    {
+      "id": "projects-home",
+      "label": {
+        "en": "Overview",
+        "zh": "概览"
+      }
+    },
+    {
+      "id": "background",
+      "label": {
+        "en": "Background",
+        "zh": "经历"
+      }
+    },
+    {
+      "id": "projects",
+      "label": {
+        "en": "Builds",
+        "zh": "作品"
+      }
+    },
+    {
+      "id": "contact",
+      "label": {
+        "en": "Contact",
+        "zh": "联系"
+      }
+    }
+  ],
+  "paperNavigation": [
+    {
+      "id": "papers-home",
+      "label": {
+        "en": "Papers",
+        "zh": "论文"
+      }
+    },
+    {
+      "id": "papers",
+      "label": {
+        "en": "Publications",
+        "zh": "发表"
+      }
+    },
+    {
+      "id": "contact",
+      "label": {
+        "en": "Contact",
+        "zh": "联系"
+      }
+    }
+  ],
+  "secondaryPages": {
+    "eyebrow": {
+      "en": "More to explore",
+      "zh": "更多内容"
+    },
+    "title": {
+      "en": "Two focused pages for the deeper material.",
+      "zh": "用两个更聚焦的页面承载更完整的内容。"
+    },
+    "description": {
+      "en": "Research papers come first, followed by a build archive for older student work and longer project notes.",
+      "zh": "先看研究论文，再看作品档案页，后者主要收纳学生时期的项目与更长的项目说明。"
+    },
+    "items": [
+      {
+        "id": "papers-page",
+        "icon": "papers",
+        "eyebrow": {
+          "en": "Research papers",
+          "zh": "研究论文"
+        },
+        "title": {
+          "en": "Publications across imaging, mobile agents, SLAM, and fabrication.",
+          "zh": "涵盖图像处理、移动智能体、SLAM 与制造方向的论文。"
+        },
+        "description": {
+          "en": "A focused page for publications across imaging, mobile agents, SLAM, and fabrication.",
+          "zh": "这个页面集中展示我在图像处理、移动智能体、SLAM 与制造方向的论文。"
+        },
+        "cta": {
+          "href": "/papers/",
+          "label": {
+            "en": "Open papers page",
+            "zh": "打开论文页"
+          }
+        },
+        "stats": [
+          {
+            "id": "papers-stat-1",
+            "value": "5",
+            "label": {
+              "en": "selected papers",
+              "zh": "论文数量"
+            }
+          },
+          {
+            "id": "papers-stat-2",
+            "value": "2022",
+            "label": {
+              "en": "earlist publication",
+              "zh": "最早发表时间"
+            }
+          },
+          {
+            "id": "papers-stat-3",
+            "value": "4",
+            "label": {
+              "en": "research themes",
+              "zh": "研究方向"
+            }
+          }
+        ]
+      },
+      {
+        "id": "projects-page",
+        "icon": "projects",
+        "eyebrow": {
+          "en": "Build archive",
+          "zh": "作品档案"
+        },
+        "title": {
+          "en": "Older builds, student projects, and the fuller background context.",
+          "zh": "学生时期项目、早期作品，以及更完整的背景材料。"
+        },
+        "description": {
+          "en": "Older projects, longer write-ups, and the background that shaped how I build.",
+          "zh": "这里可以看到早期项目、更完整的项目说明，以及支撑这些经历的背景内容。"
+        },
+        "cta": {
+          "href": "/projects/",
+          "label": {
+            "en": "Open build archive",
+            "zh": "打开作品档案页"
+          }
+        },
+        "stats": [
+          {
+            "id": "projects-stat-1",
+            "value": "12",
+            "label": {
+              "en": "projects collected",
+              "zh": "项目数量"
+            }
+          },
+          {
+            "id": "projects-stat-2",
+            "value": "7",
+            "label": {
+              "en": "background groups",
+              "zh": "经历分组"
+            }
+          },
+          {
+            "id": "projects-stat-3",
+            "value": "1",
+            "label": {
+              "en": "focused page",
+              "zh": "独立页面"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "projectPage": {
+    "eyebrow": {
+      "en": "Build archive",
+      "zh": "作品档案"
+    },
+    "title": {
+      "en": "Older builds and student projects, kept as a clean archive.",
+      "zh": "以更整洁的方式保留学生时期项目与早期作品。"
+    },
+    "description": {
+      "en": "A place for earlier builds, detailed notes, and the broader context behind them.",
+      "zh": "这里保留了早期作品、更完整的说明，以及它们背后的经历脉络。"
+    }
+  },
+  "paperPage": {
+    "eyebrow": {
+      "en": "Research papers",
+      "zh": "研究论文"
+    },
+    "title": {
+      "en": "Publications and preprints.",
+      "zh": "论文与预印本。"
+    },
+    "description": {
+      "en": "Selected papers across imaging, mobile agents, SLAM, and manufacturing-related research.",
+      "zh": "这里整理了我在图像处理、移动智能体、SLAM 与制造相关方向的代表论文。"
+    }
+  },
+  "papers": {
+    "eyebrow": {
+      "en": "Papers",
+      "zh": "论文列表"
+    },
+    "title": {
+      "en": "Selected publications",
+      "zh": "代表论文"
+    },
+    "description": {
+      "en": "Selected publications and preprints from recent research work.",
+      "zh": "这里收录了近几年研究工作的代表论文与预印本。"
+    },
+    "linkLabel": {
+      "en": "View paper",
+      "zh": "查看论文"
+    },
+    "items": [
+      {
+        "title": {
+          "en": "MobileAgentBench: An efficient and user-friendly benchmark for mobile LLM agents",
+          "zh": "MobileAgentBench: An efficient and user-friendly benchmark for mobile LLM agents"
+        },
+        "authors": "L Wang, Y Deng, Y Zha, G Mao, Q Wang, T Min, W Chen, S Chen",
+        "venue": "arXiv preprint arXiv:2406.08184",
+        "year": "2024",
+        "link": "https://arxiv.org/abs/2406.08184"
+      },
+      {
+        "title": {
+          "en": "Visual-inertial-laser-lidar (VILL) SLAM: Real-time dense RGB-D mapping for pipe environments",
+          "zh": "Visual-inertial-laser-lidar (VILL) SLAM: Real-time dense RGB-D mapping for pipe environments"
+        },
+        "authors": "T Tian, L Wang, X Yan, F Ruan, GJ Aadityaa, H Choset, L Li",
+        "venue": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "year": "2023"
+      },
+      {
+        "title": {
+          "en": "Toward closed-loop additive manufacturing: Paradigm shift in fabrication, inspection, and repair",
+          "zh": "Toward closed-loop additive manufacturing: Paradigm shift in fabrication, inspection, and repair"
+        },
+        "authors": "M Singh, F Ruan, A Xu, Y Wu, A Rungta, L Wang, K Song, H Choset, L Li",
+        "venue": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "year": "2023"
+      },
+      {
+        "title": {
+          "en": "Real-Time Video Inpainting for RGB-D Pipeline Reconstruction",
+          "zh": "Real-Time Video Inpainting for RGB-D Pipeline Reconstruction"
+        },
+        "authors": "L Wang, T Tian, X Yan, F Ruan, GJ Aadityaa, H Choset, L Li",
+        "venue": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "year": "2023"
+      },
+      {
+        "title": {
+          "en": "Image classification using convolutional neural network with wavelet domain inputs",
+          "zh": "Image classification using convolutional neural network with wavelet domain inputs"
+        },
+        "authors": "L Wang, Y Sun",
+        "venue": "IET Image Processing 16 (8), 2037-2048",
+        "year": "2022"
+      }
+    ]
+  },
+  "visitorPage": {
+    "eyebrow": {
+      "en": "Visitor map",
+      "zh": "访客地图"
+    },
+    "title": {
+      "en": "Where people have visited from.",
+      "zh": "访客来自哪里。"
+    },
+    "description": {
+      "en": "A map view of visitor locations collected from the site.",
+      "zh": "以地图形式展示网站访客的大致来源位置。"
+    }
+  }
 }
