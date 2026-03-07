@@ -7,7 +7,7 @@
   --bg-strong: #f8f4ef;
   --panel: rgba(255, 251, 245, 0.92);
   --ink: #151515;
-  --ink-button: #3b342f;
+  --ink-button: #4f7ff0;
   --muted: #59534f;
   --line: #151515;
   --pink: #ff7cbc;
@@ -431,23 +431,23 @@ button {
 }
 
 .hero-chip--pink,
-.signal-strip__item:nth-child(4n + 1) {
+.signal-strip__item--pink {
   background: var(--pink);
 }
 
 .hero-chip--blue,
-.signal-strip__item:nth-child(4n + 2) {
+.signal-strip__item--blue {
   background: var(--blue);
   color: white;
 }
 
 .hero-chip--mint,
-.signal-strip__item:nth-child(4n + 3) {
+.signal-strip__item--mint {
   background: var(--mint);
 }
 
 .hero-chip--gold,
-.signal-strip__item:nth-child(4n + 4) {
+.signal-strip__item--gold {
   background: var(--gold);
 }
 
@@ -475,6 +475,11 @@ button {
 .cta-button--primary,
 .site-footer__link {
   background: var(--ink-button);
+  color: white;
+}
+
+.site-footer__link {
+  background: #3B342F;
   color: white;
 }
 
@@ -1186,40 +1191,45 @@ button {
 .signal-strip {
   position: relative;
   margin-top: 72px;
-  overflow: hidden;
   border-block: 3px solid var(--line);
   background: rgba(255, 255, 255, 0.65);
 }
 
-.signal-strip::before,
-.signal-strip::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: clamp(40px, 4vw, 112px);
-  pointer-events: none;
-  z-index: 2;
-}
-
-.signal-strip::before {
-  left: 0;
-  background: linear-gradient(90deg, var(--bg) 0%, rgba(238, 235, 230, 0) 100%);
-}
-
-.signal-strip::after {
-  right: 0;
-  background: linear-gradient(270deg, var(--bg) 0%, rgba(238, 235, 230, 0) 100%);
+.signal-strip__viewport {
+  overflow: hidden;
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    black clamp(40px, 4vw, 112px),
+    black calc(100% - clamp(40px, 4vw, 112px)),
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    black clamp(40px, 4vw, 112px),
+    black calc(100% - clamp(40px, 4vw, 112px)),
+    transparent 100%
+  );
 }
 
 .signal-strip__track {
   display: flex;
-  gap: 14px;
-  padding: 18px 0;
+  align-items: center;
   width: max-content;
-  animation: marquee 32s linear infinite;
+  padding: 18px 0;
   position: relative;
   z-index: 1;
+  will-change: transform;
+  transform: translateX(0);
+}
+
+.signal-strip__group {
+  display: flex;
+  align-items: center;
+  gap: var(--signal-gap, 14px);
+  flex: 0 0 auto;
+  padding-inline-end: var(--signal-gap, 14px);
 }
 
 .site-footer {
@@ -1307,16 +1317,6 @@ button {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-50%);
   }
 }
 

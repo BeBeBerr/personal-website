@@ -13,7 +13,14 @@ const buildProjectsTitle = (content, locale) =>
   `${getLocalizedText(content.projectPage.title, locale)} | ${getLocalizedText(content.site.title, locale)}`;
 
 function ProjectsApp() {
-  const { content, locale, activeSection, isCondensed, headerRef, onLanguageToggle } = useSitePage({
+  const {
+    content,
+    locale,
+    activeSection,
+    isCondensed,
+    headerRef,
+    onLanguageToggle,
+  } = useSitePage({
     sectionIds,
     buildTitle: buildProjectsTitle,
   });

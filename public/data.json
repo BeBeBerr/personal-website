@@ -1,8 +1,8 @@
 {
   "site": {
     "title": {
-      "en": "Luyuan Wang | Software Engineer",
-      "zh": "王路远 | 软件工程师"
+      "en": "Luyuan Wang",
+      "zh": "王路远"
     },
     "defaultLocale": "en",
     "supportedLocales": [
@@ -117,7 +117,7 @@
     },
     "roleFocus": {
       "en": "AI, robotics, and\nsoftware.",
-      "zh": "AI、机器人，以及\n软件系统"
+      "zh": "AI、机器人，和\n软件系统。"
     },
     "intro": [
       {
@@ -189,7 +189,7 @@
     },
     "status": {
       "en": "Machine Learning Engineer at Meta",
-      "zh": "Meta 机器学习工程师"
+      "zh": "机器学习工程师 @ Meta"
     },
     "visitorCta": {
       "label": {
@@ -348,8 +348,8 @@
       "zh": "联系"
     },
     "sectionTitle": {
-      "en": "Let’s connect",
-      "zh": "欢迎联系"
+      "en": "Let’s connect.",
+      "zh": "欢迎和我交流。"
     }
   },
   "timeline": {
@@ -563,7 +563,7 @@
           "zh": "清华大学可视化与图形学研究室"
         },
         "logo": {
-          "src": "/images/logos/tsinghua.svg.png",
+          "src": "/images/logos/tsinghua.jpeg",
           "alt": {
             "en": "Tsinghua University logo",
             "zh": "清华大学校徽"
@@ -777,51 +777,7 @@
         "description": {
           "en": "Research experience across robotics, visualization, and perception systems.",
           "zh": "在机器人、可视化与感知系统方向的科研经历。"
-        },
-        "items": [
-          {
-            "title": {
-              "en": "Biorobotics Lab - Research Assistant",
-              "zh": "卡内基梅隆大学 - 助理研究员"
-            },
-            "period": {
-              "en": "2021.10 - 2023.05",
-              "zh": "2021.10 - 2023.05"
-            },
-            "detail": {
-              "en": "Worked in the Biorobotics Lab at Carnegie Mellon University.",
-              "zh": "在卡内基梅隆大学 Biorobotics Lab 任助研。"
-            }
-          },
-          {
-            "title": {
-              "en": "VIS Lab - Research Assistant",
-              "zh": "清华大学 - 助研"
-            },
-            "period": {
-              "en": "2020.12 - 2021.08",
-              "zh": "2020.12 - 2021.08"
-            },
-            "detail": {
-              "en": "Worked at the Visualization and Graphics Laboratory, Tsinghua University, as a research assistant.",
-              "zh": "在清华大学可视化与图形学研究室任助研。"
-            }
-          },
-          {
-            "title": {
-              "en": "VPC Lab - Research Assistant",
-              "zh": "密苏里大学 - 助研"
-            },
-            "period": {
-              "en": "2019.02 - 2019.06",
-              "zh": "2019.02 - 2019.06"
-            },
-            "detail": {
-              "en": "Developed a prototype to explore the feasibility of vision-guided autonomous driving and designed the overall software system.",
-              "zh": "在 Video Processing and Communication Lab 任助研，负责开发一个用于探索视觉引导自动驾驶可行性的原型系统。"
-            }
-          }
-        ]
+        }
       },
       {
         "id": "activities",
@@ -1041,8 +997,8 @@
       "zh": "来自不同阶段的一组代表作品。"
     },
     "description": {
-      "en": "A selection of earlier projects from school, research, and the first years of my career.",
-      "zh": "这里收录了我在求学、科研和职业早期阶段完成的一些项目。"
+      "en": "A selection of earlier projects from school (before 2019).",
+      "zh": "这里收录了我在学生时代做的一些古早项目（2019 年之前）。"
     },
     "items": [
       {

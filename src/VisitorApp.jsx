@@ -11,7 +11,14 @@ const buildVisitorTitle = (content, locale) =>
   `${getLocalizedText(content.visitorPage.title, locale)} | ${getLocalizedText(content.site.title, locale)}`;
 
 function VisitorApp() {
-  const { content, locale, activeSection, isCondensed, headerRef, onLanguageToggle } = useSitePage({
+  const {
+    content,
+    locale,
+    activeSection,
+    isCondensed,
+    headerRef,
+    onLanguageToggle,
+  } = useSitePage({
     sectionIds,
     buildTitle: buildVisitorTitle,
   });

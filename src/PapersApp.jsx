@@ -12,7 +12,14 @@ const buildPapersTitle = (content, locale) =>
   `${getLocalizedText(content.paperPage.title, locale)} | ${getLocalizedText(content.site.title, locale)}`;
 
 function PapersApp() {
-  const { content, locale, activeSection, isCondensed, headerRef, onLanguageToggle } = useSitePage({
+  const {
+    content,
+    locale,
+    activeSection,
+    isCondensed,
+    headerRef,
+    onLanguageToggle,
+  } = useSitePage({
     sectionIds,
     buildTitle: buildPapersTitle,
   });

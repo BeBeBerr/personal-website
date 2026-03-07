@@ -20,7 +20,7 @@ const iconMap = {
   skills: CodeXml,
 };
 
-const timelineDrivenGroups = new Set(['education', 'work']);
+const timelineDrivenGroups = new Set(['education', 'work', 'research']);
 
 function getGroupItems(group, timelineItems) {
   if (!timelineDrivenGroups.has(group.id)) {

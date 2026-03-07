@@ -14,7 +14,14 @@ import { useSitePage } from './lib/useSitePage';
 const sectionIds = ['home', 'about', 'timeline', 'contact'];
 
 function App() {
-  const { content, locale, activeSection, isCondensed, headerRef, onLanguageToggle } = useSitePage({
+  const {
+    content,
+    locale,
+    activeSection,
+    isCondensed,
+    headerRef,
+    onLanguageToggle,
+  } = useSitePage({
     sectionIds,
   });
 

@@ -60,17 +60,17 @@ function HeroSection({ hero, socialLinks, locale }) {
       </div>
 
       <div className="hero-details">
-        <div className="hero-copy__intro">
-          {introParagraphs.map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
-          ))}
-        </div>
-
         <div className="hero-copy__chips" aria-label="Highlights">
           {hero.chips.map((chip) => (
             <span key={chip.id} className={`hero-chip hero-chip--${chip.tone}`}>
               {getLocalizedText(chip.label, locale)}
             </span>
+          ))}
+        </div>
+
+        <div className="hero-copy__intro">
+          {introParagraphs.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
           ))}
         </div>
 
