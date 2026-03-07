@@ -9,6 +9,9 @@ const iconMap = {
 };
 
 function Footer({ footer, socialLinks, locale }) {
+  const currentYear = new Date().getFullYear();
+  const copyrightSuffix = getLocalizedText(footer.copyright, locale);
+
   return (
     <footer className="site-footer">
       <div className="site-footer__intro">
@@ -36,7 +39,7 @@ function Footer({ footer, socialLinks, locale }) {
       </div>
 
       <div className="site-footer__bottom">
-        <span>{getLocalizedText(footer.copyright, locale)}</span>
+        <span>{`© ${currentYear} ${copyrightSuffix}`}</span>
         <a href={footer.registration.href} target="_blank" rel="noreferrer">
           {footer.registration.value}
         </a>

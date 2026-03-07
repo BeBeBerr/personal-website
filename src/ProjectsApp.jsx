@@ -45,7 +45,11 @@ function ProjectsApp() {
           />
         </section>
 
-        <BackgroundSection background={content.background} locale={locale} />
+        <BackgroundSection
+          background={content.background}
+          locale={locale}
+          timelineItems={content.timeline.items}
+        />
         <ProjectsSection projects={content.projects} locale={locale} />
         <ContactSection contact={content.contact} locale={locale} />
       </main>

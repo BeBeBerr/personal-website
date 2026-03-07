@@ -29,13 +29,27 @@ jobs:
       - name: Prepare deploy bundle
         run: mv dist personal-website
 
-      - name: Deploy
-        uses: garygrossgarten/github-action-scp@release
-        with:
-          local: personal-website
-          remote: /home/wangluyuan/personal-website
-          host: ${{ secrets.host }}
-          username: ${{ secrets.username }}
-          password: ${{ secrets.password }}
-          recursive: true
-          tryKeyboard: true
+      - name: Install deploy tools
+        run: sudo apt-get update && sudo apt-get install -y sshpass
+
+      - name: Ensure remote directory exists
+        env:
+          SSH_HOST: ${{ secrets.host }}
+          SSH_USERNAME: ${{ secrets.username }}
+          SSH_PASSWORD: ${{ secrets.password }}
+        run: |
+          sshpass -p "$SSH_PASSWORD" ssh \
+            -o StrictHostKeyChecking=no \
+            "$SSH_USERNAME@$SSH_HOST" \
+            "mkdir -p /home/wangluyuan/personal-website"
+
+      - name: Deploy with rsync
+        env:
+          SSH_HOST: ${{ secrets.host }}
+          SSH_USERNAME: ${{ secrets.username }}
+          SSH_PASSWORD: ${{ secrets.password }}
+        run: |
+          sshpass -p "$SSH_PASSWORD" rsync -az --delete \
+            -e "ssh -o StrictHostKeyChecking=no" \
+            personal-website/ \
+            "$SSH_USERNAME@$SSH_HOST:/home/wangluyuan/personal-website/"

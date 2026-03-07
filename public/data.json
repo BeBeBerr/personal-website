@@ -116,8 +116,8 @@
       "zh": "专注于"
     },
     "roleFocus": {
-      "en": "AI, robotics, and\ndurable software.",
-      "zh": "AI、机器人&\n可靠的软件系统"
+      "en": "AI, robotics, and\nsoftware.",
+      "zh": "AI、机器人，以及\n软件系统"
     },
     "intro": [
       {
@@ -366,6 +366,32 @@
       "zh": "用更简洁的方式展示塑造我做事方法的工作、科研和求学经历。"
     },
     "items": [
+      {
+        "type": "education",
+        "period": {
+          "en": "2012.09 - 2015.06",
+          "zh": "2012.09 - 2015.06"
+        },
+        "role": {
+          "en": "High School",
+          "zh": "高中"
+        },
+        "org": {
+          "en": "Beijing 101 Middle School",
+          "zh": "北京一零一中学"
+        },
+        "logo": {
+          "src": "/images/logos/101.jpeg",
+          "alt": {
+            "en": "Beijing 101 Middle School logo",
+            "zh": "北京一零一中学校徽"
+          }
+        },
+        "description": {
+          "en": "Completed high school in Beijing.",
+          "zh": "高中毕业于北京一零一中学。"
+        }
+      },
       {
         "type": "education",
         "period": {
@@ -729,93 +755,7 @@
         "description": {
           "en": "Academic foundations across China and the United States.",
           "zh": "在中国与美国完成的学术积累。"
-        },
-        "items": [
-          {
-            "title": {
-              "en": "Carnegie Mellon University",
-              "zh": "卡内基·梅隆大学"
-            },
-            "period": {
-              "en": "2021.02 - 2023.05",
-              "zh": "2021.02 - 2023.05"
-            },
-            "detail": {
-              "en": "Master's Degree, Electrical and Computer Engineering.",
-              "zh": "硕士研究生就读于卡内基梅隆大学，电子与计算机工程专业。"
-            },
-            "logo": {
-              "src": "/images/logos/cmu.jpg",
-              "alt": {
-                "en": "Carnegie Mellon University logo",
-                "zh": "卡内基梅隆大学校徽"
-              }
-            }
-          },
-          {
-            "title": {
-              "en": "University of Missouri - Columbia",
-              "zh": "密苏里大学 - 哥伦比亚分校"
-            },
-            "period": {
-              "en": "2018.08 - 2019.06",
-              "zh": "2018.08 - 2019.06"
-            },
-            "detail": {
-              "en": "Spent my last undergraduate year there as an exchange student and studied robotics, machine learning, real-time embedded computing, and cloud systems.",
-              "zh": "大四参加校级交流项目，就读于 EECS 学院，主要学习机器人、嵌入式计算、机器学习、云计算等课程。"
-            },
-            "logo": {
-              "src": "/images/logos/missouri.png",
-              "alt": {
-                "en": "University of Missouri logo",
-                "zh": "密苏里大学校徽"
-              }
-            }
-          },
-          {
-            "title": {
-              "en": "Huazhong University of Science and Technology",
-              "zh": "华中科技大学"
-            },
-            "period": {
-              "en": "2015.09 - 2019.06",
-              "zh": "2015.09 - 2019.06"
-            },
-            "detail": {
-              "en": "Bachelor's degree in Telecommunication Engineering with coursework spanning signal processing, communication systems, computer networks, and electromagnetics.",
-              "zh": "本科毕业于华中科技大学电子信息与通信学院，通信工程专业，学习过通信原理、数字信号处理、通信电子线路、电磁场与电磁波等课程。"
-            },
-            "logo": {
-              "src": "/images/logos/hust.png",
-              "alt": {
-                "en": "Huazhong University of Science and Technology logo",
-                "zh": "华中科技大学校徽"
-              }
-            }
-          },
-          {
-            "title": {
-              "en": "Beijing 101 Middle School",
-              "zh": "北京一零一中学"
-            },
-            "period": {
-              "en": "2012.09 - 2015.06",
-              "zh": "2012.09 - 2015.06"
-            },
-            "detail": {
-              "en": "Completed high school in Beijing.",
-              "zh": "高中毕业于北京一零一中学。"
-            },
-            "logo": {
-              "src": "/images/logos/101.jpeg",
-              "alt": {
-                "en": "Beijing 101 Middle School logo",
-                "zh": "北京一零一中学校徽"
-              }
-            }
-          }
-        ]
+        }
       },
       {
         "id": "work",
@@ -826,135 +766,7 @@
         "description": {
           "en": "Industry roles across consumer products, intelligent machines, and AI/ML systems.",
           "zh": "在消费产品、智能机器和 AI/ML 系统方向的行业经历。"
-        },
-        "items": [
-          {
-            "title": {
-              "en": "Meta",
-              "zh": "Meta"
-            },
-            "period": {
-              "en": "2026.02 - Present",
-              "zh": "2026.02 - 至今"
-            },
-            "detail": {
-              "en": "Machine Learning Engineer building production ML systems with a focus on scale, quality, and real-world impact.",
-              "zh": "机器学习工程师，继续在生产环境中处理具备规模、质量要求与真实业务影响的机器学习系统。"
-            },
-            "logo": {
-              "src": "/images/logos/meta.png",
-              "alt": {
-                "en": "Meta logo",
-                "zh": "Meta 标志"
-              }
-            }
-          },
-          {
-            "title": {
-              "en": "Apple",
-              "zh": "Apple"
-            },
-            "period": {
-              "en": "2023.10 - 2026.02",
-              "zh": "2023.10 - 2026.02"
-            },
-            "detail": {
-              "en": "Software Engineer, AI/ML. Building reliable AI/ML systems with production constraints, polish, and scale in mind.",
-              "zh": "AI/ML 软件工程师，继续在生产环境约束下打造稳定、可扩展且具备完成度的 AI/ML 系统。"
-            },
-            "logo": {
-              "src": "/images/logos/apple.png",
-              "alt": {
-                "en": "Apple logo",
-                "zh": "Apple 标志"
-              }
-            }
-          },
-          {
-            "title": {
-              "en": "AIM Intelligent Machines",
-              "zh": "AIM Intelligent Machines"
-            },
-            "period": {
-              "en": "2023.07 - 2023.09",
-              "zh": "2023.07 - 2023.09"
-            },
-            "detail": {
-              "en": "Software / Machine Learning Engineer working on machine learning and software systems in an intelligent machines environment.",
-              "zh": "软件 / 机器学习工程师，在智能机器场景中处理机器学习与软件工程问题。"
-            },
-            "logo": {
-              "src": "/images/logos/aim.png",
-              "alt": {
-                "en": "AIM Intelligent Machines logo",
-                "zh": "AIM Intelligent Machines 标志"
-              }
-            }
-          },
-          {
-            "title": {
-              "en": "Apple Services",
-              "zh": "Apple Services"
-            },
-            "period": {
-              "en": "2022.05 - 2022.08",
-              "zh": "2022.05 - 2022.08"
-            },
-            "detail": {
-              "en": "Software Engineering Intern focused on shipping product-facing engineering work inside Apple.",
-              "zh": "软件工程实习生，参与 Apple 内部面向产品的工程工作。"
-            },
-            "logo": {
-              "src": "/images/logos/apple.png",
-              "alt": {
-                "en": "Apple logo",
-                "zh": "Apple 标志"
-              }
-            }
-          },
-          {
-            "title": {
-              "en": "ByteDance",
-              "zh": "字节跳动"
-            },
-            "period": {
-              "en": "2019.07 - 2020.12",
-              "zh": "2019.07 - 2020.12"
-            },
-            "detail": {
-              "en": "iOS Engineer working on feature delivery, bug fixing, and refactoring for consumer video products inside IES.",
-              "zh": "iOS 开发工程师，参与互娱业务的视频产品功能开发、问题修复与代码重构。"
-            },
-            "logo": {
-              "src": "/images/logos/bytedance.png",
-              "alt": {
-                "en": "ByteDance logo",
-                "zh": "字节跳动标志"
-              }
-            }
-          },
-          {
-            "title": {
-              "en": "Tencent",
-              "zh": "腾讯"
-            },
-            "period": {
-              "en": "2018.06 - 2018.08",
-              "zh": "2018.06 - 2018.08"
-            },
-            "detail": {
-              "en": "Software R&D Intern in Tencent SNG, working on mobile client development in a large-scale consumer internet environment.",
-              "zh": "腾讯 SNG 软件研发实习生，参与大规模消费互联网环境中的移动客户端开发。"
-            },
-            "logo": {
-              "src": "/images/logos/tencent.png",
-              "alt": {
-                "en": "Tencent logo",
-                "zh": "腾讯标志"
-              }
-            }
-          }
-        ]
+        }
       },
       {
         "id": "research",
@@ -1638,11 +1450,11 @@
     },
     "description": {
       "en": "Open to thoughtful collaborations across engineering, research, and product work.",
-      "zh": "也期待继续参与工程、研究与产品交叉点上的合作。"
+      "zh": "期待继续参与工程、研究与产品交叉点上的合作。"
     },
     "copyright": {
-      "en": "© 2026 Luyuan Wang",
-      "zh": "© 2026 王路远"
+      "en": "Luyuan Wang",
+      "zh": "王路远"
     },
     "registration": {
       "value": "京ICP备17051145号",
@@ -1878,7 +1690,7 @@
           "zh": "MobileAgentBench: An efficient and user-friendly benchmark for mobile LLM agents"
         },
         "authors": "L Wang, Y Deng, Y Zha, G Mao, Q Wang, T Min, W Chen, S Chen",
-        "venue": "arXiv preprint arXiv:2406.08184",
+        "venue": "2025 AAAI Workshop on Multi-Agent AI in the Real World (MARW)",
         "year": "2024",
         "link": "https://arxiv.org/abs/2406.08184"
       },
@@ -1889,7 +1701,8 @@
         },
         "authors": "T Tian, L Wang, X Yan, F Ruan, GJ Aadityaa, H Choset, L Li",
         "venue": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-        "year": "2023"
+        "year": "2023",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10341761"
       },
       {
         "title": {
@@ -1898,7 +1711,8 @@
         },
         "authors": "M Singh, F Ruan, A Xu, Y Wu, A Rungta, L Wang, K Song, H Choset, L Li",
         "venue": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-        "year": "2023"
+        "year": "2023",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10342148"
       },
       {
         "title": {
@@ -1907,7 +1721,8 @@
         },
         "authors": "L Wang, T Tian, X Yan, F Ruan, GJ Aadityaa, H Choset, L Li",
         "venue": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-        "year": "2023"
+        "year": "2023",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10341971"
       },
       {
         "title": {
@@ -1916,7 +1731,8 @@
         },
         "authors": "L Wang, Y Sun",
         "venue": "IET Image Processing 16 (8), 2037-2048",
-        "year": "2022"
+        "year": "2022",
+        "link": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/ipr2.12466"
       }
     ]
   },
